@@ -1,4 +1,0 @@
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\5.BooleanVariable\bin\Debug\5.BooleanVariable.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\5.BooleanVariable\bin\Debug\5.BooleanVariable.pdb
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\5.BooleanVariable\obj\Debug\5.BooleanVariable.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\5.BooleanVariable\obj\Debug\5.BooleanVariable.pdb

@@ -1,4 +1,0 @@
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\9.ExchangeVariableValues\bin\Debug\9.ExchangeVariableValues.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\9.ExchangeVariableValues\bin\Debug\9.ExchangeVariableValues.pdb
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\9.ExchangeVariableValues\obj\Debug\9.ExchangeVariableValues.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\9.ExchangeVariableValues\obj\Debug\9.ExchangeVariableValues.pdb

@@ -1,4 +1,0 @@
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\FloatOrDouble\obj\Debug\FloatOrDouble.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\FloatOrDouble\obj\Debug\FloatOrDouble.pdb
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\FloatOrDouble\bin\Debug\FloatOrDouble.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\FloatOrDouble\bin\Debug\FloatOrDouble.pdb

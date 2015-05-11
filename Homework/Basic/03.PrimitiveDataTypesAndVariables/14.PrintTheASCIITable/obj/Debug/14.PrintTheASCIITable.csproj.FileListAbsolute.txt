@@ -1,4 +1,0 @@
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\14.PrintTheASCIITable\bin\Debug\14.PrintTheASCIITable.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\14.PrintTheASCIITable\bin\Debug\14.PrintTheASCIITable.pdb
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\14.PrintTheASCIITable\obj\Debug\14.PrintTheASCIITable.exe
-C:\Users\admin\Downloads\SoftUni\3st\Projects\PrimitiveDataTypesAndVariables\14.PrintTheASCIITable\obj\Debug\14.PrintTheASCIITable.pdb
