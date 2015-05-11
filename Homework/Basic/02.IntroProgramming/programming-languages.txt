@@ -1,0 +1,47 @@
+1. C++ 
+Similarities :
+	The main similarity between C# and C++ is that they both inherited basic syntax and the first letter of their name from C.
+	Like C++, C# programmers must use the keyword virtual to allow methods to be overridden by subclasses.
+	The name "C sharp" was inspired by musical notation where a sharp indicates that the written note should be made a semitone higher in pitch.[8] This is similar to the language name of C++, where "++" indicates that a variable should be incremented by 1
+Differences :
+	Garbage collector in C#
+	New control flow statement in C# - for each
+	Applications built in C# may not perform as well when compared with native C++.
+	
+2. Java
+Similarities :
+	Both Java and C# support signed integers with bit widths of 8, 16, 32 and 64 bits.
+	Both languages offer library-defined arbitrary size integer types.
+	Garbage collection
+	All Objects are References
+Differences :
+	in C# -> Implicit (inferred) anonymous classes
+	Java does not permit pointers or pointer-arithmetic
+	Java Will Run on "Any" Operating System
+
+3. Visual Basic .NET
+Similarities :
+	VB.NET and C# is a part from .NET Framework development platform
+	They are both developed, managed, and supported by the same language development team at Microsoft
+	They compile to the same intermediate language
+Differences :
+	in C# - Multi-line and intra-line comments
+	Assigning and comparing variables uses the same token: =. Whereas C# has separate tokens, == for comparison and = to assign a value
+	VB.NET identifiers are not case-sensitive.
+	
+4. PHP
+Similarities :
+	Both platforms are used to build web apps.
+Differences :
+	PHP variables are declared without specifying the type of the identifier
+	PHP arrays are dynamically sized and they can contain a mixture of data types
+
+5. C
+Similarities :
+	Syntax in C# is similar to C
+	In C and C # has a structure and block programming
+Differences :
+	C language is not object-oriented
+	Garbage collector in C#
+
+	

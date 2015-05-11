@@ -1,0 +1,112 @@
+1. Microsoft Visual Studio
+Microsoft Visual Studio offers a multitude of editions for developing, testing, and deploying applications for the web, desktop, mobile, and even game consoles. With a plethora of testing and compatibility tools, you can test on virtual machines, tap into the functionality of BrowserStack to see what your app looks like across more than 300 browsers, run compatibility reports to identify patterns and issues between browsers and so much more.
+
+Languages Supported:
+
+Variety of languages supported across products
+Ajax, ASP.NET, XAML, JavaScript, dynamic HTML, DHTML, Visual Basic, Visual C#, Visual C++, Visual F#, JScript
+Several platforms support any programming language
+
+Key Features:
+	Dock or hide windows
+	Automate and extend your development environment
+	Intuitive workflow with logical file hierarchy
+	Text and code editors
+	Customize your dashboard
+	IntelliSense, refactoring and code snippet insertion
+	Hybrid view in select editors
+	Create build configurations for solutions and projects
+	Debugging during building process
+	Error list window for easy bug tracking
+	Deploy using ClickOnce or Windows Installer
+	Publish Wizard for easy deployment
+	Massive, always growing library of extensions
+	
+Cost : Free /Community edition/
+	
+2.  Eclipse
+Many development frameworks are built on Eclipse, a free, open-source editor that was initially a Java environment but a variety of plug-ins have extended its capabilities considerably. The Eclipse Standard 4.3.2 version, for instance, includes the Eclipse Platform along with the tools required to debug it, plus Java and Plugin Development Tooling and Git and CVS support. If your requirements are different, you can choose from a variety of Eclipse Package Solutions, including tools for Java developers, Scout Developers, RCP and RAP Developers and more.
+
+Languages Supported: C, C++, Python, Perl, PHP, Java, Ruby and more
+
+Key Features:
+	Variety of Package Solutions for multi-language support
+	Easily switch context between perspectives
+	Mylyn provides a task-focused UI with system-tray notifications
+	Eclipse Java Development Tools
+	Eclipse Git Team Provider
+	Eclipse Plugin Development Environment
+	Excellent tooling options for JEE projects
+	JUnit integration
+	Ample plug-ins for extended capabilities
+
+Cost: FREE
+
+3. Zend Studio
+PHP developers use Zend Studio to code faster, resolve issues more readily and collaborate more easily in the cloud. Packaged with a suite of useful tools, such as Composer and PHPUnit, Zend Studio is a one-stop shop for PHP web and mobile app development from end-to-end.
+
+Languages Supported: PHP
+
+Key Features:
+
+	Composer, PHPUnit, Git integration, PHPDocumentor2 and other built-in tools
+	Adapts to any framework, fetching dependencies, learning new APIs, coding and unit testing
+	Zend framework enables automatic module creation, view helpers and advanced content assist
+	Zend Server runtime environment to deploy directly to the cloud
+	Certified and tested PHP stack, app monitoring and advanced debugging
+	Apache Cordova integration
+	Deploy to any on-premise configuration using ZendServer
+	Real-time validation and analysis
+	Discover APIs for new frameworks and libraries
+	
+Cost: $189 (one-year license and support)
+
+4. Xcode IDE
+Xcode IDE is a component of Xcode 5, a complete set of tools for building and deploying apps in the Apple environment. It’s integrated with the Cocoa and Cocoa Touch frameworks for streamlined development of apps for the Mac, iPhone and iPad. It’s designed for a seamless workflow to move from start to finish in a single interface, with built-in communication with the Apple Developer website for one-click enablement of services like Game Center or Passbook, allowing you to create more robust, highly-functional apps in a fraction of the time.
+
+Languages Supported: AppleScript, C, C++, Objective-C, Java
+
+Key Features:
+
+	Easily connect UI controls with implementation code
+	Apple LLVM compiler parses code and automatically tracks issues and offers fixes
+	Assistant function for split-code workspace
+	Jump Bar for quick navigation
+	Interface Builder allows prototype building without a single line of code
+	Graphically connect UI with source code to build interface prototypes in minutes
+	Version Editor with log files and commit timeline
+	Branch and merge for distributed teams
+	Test Navigator enables easy test implementation throughout development
+	OX X server integration automatically builds, analyzes, tests, and archives projects
+	Customize your workflow with Tabs, Behaviors and Snippets
+	Instrument library and asset catalog
+	
+Cost: FREE
+
+5. PhpStorm
+A PHP IDE that offers support for Drupal and PHP frameworks, PhpStorm includes all the functionality of WebStorm (HTML/CSS Editor, JavaScript Editor) along with full support for PHP and Databases/SQL.
+
+Languages Supported: PHP, HTML, CSS, JavaScript
+
+Key Features: 
+
+	PHP refactoring
+	Code formatting
+	Frameworks support
+	Code rearranger/arranger
+	Code Quality Analysis with duplication detection
+	Efficient project analysis and navigation
+	Version Control Systems support
+	Built-in visual merge tool with automatic file management
+	Integrates with issue trackers
+	Extend and customize with plug-ins
+	Vagrant integration
+	Built-in REST client
+	Google App Engine
+
+Cost: 
+Commerical: $199
+Personal: $99
+Academic: $29
+Classroom: FREE
+Open Source Project: FREE
