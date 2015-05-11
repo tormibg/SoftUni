@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter-Autor\bin\Debug\05.BitsInverter-Autor.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter-Autor\bin\Debug\05.BitsInverter-Autor.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter-Autor\bin\Debug\05.BitsInverter-Autor.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter-Autor\obj\Debug\05.BitsInverter-Autor.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter-Autor\obj\Debug\05.BitsInverter-Autor.pdb

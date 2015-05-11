@@ -1,0 +1,6 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\x-bit\bin\Debug\x-bit.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\x-bit\obj\Debug\x-bit.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\x-bit\bin\Debug\x-bit.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\x-bit\bin\Debug\x-bit.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\x-bit\obj\Debug\x-bit.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\x-bit\obj\Debug\x-bit.pdb

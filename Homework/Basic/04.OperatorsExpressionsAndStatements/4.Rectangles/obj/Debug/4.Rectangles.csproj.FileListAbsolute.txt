@@ -1,0 +1,6 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\4.Rectangles\bin\Debug\4.Rectangles.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\4.Rectangles\bin\Debug\4.Rectangles.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\4.Rectangles\bin\Debug\4.Rectangles.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\4.Rectangles\obj\Debug\4.Rectangles.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\4.Rectangles\obj\Debug\4.Rectangles.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\4.Rectangles\obj\Debug\4.Rectangles.pdb

@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\Joro\bin\Debug\Joro.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\Joro\bin\Debug\Joro.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\Joro\obj\Debug\Joro.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\Joro\obj\Debug\Joro.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\Joro\obj\Debug\Joro.pdb

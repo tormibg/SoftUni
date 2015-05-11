@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.House\bin\Debug\03.House.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.House\bin\Debug\03.House.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.House\obj\Debug\03.House.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.House\obj\Debug\03.House.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.House\obj\Debug\03.House.pdb

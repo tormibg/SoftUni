@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitShooter\obj\Debug\05.BitShooter.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitShooter\bin\Debug\05.BitShooter.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitShooter\bin\Debug\05.BitShooter.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitShooter\obj\Debug\05.BitShooter.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitShooter\obj\Debug\05.BitShooter.pdb

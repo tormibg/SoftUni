@@ -1,0 +1,5 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\1.SortingNumbers\obj\Debug\1.SortingNumbers.csprojResolveAssemblyReference.cache
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\1.SortingNumbers\bin\Debug\1.SortingNumbers.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\1.SortingNumbers\bin\Debug\1.SortingNumbers.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\1.SortingNumbers\obj\Debug\1.SortingNumbers.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\1.SortingNumbers\obj\Debug\1.SortingNumbers.pdb

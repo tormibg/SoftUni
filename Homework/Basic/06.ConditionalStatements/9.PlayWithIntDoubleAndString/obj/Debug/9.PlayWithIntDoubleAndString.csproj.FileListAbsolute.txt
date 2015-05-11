@@ -1,0 +1,11 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\bin\Debug\9.PlayWithIntDoubleAndString.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\bin\Debug\9.PlayWithIntDoubleAndString.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\bin\Debug\9.PlayWithIntDoubleAndString.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\obj\Debug\9.PlayWithIntDoubleAndString.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\obj\Debug\9.PlayWithIntDoubleAndString.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\obj\Debug\9.PlayWithIntDoubleAndString.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\obj\Debug\9.PlayWithIntDoubleAndString.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\obj\Debug\9.PlayWithIntDoubleAndString.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\bin\Debug\9.PlayWithIntDoubleAndString.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\bin\Debug\9.PlayWithIntDoubleAndString.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\9.PlayWithIntDoubleAndString\obj\Debug\9.PlayWithIntDoubleAndString.csprojResolveAssemblyReference.cache

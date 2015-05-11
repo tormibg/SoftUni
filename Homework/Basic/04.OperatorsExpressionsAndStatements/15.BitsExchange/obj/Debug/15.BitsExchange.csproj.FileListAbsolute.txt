@@ -1,0 +1,12 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\bin\Debug\15.BitsExchange.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\bin\Debug\15.BitsExchange.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\bin\Debug\15.BitsExchange.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\obj\Debug\15.BitsExchange.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\obj\Debug\15.BitsExchange.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\obj\Debug\15.BitsExchange.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\bin\Debug\15.BitsExchange.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\obj\Debug\15.BitsExchange.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\obj\Debug\15.BitsExchange.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\bin\Debug\15.BitsExchange.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\bin\Debug\15.BitsExchange.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\15.BitsExchange\obj\Debug\15.BitsExchange.csprojResolveAssemblyReference.cache

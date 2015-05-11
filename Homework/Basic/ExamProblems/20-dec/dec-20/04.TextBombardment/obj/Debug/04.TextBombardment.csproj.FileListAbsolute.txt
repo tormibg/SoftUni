@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\20-dec\dec-20\04.TextBombardment\bin\Debug\04.TextBombardment.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\20-dec\dec-20\04.TextBombardment\bin\Debug\04.TextBombardment.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\20-dec\dec-20\04.TextBombardment\obj\Debug\04.TextBombardment.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\20-dec\dec-20\04.TextBombardment\obj\Debug\04.TextBombardment.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\20-dec\dec-20\04.TextBombardment\obj\Debug\04.TextBombardment.pdb

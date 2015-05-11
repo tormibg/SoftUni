@@ -1,0 +1,11 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\8.DigitAsWord\bin\Debug\8.DigitAsWord.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\8.DigitAsWord\bin\Debug\8.DigitAsWord.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\8.DigitAsWord\bin\Debug\8.DigitAsWord.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\8.DigitAsWord\obj\Debug\8.DigitAsWord.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\8.DigitAsWord\obj\Debug\8.DigitAsWord.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\8.DigitAsWord\obj\Debug\8.DigitAsWord.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\8.DigitAsWord\obj\Debug\8.DigitAsWord.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\8.DigitAsWord\obj\Debug\8.DigitAsWord.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\8.DigitAsWord\bin\Debug\8.DigitAsWord.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\8.DigitAsWord\bin\Debug\8.DigitAsWord.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\8.DigitAsWord\obj\Debug\8.DigitAsWord.csprojResolveAssemblyReference.cache

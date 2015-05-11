@@ -1,0 +1,4 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\10.LongestWordInAText\bin\Debug\10.LongestWordInAText.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\10.LongestWordInAText\bin\Debug\10.LongestWordInAText.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\10.LongestWordInAText\obj\Debug\10.LongestWordInAText.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\10.LongestWordInAText\obj\Debug\10.LongestWordInAText.pdb

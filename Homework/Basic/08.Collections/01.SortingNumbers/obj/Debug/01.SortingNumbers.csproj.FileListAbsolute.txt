@@ -1,0 +1,4 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\1.SortingNumbers\obj\Debug\1.SortingNumbers.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\1.SortingNumbers\obj\Debug\1.SortingNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\8.Collections\01.SortingNumbers\obj\Debug\1.SortingNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\8.Collections\01.SortingNumbers\obj\Debug\1.SortingNumbers.pdb

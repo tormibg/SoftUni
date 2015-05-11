@@ -1,0 +1,9 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\bin\Debug\12.ExtractBitFromInteger.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\bin\Debug\12.ExtractBitFromInteger.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\bin\Debug\12.ExtractBitFromInteger.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\obj\Debug\12.ExtractBitFromInteger.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\obj\Debug\12.ExtractBitFromInteger.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\obj\Debug\12.ExtractBitFromInteger.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\bin\Debug\12.ExtractBitFromInteger.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\obj\Debug\12.ExtractBitFromInteger.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\12.ExtractBitFromInteger\obj\Debug\12.ExtractBitFromInteger.pdb

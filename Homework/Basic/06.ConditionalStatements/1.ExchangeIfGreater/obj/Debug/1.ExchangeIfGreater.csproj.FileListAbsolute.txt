@@ -1,0 +1,15 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects`\ConditionalStatements\1.ExchangeIfGreater\bin\Debug\1.ExchangeIfGreater.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects`\ConditionalStatements\1.ExchangeIfGreater\bin\Debug\1.ExchangeIfGreater.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects`\ConditionalStatements\1.ExchangeIfGreater\bin\Debug\1.ExchangeIfGreater.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects`\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects`\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\1.ExchangeIfGreater\bin\Debug\1.ExchangeIfGreater.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\1.ExchangeIfGreater\bin\Debug\1.ExchangeIfGreater.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\1.ExchangeIfGreater\bin\Debug\1.ExchangeIfGreater.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\1.ExchangeIfGreater\bin\Debug\1.ExchangeIfGreater.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\1.ExchangeIfGreater\obj\Debug\1.ExchangeIfGreater.csprojResolveAssemblyReference.cache

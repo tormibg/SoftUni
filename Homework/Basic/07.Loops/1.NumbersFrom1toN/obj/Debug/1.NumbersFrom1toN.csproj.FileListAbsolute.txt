@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\1.NumbersFrom1toN\bin\Debug\1.NumbersFrom1toN.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\1.NumbersFrom1toN\bin\Debug\1.NumbersFrom1toN.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\1.NumbersFrom1toN\obj\Debug\1.NumbersFrom1toN.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\1.NumbersFrom1toN\obj\Debug\1.NumbersFrom1toN.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\1.NumbersFrom1toN\obj\Debug\1.NumbersFrom1toN.pdb

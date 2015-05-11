@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\5.CalculateNF\bin\Debug\5.CalculateNF.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\5.CalculateNF\bin\Debug\5.CalculateNF.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\5.CalculateNF\obj\Debug\5.CalculateNF.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\5.CalculateNF\obj\Debug\5.CalculateNF.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\5.CalculateNF\obj\Debug\5.CalculateNF.pdb

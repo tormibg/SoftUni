@@ -1,0 +1,5 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\09.AverageLoadTimeCalculator\bin\Debug\09.AverageLoadTimeCalculator.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\09.AverageLoadTimeCalculator\bin\Debug\09.AverageLoadTimeCalculator.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\09.AverageLoadTimeCalculator\obj\Debug\09.AverageLoadTimeCalculator.csprojResolveAssemblyReference.cache
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\09.AverageLoadTimeCalculator\obj\Debug\09.AverageLoadTimeCalculator.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\09.AverageLoadTimeCalculator\obj\Debug\09.AverageLoadTimeCalculator.pdb

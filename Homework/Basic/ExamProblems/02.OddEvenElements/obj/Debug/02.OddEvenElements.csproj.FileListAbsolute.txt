@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.OddEvenElements\bin\Debug\02.OddEvenElements.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.OddEvenElements\bin\Debug\02.OddEvenElements.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.OddEvenElements\obj\Debug\02.OddEvenElements.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.OddEvenElements\obj\Debug\02.OddEvenElements.pdb

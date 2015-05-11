@@ -1,0 +1,11 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\12.ZeroSubset\bin\Debug\12.ZeroSubset.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\12.ZeroSubset\bin\Debug\12.ZeroSubset.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\12.ZeroSubset\bin\Debug\12.ZeroSubset.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\12.ZeroSubset\obj\Debug\12.ZeroSubset.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\12.ZeroSubset\obj\Debug\12.ZeroSubset.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\12.ZeroSubset\obj\Debug\12.ZeroSubset.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\12.ZeroSubset\obj\Debug\12.ZeroSubset.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\12.ZeroSubset\obj\Debug\12.ZeroSubset.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\12.ZeroSubset\bin\Debug\12.ZeroSubset.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\12.ZeroSubset\bin\Debug\12.ZeroSubset.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\12.ZeroSubset\obj\Debug\12.ZeroSubset.csprojResolveAssemblyReference.cache

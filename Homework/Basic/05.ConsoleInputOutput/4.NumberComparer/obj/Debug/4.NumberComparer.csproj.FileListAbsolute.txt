@@ -1,0 +1,10 @@
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\bin\Debug\4.NumberComparer.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\bin\Debug\4.NumberComparer.pdb
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\obj\Debug\4.NumberComparer.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\obj\Debug\4.NumberComparer.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\obj\Debug\4.NumberComparer.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\bin\Debug\4.NumberComparer.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\bin\Debug\4.NumberComparer.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\obj\Debug\4.NumberComparer.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\obj\Debug\4.NumberComparer.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\4.NumberComparer\obj\Debug\4.NumberComparer.pdb

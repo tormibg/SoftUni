@@ -1,0 +1,4 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\11.ExtractURLsFromText\bin\Debug\11.ExtractURLsFromText.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\11.ExtractURLsFromText\bin\Debug\11.ExtractURLsFromText.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\11.ExtractURLsFromText\obj\Debug\11.ExtractURLsFromText.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\11.ExtractURLsFromText\obj\Debug\11.ExtractURLsFromText.pdb

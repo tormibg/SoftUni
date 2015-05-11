@@ -1,0 +1,9 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\5.RemoveNames\obj\Debug\05.RemoveNames.csprojResolveAssemblyReference.cache
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\5.RemoveNames\bin\Debug\5.RemoveNames.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\5.RemoveNames\bin\Debug\5.RemoveNames.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\5.RemoveNames\obj\Debug\5.RemoveNames.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\5.RemoveNames\obj\Debug\5.RemoveNames.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\8.Collections\05.RemoveNames\obj\Debug\5.RemoveNames.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\8.Collections\05.RemoveNames\obj\Debug\5.RemoveNames.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\8st\Projects\8.Collections\05.RemoveNames\obj\Debug\5.RemoveNames.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\8st\Projects\8.Collections\05.RemoveNames\obj\Debug\5.RemoveNames.pdb

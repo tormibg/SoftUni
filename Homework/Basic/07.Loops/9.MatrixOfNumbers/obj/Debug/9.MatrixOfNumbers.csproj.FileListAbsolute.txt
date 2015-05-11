@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\9.MatrixOfNumbers\bin\Debug\9.MatrixOfNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\9.MatrixOfNumbers\bin\Debug\9.MatrixOfNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\9.MatrixOfNumbers\obj\Debug\9.MatrixOfNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\9.MatrixOfNumbers\obj\Debug\9.MatrixOfNumbers.pdb

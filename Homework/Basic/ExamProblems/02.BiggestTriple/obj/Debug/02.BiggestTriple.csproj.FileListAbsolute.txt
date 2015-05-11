@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.BiggestTriple\bin\Debug\02.BiggestTriple.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.BiggestTriple\bin\Debug\02.BiggestTriple.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.BiggestTriple\obj\Debug\02.BiggestTriple.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.BiggestTriple\obj\Debug\02.BiggestTriple.pdb

@@ -1,0 +1,6 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\8.PrimeNumberCheck\bin\Debug\8.PrimeNumberCheck.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\8.PrimeNumberCheck\obj\Debug\8.PrimeNumberCheck.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\8.PrimeNumberCheck\bin\Debug\8.PrimeNumberCheck.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\8.PrimeNumberCheck\bin\Debug\8.PrimeNumberCheck.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\8.PrimeNumberCheck\obj\Debug\8.PrimeNumberCheck.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\8.PrimeNumberCheck\obj\Debug\8.PrimeNumberCheck.pdb

@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\8.CatalanNumbers\obj\Debug\8.CatalanNumbers.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\8.CatalanNumbers\bin\Debug\8.CatalanNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\8.CatalanNumbers\bin\Debug\8.CatalanNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\8.CatalanNumbers\obj\Debug\8.CatalanNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\8.CatalanNumbers\obj\Debug\8.CatalanNumbers.pdb

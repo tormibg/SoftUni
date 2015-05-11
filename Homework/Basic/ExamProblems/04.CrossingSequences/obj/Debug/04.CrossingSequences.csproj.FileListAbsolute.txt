@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.CrossingSequences\bin\Debug\04.CrossingSequences.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.CrossingSequences\bin\Debug\04.CrossingSequences.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.CrossingSequences\obj\Debug\04.CrossingSequences.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.CrossingSequences\obj\Debug\04.CrossingSequences.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.CrossingSequences\obj\Debug\04.CrossingSequences.pdb

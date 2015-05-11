@@ -1,0 +1,11 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\4.MultiplicationSign\bin\Debug\4.MultiplicationSign.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\4.MultiplicationSign\bin\Debug\4.MultiplicationSign.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\4.MultiplicationSign\bin\Debug\4.MultiplicationSign.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\4.MultiplicationSign\obj\Debug\4.MultiplicationSign.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\4.MultiplicationSign\obj\Debug\4.MultiplicationSign.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\4.MultiplicationSign\obj\Debug\4.MultiplicationSign.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\4.MultiplicationSign\obj\Debug\4.MultiplicationSign.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\4.MultiplicationSign\obj\Debug\4.MultiplicationSign.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\4.MultiplicationSign\bin\Debug\4.MultiplicationSign.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\4.MultiplicationSign\bin\Debug\4.MultiplicationSign.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\4.MultiplicationSign\obj\Debug\4.MultiplicationSign.csprojResolveAssemblyReference.cache

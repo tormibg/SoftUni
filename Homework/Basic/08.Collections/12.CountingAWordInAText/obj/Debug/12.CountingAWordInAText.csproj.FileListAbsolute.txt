@@ -1,0 +1,5 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\12.CountingAWordInAText\obj\Debug\12.CountingAWordInAText.csprojResolveAssemblyReference.cache
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\12.CountingAWordInAText\bin\Debug\12.CountingAWordInAText.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\12.CountingAWordInAText\bin\Debug\12.CountingAWordInAText.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\12.CountingAWordInAText\obj\Debug\12.CountingAWordInAText.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\12.CountingAWordInAText\obj\Debug\12.CountingAWordInAText.pdb

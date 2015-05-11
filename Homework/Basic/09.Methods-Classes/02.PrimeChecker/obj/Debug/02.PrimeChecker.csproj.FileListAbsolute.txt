@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\02.PrimeChecker\bin\Debug\02.PrimeChecker.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\02.PrimeChecker\bin\Debug\02.PrimeChecker.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\02.PrimeChecker\obj\Debug\02.PrimeChecker.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\02.PrimeChecker\obj\Debug\02.PrimeChecker.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\02.PrimeChecker\obj\Debug\02.PrimeChecker.pdb

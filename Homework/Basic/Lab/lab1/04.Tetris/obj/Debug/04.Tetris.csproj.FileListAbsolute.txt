@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\04.Tetris\bin\Debug\04.Tetris.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\04.Tetris\bin\Debug\04.Tetris.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\04.Tetris\obj\Debug\04.Tetris.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\04.Tetris\obj\Debug\04.Tetris.pdb

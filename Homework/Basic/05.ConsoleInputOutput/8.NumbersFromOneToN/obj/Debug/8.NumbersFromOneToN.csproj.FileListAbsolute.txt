@@ -1,0 +1,8 @@
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\bin\Debug\8.NumbersFromOneToN.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\bin\Debug\8.NumbersFromOneToN.pdb
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\obj\Debug\8.NumbersFromOneToN.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\obj\Debug\8.NumbersFromOneToN.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\bin\Debug\8.NumbersFromOneToN.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\bin\Debug\8.NumbersFromOneToN.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\obj\Debug\8.NumbersFromOneToN.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\8.NumbersFromOneToN\obj\Debug\8.NumbersFromOneToN.pdb

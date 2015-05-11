@@ -1,0 +1,4 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\3.MatrixOfPalindromes\obj\Debug\3.MatrixOfPalindromes.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\3.MatrixOfPalindromes\obj\Debug\3.MatrixOfPalindromes.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\8.Collections\03.MatrixOfPalindromes\obj\Debug\3.MatrixOfPalindromes.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\8.Collections\03.MatrixOfPalindromes\obj\Debug\3.MatrixOfPalindromes.pdb

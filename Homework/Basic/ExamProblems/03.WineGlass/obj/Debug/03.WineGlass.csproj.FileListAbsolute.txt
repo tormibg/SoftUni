@@ -1,0 +1,6 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.WineGlass\bin\Debug\03.WineGlass.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.WineGlass\bin\Debug\03.WineGlass.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.WineGlass\bin\Debug\03.WineGlass.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.WineGlass\obj\Debug\03.WineGlass.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.WineGlass\obj\Debug\03.WineGlass.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.WineGlass\obj\Debug\03.WineGlass.pdb

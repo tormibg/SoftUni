@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\6.CalculateNfKf\bin\Debug\6.CalculateNfKf.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\6.CalculateNfKf\bin\Debug\6.CalculateNfKf.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\6.CalculateNfKf\obj\Debug\6.CalculateNfKf.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\6.CalculateNfKf\obj\Debug\6.CalculateNfKf.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\6.CalculateNfKf\obj\Debug\6.CalculateNfKf.csprojResolveAssemblyReference.cache

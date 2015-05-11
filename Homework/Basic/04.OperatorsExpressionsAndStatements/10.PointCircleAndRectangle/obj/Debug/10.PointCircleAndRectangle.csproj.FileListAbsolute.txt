@@ -1,0 +1,5 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\10.PointCircleAndRectangle\bin\Debug\10.PointCircleAndRectangle.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\10.PointCircleAndRectangle\bin\Debug\10.PointCircleAndRectangle.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\10.PointCircleAndRectangle\bin\Debug\10.PointCircleAndRectangle.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\10.PointCircleAndRectangle\obj\Debug\10.PointCircleAndRectangle.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\10.PointCircleAndRectangle\obj\Debug\10.PointCircleAndRectangle.pdb

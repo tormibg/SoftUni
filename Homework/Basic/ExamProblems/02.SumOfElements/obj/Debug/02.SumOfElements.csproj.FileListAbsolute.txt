@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.SumOfElements\bin\Debug\02.SumOfElements.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.SumOfElements\bin\Debug\02.SumOfElements.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.SumOfElements\obj\Debug\02.SumOfElements.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.SumOfElements\obj\Debug\02.SumOfElements.pdb

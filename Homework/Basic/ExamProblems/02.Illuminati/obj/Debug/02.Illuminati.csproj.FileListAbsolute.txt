@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.Illuminati\bin\Debug\02.Illuminati.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.Illuminati\bin\Debug\02.Illuminati.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.Illuminati\obj\Debug\02.Illuminati.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.Illuminati\obj\Debug\02.Illuminati.pdb

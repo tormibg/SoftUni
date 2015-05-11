@@ -1,0 +1,9 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\bin\Debug\7.Sort3NumbersWithNestedIfs.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\bin\Debug\7.Sort3NumbersWithNestedIfs.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\bin\Debug\7.Sort3NumbersWithNestedIfs.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\obj\Debug\7.Sort3NumbersWithNestedIfs.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\obj\Debug\7.Sort3NumbersWithNestedIfs.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\obj\Debug\7.Sort3NumbersWithNestedIfs.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\obj\Debug\7.Sort3NumbersWithNestedIfs.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\bin\Debug\7.Sort3NumbersWithNestedIfs.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\7.Sort3NumbersWithNestedIfs\bin\Debug\7.Sort3NumbersWithNestedIfs.pdb

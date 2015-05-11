@@ -1,0 +1,5 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\16.BitExchangeAdvanced\bin\Debug\16.BitExchangeAdvanced.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\16.BitExchangeAdvanced\bin\Debug\16.BitExchangeAdvanced.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\16.BitExchangeAdvanced\bin\Debug\16.BitExchangeAdvanced.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\16.BitExchangeAdvanced\obj\Debug\16.BitExchangeAdvanced.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\16.BitExchangeAdvanced\obj\Debug\16.BitExchangeAdvanced.pdb

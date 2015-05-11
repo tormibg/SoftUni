@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.Sunglasses\bin\Debug\03.Sunglasses.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.Sunglasses\bin\Debug\03.Sunglasses.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.Sunglasses\obj\Debug\03.Sunglasses.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.Sunglasses\obj\Debug\03.Sunglasses.pdb

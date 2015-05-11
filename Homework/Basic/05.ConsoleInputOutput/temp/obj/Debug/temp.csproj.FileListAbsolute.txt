@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\temp\bin\Debug\temp.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\temp\bin\Debug\temp.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\temp\bin\Debug\temp.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\temp\obj\Debug\temp.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\temp\obj\Debug\temp.pdb

@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\04.DifferenceBetweenDates\obj\Debug\04.DifferenceBetweenDates.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\04.DifferenceBetweenDates\bin\Debug\04.DifferenceBetweenDates.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\04.DifferenceBetweenDates\bin\Debug\04.DifferenceBetweenDates.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\04.DifferenceBetweenDates\obj\Debug\04.DifferenceBetweenDates.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\04.DifferenceBetweenDates\obj\Debug\04.DifferenceBetweenDates.pdb

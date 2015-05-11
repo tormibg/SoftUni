@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.HalfSum\obj\Debug\02.HalfSum.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.HalfSum\bin\Debug\02.HalfSum.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.HalfSum\bin\Debug\02.HalfSum.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.HalfSum\obj\Debug\02.HalfSum.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\02.HalfSum\obj\Debug\02.HalfSum.pdb

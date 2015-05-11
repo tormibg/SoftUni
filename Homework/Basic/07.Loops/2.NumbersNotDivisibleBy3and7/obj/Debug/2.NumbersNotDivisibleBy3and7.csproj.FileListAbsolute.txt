@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\2.NumbersNotDivisibleBy3and7\bin\Debug\2.NumbersNotDivisibleBy3and7.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\2.NumbersNotDivisibleBy3and7\bin\Debug\2.NumbersNotDivisibleBy3and7.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\2.NumbersNotDivisibleBy3and7\obj\Debug\2.NumbersNotDivisibleBy3and7.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\2.NumbersNotDivisibleBy3and7\obj\Debug\2.NumbersNotDivisibleBy3and7.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\2.NumbersNotDivisibleBy3and7\obj\Debug\2.NumbersNotDivisibleBy3and7.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\bin\Debug\13.CheckABitAtGivenPosition.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\bin\Debug\13.CheckABitAtGivenPosition.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\bin\Debug\13.CheckABitAtGivenPosition.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\obj\Debug\13.CheckABitAtGivenPosition.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\obj\Debug\13.CheckABitAtGivenPosition.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\bin\Debug\13.CheckABitAtGivenPosition.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\obj\Debug\13.CheckABitAtGivenPosition.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\13.CheckABitAtGivenPosition\obj\Debug\13.CheckABitAtGivenPosition.pdb

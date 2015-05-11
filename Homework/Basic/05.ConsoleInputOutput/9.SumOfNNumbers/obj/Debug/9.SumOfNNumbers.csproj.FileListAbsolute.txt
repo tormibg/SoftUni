@@ -1,0 +1,8 @@
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\bin\Debug\9.SumOfNNumbers.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\bin\Debug\9.SumOfNNumbers.pdb
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\obj\Debug\9.SumOfNNumbers.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\obj\Debug\9.SumOfNNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\bin\Debug\9.SumOfNNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\bin\Debug\9.SumOfNNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\obj\Debug\9.SumOfNNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\9.SumOfNNumbers\obj\Debug\9.SumOfNNumbers.pdb

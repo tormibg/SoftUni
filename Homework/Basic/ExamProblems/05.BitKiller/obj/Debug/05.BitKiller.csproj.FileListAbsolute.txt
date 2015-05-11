@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitKiller\obj\Debug\05.BitKiller.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitKiller\bin\Debug\05.BitKiller.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitKiller\bin\Debug\05.BitKiller.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitKiller\obj\Debug\05.BitKiller.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitKiller\obj\Debug\05.BitKiller.pdb

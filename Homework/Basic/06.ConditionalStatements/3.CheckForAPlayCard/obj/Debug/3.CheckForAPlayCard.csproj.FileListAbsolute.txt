@@ -1,0 +1,9 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\3.CheckForAPlayCard\bin\Debug\3.CheckForAPlayCard.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\3.CheckForAPlayCard\bin\Debug\3.CheckForAPlayCard.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\3.CheckForAPlayCard\bin\Debug\3.CheckForAPlayCard.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\3.CheckForAPlayCard\obj\Debug\3.CheckForAPlayCard.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\3.CheckForAPlayCard\obj\Debug\3.CheckForAPlayCard.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\3.CheckForAPlayCard\obj\Debug\3.CheckForAPlayCard.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\3.CheckForAPlayCard\obj\Debug\3.CheckForAPlayCard.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\3.CheckForAPlayCard\bin\Debug\3.CheckForAPlayCard.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\3.CheckForAPlayCard\bin\Debug\3.CheckForAPlayCard.pdb

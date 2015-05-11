@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.FiveSpecialLetters\bin\Debug\04.FiveSpecialLetters.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.FiveSpecialLetters\bin\Debug\04.FiveSpecialLetters.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.FiveSpecialLetters\obj\Debug\04.FiveSpecialLetters.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.FiveSpecialLetters\obj\Debug\04.FiveSpecialLetters.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.FiveSpecialLetters\obj\Debug\04.FiveSpecialLetters.pdb

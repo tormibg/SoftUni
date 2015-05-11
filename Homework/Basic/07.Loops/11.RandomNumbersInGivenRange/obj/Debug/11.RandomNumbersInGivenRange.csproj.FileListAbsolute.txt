@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\11.RandomNumbersInGivenRange\bin\Debug\11.RandomNumbersInGivenRange.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\11.RandomNumbersInGivenRange\bin\Debug\11.RandomNumbersInGivenRange.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\11.RandomNumbersInGivenRange\obj\Debug\11.RandomNumbersInGivenRange.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\11.RandomNumbersInGivenRange\obj\Debug\11.RandomNumbersInGivenRange.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\11.RandomNumbersInGivenRange\obj\Debug\11.RandomNumbersInGivenRange.pdb

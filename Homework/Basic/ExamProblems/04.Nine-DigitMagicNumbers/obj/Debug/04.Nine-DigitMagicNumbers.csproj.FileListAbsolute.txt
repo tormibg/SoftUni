@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.Nine-DigitMagicNumbers\bin\Debug\04.Nine-DigitMagicNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.Nine-DigitMagicNumbers\bin\Debug\04.Nine-DigitMagicNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.Nine-DigitMagicNumbers\obj\Debug\04.Nine-DigitMagicNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.Nine-DigitMagicNumbers\obj\Debug\04.Nine-DigitMagicNumbers.pdb

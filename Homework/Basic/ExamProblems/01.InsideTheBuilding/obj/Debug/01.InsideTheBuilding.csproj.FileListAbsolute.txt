@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\01.InsideTheBuilding\bin\Debug\01.InsideTheBuilding.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\01.InsideTheBuilding\bin\Debug\01.InsideTheBuilding.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\01.InsideTheBuilding\obj\Debug\01.InsideTheBuilding.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\01.InsideTheBuilding\obj\Debug\01.InsideTheBuilding.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\01.InsideTheBuilding\obj\Debug\01.InsideTheBuilding.pdb

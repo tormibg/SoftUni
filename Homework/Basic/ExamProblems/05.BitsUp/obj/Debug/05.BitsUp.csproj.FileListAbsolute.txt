@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsUp\obj\Debug\05.BitsUp.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsUp\bin\Debug\05.BitsUp.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsUp\bin\Debug\05.BitsUp.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsUp\obj\Debug\05.BitsUp.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsUp\obj\Debug\05.BitsUp.pdb

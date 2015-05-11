@@ -1,0 +1,5 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\9.Trapezoids\bin\Debug\9.Trapezoids.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\9.Trapezoids\bin\Debug\9.Trapezoids.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\9.Trapezoids\bin\Debug\9.Trapezoids.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\9.Trapezoids\obj\Debug\9.Trapezoids.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\9.Trapezoids\obj\Debug\9.Trapezoids.pdb

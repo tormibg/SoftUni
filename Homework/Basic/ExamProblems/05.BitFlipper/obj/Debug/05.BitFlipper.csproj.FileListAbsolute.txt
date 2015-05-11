@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitFlipper\obj\Debug\05.BitFlipper.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitFlipper\bin\Debug\05.BitFlipper.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitFlipper\bin\Debug\05.BitFlipper.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitFlipper\obj\Debug\05.BitFlipper.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitFlipper\obj\Debug\05.BitFlipper.pdb

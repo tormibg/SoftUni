@@ -1,0 +1,15 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects`\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\bin\Debug\1.OddOrEvenIntegers.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects`\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\bin\Debug\1.OddOrEvenIntegers.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects`\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\bin\Debug\1.OddOrEvenIntegers.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects`\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects`\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects`\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\bin\Debug\1.OddOrEvenIntegers.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\bin\Debug\1.OddOrEvenIntegers.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\bin\Debug\1.OddOrEvenIntegers.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\bin\Debug\1.OddOrEvenIntegers.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\1.OddOrEvenIntegers\obj\Debug\1.OddOrEvenIntegers.pdb

@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.ProgrammerDNA\bin\Debug\03.ProgrammerDNA.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.ProgrammerDNA\bin\Debug\03.ProgrammerDNA.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.ProgrammerDNA\obj\Debug\03.ProgrammerDNA.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03.ProgrammerDNA\obj\Debug\03.ProgrammerDNA.pdb

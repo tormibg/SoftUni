@@ -1,0 +1,9 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\bin\Debug\5.TheBiggestOfThreeNumbers.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\bin\Debug\5.TheBiggestOfThreeNumbers.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\bin\Debug\5.TheBiggestOfThreeNumbers.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\obj\Debug\5.TheBiggestOfThreeNumbers.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\obj\Debug\5.TheBiggestOfThreeNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\obj\Debug\5.TheBiggestOfThreeNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\obj\Debug\5.TheBiggestOfThreeNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\bin\Debug\5.TheBiggestOfThreeNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\5.TheBiggestOfThreeNumbers\bin\Debug\5.TheBiggestOfThreeNumbers.pdb

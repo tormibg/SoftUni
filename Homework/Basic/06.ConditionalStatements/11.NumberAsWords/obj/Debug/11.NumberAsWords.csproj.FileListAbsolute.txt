@@ -1,0 +1,11 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\11.NumberAsWords\bin\Debug\11.NumberAsWords.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\11.NumberAsWords\bin\Debug\11.NumberAsWords.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\11.NumberAsWords\bin\Debug\11.NumberAsWords.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\11.NumberAsWords\obj\Debug\11.NumberAsWords.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\11.NumberAsWords\obj\Debug\11.NumberAsWords.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\11.NumberAsWords\obj\Debug\11.NumberAsWords.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\11.NumberAsWords\obj\Debug\11.NumberAsWords.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\11.NumberAsWords\obj\Debug\11.NumberAsWords.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\11.NumberAsWords\bin\Debug\11.NumberAsWords.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\11.NumberAsWords\bin\Debug\11.NumberAsWords.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\11.NumberAsWords\obj\Debug\11.NumberAsWords.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\todor\Documents\SoftUni\5st\Projects`\5.ConsoleInputOutput\2.PrintCompanyInformation\bin\Debug\2.PrintCompanyInformation.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects`\5.ConsoleInputOutput\2.PrintCompanyInformation\bin\Debug\2.PrintCompanyInformation.pdb
+C:\Users\todor\Documents\SoftUni\5st\Projects`\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\5st\Projects`\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects`\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.pdb
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\2.PrintCompanyInformation\bin\Debug\2.PrintCompanyInformation.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\2.PrintCompanyInformation\bin\Debug\2.PrintCompanyInformation.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\2.PrintCompanyInformation\obj\Debug\2.PrintCompanyInformation.pdb

@@ -1,0 +1,6 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\06.JoinLists\bin\Debug\06.JoinLists.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\06.JoinLists\bin\Debug\06.JoinLists.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\06.JoinLists\obj\Debug\06.JoinLists.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\06.JoinLists\obj\Debug\06.JoinLists.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\8st\Projects\8.Collections\06.JoinLists\obj\Debug\06.JoinLists.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\8st\Projects\8.Collections\06.JoinLists\obj\Debug\06.JoinLists.pdb

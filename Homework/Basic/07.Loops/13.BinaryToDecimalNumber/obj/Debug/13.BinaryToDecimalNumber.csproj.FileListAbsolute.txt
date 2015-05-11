@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\13.BinaryToDecimalNumber\bin\Debug\13.BinaryToDecimalNumber.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\13.BinaryToDecimalNumber\bin\Debug\13.BinaryToDecimalNumber.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\13.BinaryToDecimalNumber\obj\Debug\13.BinaryToDecimalNumber.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\13.BinaryToDecimalNumber\obj\Debug\13.BinaryToDecimalNumber.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\13.BinaryToDecimalNumber\obj\Debug\13.BinaryToDecimalNumber.csprojResolveAssemblyReference.cache

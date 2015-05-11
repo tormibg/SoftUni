@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\19.SpiralMatrix\bin\Debug\19.SpiralMatrix.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\19.SpiralMatrix\bin\Debug\19.SpiralMatrix.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.csprojResolveAssemblyReference.cache

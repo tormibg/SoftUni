@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\05.PointClass\obj\Debug\05.PointClass.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\05.PointClass\bin\Debug\05.PointClass.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\05.PointClass\bin\Debug\05.PointClass.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\05.PointClass\obj\Debug\05.PointClass.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\05.PointClass\obj\Debug\05.PointClass.pdb

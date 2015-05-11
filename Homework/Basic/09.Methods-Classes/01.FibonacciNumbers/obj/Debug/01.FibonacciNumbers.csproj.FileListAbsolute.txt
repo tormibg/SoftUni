@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\01.FibonacciNumbers\bin\Debug\01.FibonacciNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\01.FibonacciNumbers\bin\Debug\01.FibonacciNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\01.FibonacciNumbers\obj\Debug\01.FibonacciNumbers.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\01.FibonacciNumbers\obj\Debug\01.FibonacciNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\01.FibonacciNumbers\obj\Debug\01.FibonacciNumbers.pdb

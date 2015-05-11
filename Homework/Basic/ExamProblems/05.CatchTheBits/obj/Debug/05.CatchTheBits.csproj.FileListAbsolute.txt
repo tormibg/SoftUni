@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.CatchTheBits\bin\Debug\05.CatchTheBits.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.CatchTheBits\bin\Debug\05.CatchTheBits.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.CatchTheBits\obj\Debug\05.CatchTheBits.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.CatchTheBits\obj\Debug\05.CatchTheBits.pdb

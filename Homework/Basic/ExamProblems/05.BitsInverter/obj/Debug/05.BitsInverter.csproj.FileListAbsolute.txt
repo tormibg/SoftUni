@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter\bin\Debug\05.BitsInverter.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter\bin\Debug\05.BitsInverter.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter\obj\Debug\05.BitsInverter.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter\obj\Debug\05.BitsInverter.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\05.BitsInverter\obj\Debug\05.BitsInverter.csprojResolveAssemblyReference.cache

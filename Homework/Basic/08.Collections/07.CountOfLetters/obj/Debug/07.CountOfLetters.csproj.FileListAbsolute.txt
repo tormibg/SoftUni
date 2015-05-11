@@ -1,0 +1,5 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\07.CountOfLetters\obj\Debug\07.CountOfLetters.csprojResolveAssemblyReference.cache
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\07.CountOfLetters\bin\Debug\07.CountOfLetters.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\07.CountOfLetters\bin\Debug\07.CountOfLetters.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\07.CountOfLetters\obj\Debug\07.CountOfLetters.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\07.CountOfLetters\obj\Debug\07.CountOfLetters.pdb

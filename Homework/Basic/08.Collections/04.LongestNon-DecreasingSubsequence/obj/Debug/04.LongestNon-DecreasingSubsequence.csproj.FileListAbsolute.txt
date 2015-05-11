@@ -1,0 +1,7 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\04.LongestNon-DecreasingSubsequence\bin\Debug\04.LongestNon-DecreasingSubsequence.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\04.LongestNon-DecreasingSubsequence\bin\Debug\04.LongestNon-DecreasingSubsequence.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\04.LongestNon-DecreasingSubsequence\obj\Debug\04.LongestNon-DecreasingSubsequence.csprojResolveAssemblyReference.cache
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\04.LongestNon-DecreasingSubsequence\obj\Debug\04.LongestNon-DecreasingSubsequence.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\04.LongestNon-DecreasingSubsequence\obj\Debug\04.LongestNon-DecreasingSubsequence.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\8st\Projects\8.Collections\04.LongestNon-DecreasingSubsequence\obj\Debug\04.LongestNon-DecreasingSubsequence.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\8st\Projects\8.Collections\04.LongestNon-DecreasingSubsequence\obj\Debug\04.LongestNon-DecreasingSubsequence.pdb

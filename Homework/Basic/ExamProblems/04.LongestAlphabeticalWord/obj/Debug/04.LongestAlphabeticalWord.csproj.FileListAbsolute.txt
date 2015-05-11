@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.LongestAlphabeticalWord\bin\Debug\04.LongestAlphabeticalWord.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.LongestAlphabeticalWord\bin\Debug\04.LongestAlphabeticalWord.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.LongestAlphabeticalWord\obj\Debug\04.LongestAlphabeticalWord.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.LongestAlphabeticalWord\obj\Debug\04.LongestAlphabeticalWord.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\04.LongestAlphabeticalWord\obj\Debug\04.LongestAlphabeticalWord.pdb

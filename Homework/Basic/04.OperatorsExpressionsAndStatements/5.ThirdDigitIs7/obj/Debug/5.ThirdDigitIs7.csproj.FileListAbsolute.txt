@@ -1,0 +1,5 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\5.ThirdDigitIs7\bin\Debug\5.ThirdDigitIs7.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\5.ThirdDigitIs7\bin\Debug\5.ThirdDigitIs7.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\5.ThirdDigitIs7\bin\Debug\5.ThirdDigitIs7.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\5.ThirdDigitIs7\obj\Debug\5.ThirdDigitIs7.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\5.ThirdDigitIs7\obj\Debug\5.ThirdDigitIs7.pdb

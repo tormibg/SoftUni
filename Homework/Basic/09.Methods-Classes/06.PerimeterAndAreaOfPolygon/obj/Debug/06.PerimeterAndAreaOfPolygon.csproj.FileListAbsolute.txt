@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\06.PerimeterAndAreaOfPolygon\bin\Debug\06.PerimeterAndAreaOfPolygon.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\06.PerimeterAndAreaOfPolygon\bin\Debug\06.PerimeterAndAreaOfPolygon.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\06.PerimeterAndAreaOfPolygon\obj\Debug\06.PerimeterAndAreaOfPolygon.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\06.PerimeterAndAreaOfPolygon\obj\Debug\06.PerimeterAndAreaOfPolygon.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\06.PerimeterAndAreaOfPolygon\obj\Debug\06.PerimeterAndAreaOfPolygon.pdb

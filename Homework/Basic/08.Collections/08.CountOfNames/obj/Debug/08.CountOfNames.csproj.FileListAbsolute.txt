@@ -1,0 +1,5 @@
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\08.CountOfNames\obj\Debug\08.CountOfNames.csprojResolveAssemblyReference.cache
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\08.CountOfNames\bin\Debug\08.CountOfNames.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\08.CountOfNames\bin\Debug\08.CountOfNames.pdb
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\08.CountOfNames\obj\Debug\08.CountOfNames.exe
+c:\users\gery\documents\visual studio 2013\Projects\8.Collections\08.CountOfNames\obj\Debug\08.CountOfNames.pdb

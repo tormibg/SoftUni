@@ -1,0 +1,9 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\bin\Debug\14.ModifyABitAtGivenPosition.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\bin\Debug\14.ModifyABitAtGivenPosition.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\bin\Debug\14.ModifyABitAtGivenPosition.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\bin\Debug\14.ModifyABitAtGivenPosition.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\14.ModifyABitAtGivenPosition\obj\Debug\14.ModifyABitAtGivenPosition.pdb

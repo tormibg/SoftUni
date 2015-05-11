@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\12.RandomizeTheNumbers1N\bin\Debug\12.RandomizeTheNumbers1N.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\12.RandomizeTheNumbers1N\bin\Debug\12.RandomizeTheNumbers1N.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\12.RandomizeTheNumbers1N\obj\Debug\12.RandomizeTheNumbers1N.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\12.RandomizeTheNumbers1N\obj\Debug\12.RandomizeTheNumbers1N.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\12.RandomizeTheNumbers1N\obj\Debug\12.RandomizeTheNumbers1N.pdb

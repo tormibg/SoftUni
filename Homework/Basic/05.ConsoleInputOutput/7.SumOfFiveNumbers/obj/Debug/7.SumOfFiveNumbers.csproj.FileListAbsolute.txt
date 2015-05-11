@@ -1,0 +1,10 @@
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\bin\Debug\7.SumOfFiveNumbers.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\bin\Debug\7.SumOfFiveNumbers.pdb
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\obj\Debug\7.SumOfFiveNumbers.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\obj\Debug\7.SumOfFiveNumbers.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\obj\Debug\7.SumOfFiveNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\bin\Debug\7.SumOfFiveNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\bin\Debug\7.SumOfFiveNumbers.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\obj\Debug\7.SumOfFiveNumbers.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\obj\Debug\7.SumOfFiveNumbers.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\7.SumOfFiveNumbers\obj\Debug\7.SumOfFiveNumbers.pdb

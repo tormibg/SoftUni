@@ -1,0 +1,4 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\18.TrailingZeroesInN\bin\Debug\18.TrailingZeroesInN.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\18.TrailingZeroesInN\bin\Debug\18.TrailingZeroesInN.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\18.TrailingZeroesInN\obj\Debug\18.TrailingZeroesInN.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\7st\Projects\7.Loops\18.TrailingZeroesInN\obj\Debug\18.TrailingZeroesInN.pdb

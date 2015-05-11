@@ -1,0 +1,6 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03-Boat\bin\Debug\03-Boat.exe.config
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03-Boat\bin\Debug\03-Boat.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03-Boat\bin\Debug\03-Boat.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03-Boat\obj\Debug\03-Boat.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03-Boat\obj\Debug\03-Boat.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\ExamProblems\03-Boat\obj\Debug\03-Boat.pdb

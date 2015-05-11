@@ -1,0 +1,10 @@
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\bin\Debug\3CirclePerimeterAndArea.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\bin\Debug\3CirclePerimeterAndArea.pdb
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\obj\Debug\3.CirclePerimeterAndArea.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\obj\Debug\3CirclePerimeterAndArea.exe
+C:\Users\todor\Documents\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\obj\Debug\3CirclePerimeterAndArea.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\bin\Debug\3CirclePerimeterAndArea.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\bin\Debug\3CirclePerimeterAndArea.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\obj\Debug\3.CirclePerimeterAndArea.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\obj\Debug\3CirclePerimeterAndArea.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\5st\Projects\5.ConsoleInputOutput\3.CirclePerimeterAndArea\obj\Debug\3CirclePerimeterAndArea.pdb

@@ -1,0 +1,11 @@
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\2.BonusScore\bin\Debug\2.BonusScore.exe.config
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\2.BonusScore\bin\Debug\2.BonusScore.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\2.BonusScore\bin\Debug\2.BonusScore.pdb
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\2.BonusScore\obj\Debug\2.BonusScore.csprojResolveAssemblyReference.cache
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\2.BonusScore\obj\Debug\2.BonusScore.exe
+C:\Users\todor\Documents\SoftUni\4st\Projects\ConditionalStatements\2.BonusScore\obj\Debug\2.BonusScore.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\2.BonusScore\obj\Debug\2.BonusScore.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\2.BonusScore\obj\Debug\2.BonusScore.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\2.BonusScore\bin\Debug\2.BonusScore.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\2.BonusScore\bin\Debug\2.BonusScore.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\6st\Projects\ConditionalStatements\2.BonusScore\obj\Debug\2.BonusScore.csprojResolveAssemblyReference.cache

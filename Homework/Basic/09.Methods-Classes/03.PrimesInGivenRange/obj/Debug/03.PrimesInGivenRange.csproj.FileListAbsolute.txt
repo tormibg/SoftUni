@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\03.PrimesInGivenRange\bin\Debug\03.PrimesInGivenRange.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\03.PrimesInGivenRange\bin\Debug\03.PrimesInGivenRange.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\03.PrimesInGivenRange\obj\Debug\03.PrimesInGivenRange.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\03.PrimesInGivenRange\obj\Debug\03.PrimesInGivenRange.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\9st\Projects\09.Methods-Classes\03.PrimesInGivenRange\obj\Debug\03.PrimesInGivenRange.csprojResolveAssemblyReference.cache

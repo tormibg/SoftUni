@@ -1,0 +1,5 @@
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\02.FunWithMatrices\obj\Debug\02.FunWithMatrices.csprojResolveAssemblyReference.cache
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\02.FunWithMatrices\bin\Debug\02.FunWithMatrices.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\02.FunWithMatrices\bin\Debug\02.FunWithMatrices.pdb
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\02.FunWithMatrices\obj\Debug\02.FunWithMatrices.exe
+C:\Users\gery\Documents\Visual Studio 2013\Projects\SoftUni\Lab\lab1\02.FunWithMatrices\obj\Debug\02.FunWithMatrices.pdb
