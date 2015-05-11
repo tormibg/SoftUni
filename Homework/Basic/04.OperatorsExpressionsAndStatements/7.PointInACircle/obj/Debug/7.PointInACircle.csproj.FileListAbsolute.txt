@@ -1,6 +1,0 @@
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\7.PointInACircle\bin\Debug\7.PointInACircle.exe.config
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\7.PointInACircle\bin\Debug\7.PointInACircle.exe
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\7.PointInACircle\bin\Debug\7.PointInACircle.pdb
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\7.PointInACircle\obj\Debug\7.PointInACircle.csprojResolveAssemblyReference.cache
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\7.PointInACircle\obj\Debug\7.PointInACircle.exe
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\7.PointInACircle\obj\Debug\7.PointInACircle.pdb

@@ -1,6 +1,0 @@
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\6.FourDigitNumber\bin\Debug\6.FourDigitNumber.exe.config
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\6.FourDigitNumber\bin\Debug\6.FourDigitNumber.exe
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\6.FourDigitNumber\bin\Debug\6.FourDigitNumber.pdb
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\6.FourDigitNumber\obj\Debug\6.FourDigitNumber.csprojResolveAssemblyReference.cache
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\6.FourDigitNumber\obj\Debug\6.FourDigitNumber.exe
-C:\Users\todor\Documents\SoftUni\4st\Projects\4.OperatorsExpressionsAndStatements\6.FourDigitNumber\obj\Debug\6.FourDigitNumber.pdb
