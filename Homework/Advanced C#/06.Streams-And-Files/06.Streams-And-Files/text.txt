@@ -1,0 +1,148 @@
+Homework: Streams and Files
+This document defines the homework assignments from the "Advanced C#" Course @ Software University. Please submit as homework a single zip / rar / 7z archive holding the solutions (source code) of all below described problems. The solutions should be written in C#.
+Problem 1.	Odd Lines
+Write a program that reads a text file and prints on the console its odd lines. Line numbers starts from 0. Use StreamReader.
+Problem 2.	Line Numbers
+Write a program that reads a text file and inserts line numbers in front of each of its lines. The result should be written to another text file. Use StreamReader in combination with StreamWriter.
+Problem 3.	Word Count
+Write a program that reads a list of words from the file words.txt and finds how many times each of the words is contained in another file text.txt. Matching should be case-insensitive.
+Write the results in file results.txt. Sort the words by frequency in descending order. Use StreamReader in combination with StreamWriter.
+words.txt	text.txt	result.txt
+quick
+is
+fault	-I was quick to judge him, but it wasn't his fault.
+-Is this some kind of joke?! Is it?
+-Quick, hide here…It is safer.	is - 3
+quick - 2
+fault - 1
+Problem 4.	Copy Binary File
+Write a program that copies the contents of a binary file (e.g. image, video, etc.) to another using FileStream. You are not allowed to use the File class or similar helper classes.
+Problem 5.	Slicing File
+Write a program that takes any file and slices it to n parts. Write the following methods:
+•	Slice(string sourceFile, string destinationDirectory, int parts) - slices the given source file into n parts and saves them in destinationDirectory.
+Source File	Destination Directory
+parts = 5 	 
+
+•	Assemble(List<string> files, string destinationDirectory) - combines all files into one, in the order they are passed, and saves the result in destinationDirectory.
+Source Files	Destination Directory
+ 	 
+
+Use FileStreams. You are not allowed to use the File class or similar helper classes.
+Problem 6.	Zipping Sliced Files
+Modify your previous program to also compress the bytes while slicing parts and decompress them when assembling them back to the original file. Use GzipStream.
+Tip: When getting files from directory, make sure you only get files with .gz extension (there might be hidden files).
+Source File	Compressed & Sliced	Decompressed & Assembled
+parts = 5 	 	 
+Problem 7.	Directory Traversal
+Traverse a given directory for all files with the given extension. Search through the first level of the directory only and write information about each found file in report.txt.
+The files should be grouped by their extension. Extensions should be ordered by the count of their files (from most to least). If two extensions have equal number of files, order them by name.
+Files under an extension should be ordered by their size.
+report.txt should be saved on the Desktop. Ensure the desktop path is always valid, regardless of the user.
+Input	Directory View	report.txt
+../../	 	.cs
+--Mecanismo.cs - 0.994kb
+--Program.cs - 1.108kb
+--Nashmat.cs - 3.967kb
+--Wedding.cs - 23.787kb
+--Program - Copy.cs - 35.679kb
+--Salimur.cs - 588.657kb
+.txt
+--backup.txt - 0.028kb
+--log.txt - 6.72kb
+.asm
+--script.asm - 0.028kb
+.config
+--App.config - 0.187kb
+.csproj
+--01. Writing-To-Files.csproj - 2.57kb
+.js
+--controller.js - 1635.143kb
+.php
+--model.php - 0kb
+
+Problem 8.	* Full Directory Traversal
+Modify your previous program to recursively traverse the sub-directories of the starting directory as well.
+Problems for Champions
+Problem 9.	* Disk
+This problem is from the C# Basics Exam (28 April 2014). You can test your solution here.
+In geometry, a disk is the region in a plane bounded by a circle (it also includes the circle itself). Your task is to print a disk on the console by a given radius R in a square field of size N x N (see the examples below).
+Input
+The input data should be read from the console.
+•	On the first line of the input you will be given the size of the field N. On the second line of the input you will be given the radius of the disk R.
+•	The disk’s center is the center point of the field (it will always exist, because N is odd).
+The input data will always be valid and in the format described. There is no need to check it explicitly.
+Output
+The output should be printed on the console. You should print the disk on the console following the examples below.
+•	Your output must consist of N rows, each containing N characters. Each character represents a point in the field. For every point you must output one of two possible states – dot '.' if the point lies outside of the disk and asterisk '*' if the point lies within the disk.
+Hint: In order to check whether a point is inside or outside of a circle, you may calculate the distance from the point to the center of the field by the Pythagorean Theorem (see http://goo.gl/HwqOuU).
+Constraints
+•	The number N is a positive odd integer in the range [3 … 39], inclusive.
+•	The number R is a positive integer between 1 and N/2 (floor (N/2)), inclusive. This means that the disk will always fit in the field, without crossing its sides.
+•	Allowed working time for your program: 0.1 seconds.
+•	Allowed memory: 16 MB.
+Examples
+Input	Output		Input	Output		Input	Output		Input	Output
+5
+2	..*..
+.***.
+*****
+.***.
+..*..		9
+3	.........
+....*....
+..*****..
+..*****..
+.*******.
+..*****..
+..*****..
+....*....
+.........		11
+1	...........
+...........
+...........
+...........
+.....*.....
+....***....
+.....*.....
+...........
+...........
+...........
+...........		19
+6
+	...................
+...................
+...................
+.........*.........
+......*******......
+.....*********.....
+....***********....
+....***********....
+....***********....
+...*************...
+....***********....
+....***********....
+....***********....
+.....*********.....
+......*******......
+.........*.........
+...................
+...................
+...................
+Problem 10.	* Paint Ball
+This problem is from the C# Basics Exam (19 December 2014). You can test your solution here.
+You are given a painting canvas of size 10 x 10, divided into 100 cells. Initially, the canvas is white (all cells have a value of 1). You shoot black and white paint balls with different sizes at the canvas. White is represented by 1s and black is represented by 0s. You alternate between black and white paint after each shot; the first shot is always with black paint (0s), the second is white (1s), the third is black again and so on. You will be given each shot's impact row and column coordinates as well as the ball's radius. The impact area is a square, its center is the impact cell; all cells in the impact area change values to either 0 or 1, depending on the color of the paint.
+After you run out of ammo (when you receive the string "End" from the console) the canvas will be some combination of 1s and 0s. Each row of the canvas represents a binary integer number. Your task is to find the sum of the 10 numbers and print it to the console. An example where a single shot with parameters "4 5 2" was fired is shown below. The impact cell is shaded black, the splashed cells in the impact area are shaded grey.
+Input
+The input data is read from the console. 
+•	It consists of a random number of lines. The input ends with the string "End".
+•	Each line will hold three numbers – the row and column of the cell where the ball lands and the radius of the ball, all separated from each other by a single space.
+The input data will always be valid and in the format described. There is no need to check it explicitly.
+Output
+The output data must be printed on the console.
+•	On the only output line you must print the sum of the 10 rows of the canvas in decimal format.
+Constraints
+•	The number of shots will be in the range [1…25].
+•	The rows and columns are integer numbers in the range [0…9].
+•	The radius of the ball will be an integer between 0 (single cell) and 10 (large splash area damage).
+•	Time limit: 0.25 seconds. Allowed memory: 16 MB.
+Examples 
