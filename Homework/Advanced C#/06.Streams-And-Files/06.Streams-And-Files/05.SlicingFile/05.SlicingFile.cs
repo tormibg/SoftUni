@@ -8,7 +8,7 @@ class SlicingFile
     static void Main()
     {
         int parts = 5;
-        string sourceFile = @"..\..\test.mpg";
+        string sourceFile = @"..\..\Fighter.mpg";
         string destinationDirectory = @"..\..\";
         Slice(sourceFile, destinationDirectory, parts);
         List<string> filesList = Directory.GetFiles(destinationDirectory, "part*.mpg").ToList();
@@ -18,7 +18,7 @@ class SlicingFile
         //filesList.Add(@"..\..\part-2.mpg");
         //filesList.Add(@"..\..\part-3.mpg");
         //filesList.Add(@"..\..\part-4.mpg");
-        Assemble(filesList, destinationDirectory);
+        //Assemble(filesList, destinationDirectory);
     }
 
     private static void Assemble(List<string> filesList, string destinationDirectory)
