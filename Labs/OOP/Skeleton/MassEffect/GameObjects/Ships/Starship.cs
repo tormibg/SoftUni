@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using MassEffect.Engine;
 using MassEffect.Exceptions;
 using MassEffect.GameObjects.Enhancements;
@@ -11,7 +12,7 @@ namespace MassEffect.GameObjects.Ships
 {
     abstract class Starship : IStarship
     {
-        private IList<Enhancement> enhancements; 
+        private readonly IList<Enhancement> enhancements; 
 
         protected Starship(string name, int health, int shields, int damage, double fuel, StarSystem location)
         {
@@ -36,17 +37,14 @@ namespace MassEffect.GameObjects.Ships
 
         public Locations.StarSystem Location { get; set; }
 
-        public IProjectile ProduceAttack()
+        public abstract IProjectile ProduceAttack();
+
+        public virtual void RespondToAttack(IProjectile projectile)
         {
-            throw new System.NotImplementedException();
+            projectile.Hit(this);
         }
 
-        public void RespondToAttack(IProjectile attack)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public System.Collections.Generic.IEnumerable<Enhancements.Enhancement> Enhancements
+        public IEnumerable<Enhancement> Enhancements
         {
             get { return this.enhancements; }
         }
@@ -68,6 +66,23 @@ namespace MassEffect.GameObjects.Ships
 
         public override string ToString()
         {
+            StringBuilder output = new StringBuilder();
+
+            output.AppendLine(String.Format("--{0} - {1}",this.Name,this.GetType().Name));
+            if (this.Health > 0)
+            {
+                output.AppendLine(String.Format("-Location: {0}",this.Location.Name));
+                output.AppendLine(String.Format("-Health: {0}",this.Health));
+                output.AppendLine(String.Format("-Shields: {0}",this.Shields));
+                output.AppendLine(String.Format("-Damage: {0}", this.Damage));
+                output.AppendLine(String.Format("-Fuel: {0}", this.Fuel));
+                output.AppendLine(String.Format("-Enhancements: {0}", string.Join(", ", enhancements).TrimEnd()));
+            }
+            else
+            {
+                output.AppendLine(String.Format("(Destroyed)"));
+            }
+            return output.ToString().TrimEnd();
         }
     }
 }

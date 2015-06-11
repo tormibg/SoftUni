@@ -16,7 +16,9 @@ namespace MassEffect.Engine.Commands
         {
             string shipName = commandArgs[1];
             IStarship ship = null;
+
             ship = GameEngine.Starships.First(x => x.Name == shipName);
+
             Console.WriteLine(ship.ToString());
         }
     }

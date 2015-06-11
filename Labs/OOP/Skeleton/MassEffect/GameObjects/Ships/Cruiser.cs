@@ -1,4 +1,6 @@
 ﻿using MassEffect.GameObjects.Locations;
+using MassEffect.GameObjects.Projectiles;
+using MassEffect.Interfaces;
 
 namespace MassEffect.GameObjects.Ships
 {
@@ -12,6 +14,11 @@ namespace MassEffect.GameObjects.Ships
         public Cruiser(string name, StarSystem location)
             : base(name, CHealt, CShields, CDamage, CFuel, location)
         {
+        }
+
+        public override IProjectile ProduceAttack()
+        {
+            return new PenetrationShell(this.Damage);
         }
     }
 }
