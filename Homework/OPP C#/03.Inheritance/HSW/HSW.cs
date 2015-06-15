@@ -35,7 +35,7 @@ namespace HSW
             // OrderBy method
            // ordSt = listStudents.OrderBy(student => student.FacNum, StringComparer.InvariantCulture);
 
-            List<Worker> listWorkers = new List<Worker>()
+            IList<Worker> listWorkers = new List<Worker>()
             {
                 new Worker("Ingo", "Ingov", 12.5f, 8),
                 new Worker("Asen", "Asenov", 15f, 9),
