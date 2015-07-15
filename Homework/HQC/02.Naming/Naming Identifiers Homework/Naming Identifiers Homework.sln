@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication", "ConsoleApplication1\MatrixMultiplication.csproj", "{F93E5A43-0119-4961-B21C-BDF4A1FBE9AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Orders", "Orders\2. Orders.csproj", "{32FFFB9D-C7B7-4D0B-9392-231F62595912}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{32FFFB9D-C7B7-4D0B-9392-231F62595912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Application2", "Application2\3. Application2.csproj", "{E2B7BED8-5433-40ED-9870-4E775782E5ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper", "Application2\Minesweeper.csproj", "{E2B7BED8-5433-40ED-9870-4E775782E5ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

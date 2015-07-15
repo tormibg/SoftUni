@@ -1,71 +1,72 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using o;
-using System.IO;
-
-namespace Orders
+﻿namespace Orders
 {
-    public class dataMapper
-    {
-        private string categoriesFileName;
-        private string productsFileName;
-        private string ordersFileName;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
 
-        public dataMapper(string categoriesFileName, string productsFileName, string ordersFileName)
+    using global::Orders.Models;
+
+    public class DataMapper
+    {
+        private readonly string categoriesFileName;
+        private readonly string productsFileName;
+        private readonly string ordersFileName;
+
+        public DataMapper(string categoriesFileName, string productsFileName, string ordersFileName)
         {
             this.categoriesFileName = categoriesFileName;
             this.productsFileName = productsFileName;
             this.ordersFileName = ordersFileName;
         }
 
-        public dataMapper()
+        public DataMapper()
             : this("../../Data/categories.txt", "../../Data/products.txt", "../../Data/orders.txt")
         {
         }
 
-        public IEnumerable<category> getAllCategories()
+        public IEnumerable<Category> GetAllCategories()
         {
-            var cat = readFileLines(this.categoriesFileName, true);
+            var cat = this.ReadFileLines(this.categoriesFileName, true);
             return cat
                 .Select(c => c.Split(','))
-                .Select(c => new category
+                .Select(c => new Category
                 {
                     Id = int.Parse(c[0]),
-                    NAME = c[1],
+                    Name = c[1],
                     Description = c[2]
                 });
         }
 
-        public IEnumerable<product> getAllProducts()
+        public IEnumerable<Product> GetAllProducts()
         {
-            var prod = readFileLines(this.productsFileName, true);
+            var prod = this.ReadFileLines(this.productsFileName, true);
             return prod
                 .Select(p => p.Split(','))
-                .Select(p => new product
+                .Select(p => new Product
                 {
-                    id = int.Parse(p[0]),
-                    nome = p[1],
-                    catId = int.Parse(p[2]),
-                    unit_price = decimal.Parse(p[3]),
+                    Id = int.Parse(p[0]),
+                    Nome = p[1],
+                    CatId = int.Parse(p[2]),
+                    UnitPrice = decimal.Parse(p[3]),
                     UnitsInStock = int.Parse(p[4]),
                 });
         }
 
-        public IEnumerable<order> getAllOrders()
+        public IEnumerable<Order> GetAllOrders()
         {
-            var ord = readFileLines(this.ordersFileName, true);
+            var ord = this.ReadFileLines(this.ordersFileName, true);
             return ord
                 .Select(p => p.Split(','))
-                .Select(p => new order
+                .Select(p => new Order
                 {
-                    ID = int.Parse(p[0]),
-                    product_id = int.Parse(p[1]),
-                    quant = int.Parse(p[2]),
+                    Id = int.Parse(p[0]),
+                    ProductId = int.Parse(p[1]),
+                    Quantity = int.Parse(p[2]),
                     Discount = decimal.Parse(p[3]),
                 });
         }
 
-        private List<string> readFileLines(string filename, bool hasHeader)
+        private List<string> ReadFileLines(string filename, bool hasHeader)
         {
             var allLines = new List<string>();
             using (var reader = new StreamReader(filename))
