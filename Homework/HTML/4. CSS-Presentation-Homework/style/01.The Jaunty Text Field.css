@@ -1,0 +1,132 @@
+body {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 2.1em;
+    padding: 1;
+    margin: 8px 12px;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#wrapper {
+    width: 755px;
+    height: 300px;
+    text-align: center;
+    border-top: 7px dotted yellow;
+    border-left: 7px dashed red;
+    border-right: 16px solid green;
+    border-bottom: 11px double blue;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.8);
+    padding-top: 15px;
+}
+#title {
+    font-size: 1.7em;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.round{
+    border-radius: 65px;
+    border: 3px solid;
+}
+#blue {
+    margin-top: 30px;
+    width: 665px;
+    height: 138px;
+    border-color: blue;
+    border-radius: 68px;
+}
+#green {
+    border-color: green;
+}
+#yellow {
+    border-color: yellow;
+}
+#red {
+    border-color: red;
+}
+#inner-text {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    font-size: 0.75em;
+    display: inline-block;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+.balloons {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: gray;
+    opacity: 0.8;
+    border-radius: 100%;
+    position: absolute;
+    margin: 0;
+}
+
+#outer-balloon-small {
+    top: 169px;
+    left: 583px;
+    width: 38px;
+    height: 38px;
+}
+
+#inner-balloon-small {
+    width: 24px;
+    height: 24px;
+    border: 3px dashed white;
+    left: 7px;
+    top: 7px;
+}
+
+#outer-balloon-middle {
+    top: 120px;
+    left: 636px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+#inner-balloon-middle {
+    width: 40px;
+    height: 40px;
+    border: 3px dashed  white;
+    left: 5px;
+}
+
+#outer-balloon-big {
+    top: 45px;
+    left: 696px;
+    padding: 5px;
+    width: 162px;
+    height: 97px;
+    border-radius: 46px;
+}
+
+#inner-balloon-big {
+    width: 149px;
+    height: 85px;
+    border: 3px dashed white;
+    left: 7px;
+    border-radius: 42px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75em;
+    padding-top: 9px;
+}
+
+input {
+    border: 3px outset rgb(255, 166, 0);
+    background-color: rgb(216, 146, 26);
+    width: 205px;
+    height: 23px;
+    font-size: 0.6em;
+    text-align: left;
+    padding-left: 19px;
+}

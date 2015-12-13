@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05.Life in SoftUni</title>
+    <style>
+        body{
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 22px;
+        }
+        table, td, th{
+            border: 1px solid black;
+        }
+        #head1{
+            font-size: 2.4em;
+            font-weight: bolder;
+            text-align: center;
+            vertical-align: middle;
+            height: 140px;
+            width: 140px;
+            padding: 5px;
+        }
+        td{
+            height: 140px;
+            padding: 5px;
+        }
+        td.cellWidth{
+            width: 140px;
+        }
+        table td.Up {
+            vertical-align: top;
+        }
+        table td.Right {
+            text-align: right;
+        }
+        table td.Left{
+            text-align: left;
+        }
+        table td.Center{
+            text-align: center;
+        }
+        table td.Mid{
+            vertical-align: middle;
+        }
+        table td.Down{
+            vertical-align: bottom;
+        }
+        td table{
+            height: 100%;
+        }
+        td.Nested{
+            height: 50%;
+            padding: 0;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        td.BigNormal {
+            font-size: 40px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4" class="" id="head1">SoftUni LIFE</th>
+            </tr>
+            <tr>
+                <td colspan="2" class="Up Left">Google</td>
+                <td colspan="2" class="Up Right">GitHub</td>
+            </tr>
+            <tr>
+                <td class="cellWidth Up Center">FB</td>
+                <td class="cellWidth Mid Left">GMail</td>
+                <td class="cellWidth Down Center">YouTube</td>
+                <td class="cellWidth Mid Left">2048</td>
+            </tr>
+            <tr>
+                <td class="cellWidth Down Right">Food</td>
+                <td colspan="2" class="Down Left">Game</td>
+                <td>
+                    <table class="nestedTbl">
+                        <tr>
+                            <td class="Mid Center Nested">Social Life</td>
+                        </tr>
+                        <tr>
+                            <td class="cellWidth Mid Center Nested">Sleep</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="Mid Right BigNormal">Beer &gt </td>
+                <td class="cellWidth"> WC</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
