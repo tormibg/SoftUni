@@ -1,0 +1,10 @@
+{
+  "name": "Problem04StudentProtocol",
+  "version": "0.0.0",
+  "description": "Problem04StudentProtocol",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

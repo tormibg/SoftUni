@@ -1,0 +1,10 @@
+{
+  "name": "Problem05.Tic-Tac-Toe",
+  "version": "0.0.0",
+  "description": "Problem05.Tic-Tac-Toe",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

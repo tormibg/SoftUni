@@ -1,0 +1,10 @@
+{
+  "name": "Problem03.FindYoungestPerson",
+  "version": "0.0.0",
+  "description": "Problem03.FindYoungestPerson",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

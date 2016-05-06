@@ -1,0 +1,37 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+}
+
+#wrapper{
+    height: 270px;
+    width: 390px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #FFC0CB;
+    color: #000000;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.left {
+    float: left;
+}
+
+.pane {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+.top-pane {
+    height: 60px;
+}

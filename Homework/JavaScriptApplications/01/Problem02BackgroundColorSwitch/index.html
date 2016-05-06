@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 2 Background Color Switch</title>
+    <script src="../jquery-2.2.1.js"></script>
+    <script src="extJS/jscolor.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div>
+    <p>
+        Class:
+        <input class="forPaint" placeholder="enter class">
+    </p>
+    <p>
+        Color:
+        <input type="hidden" id="color_value" value="99cc00">
+        <button class="jscolor {valueElement: 'color_value'}">Pick a color</button>
+    </p>
+    <button onclick="changeBack()">Paint</button>
+</div>
+<ul>
+    <li class="bird">Hummingbird</li>
+    <li class="bird">Nightingale</li>
+    <li>Lizard</li>
+    <li class="bird">Eagle</li>
+    <li class="bird">Sparrow</li>
+</ul>
+</body>
+</html>

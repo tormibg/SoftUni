@@ -1,0 +1,40 @@
+﻿body {
+  width: 330px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 11px; }
+  body img {
+    padding: 1px;
+    border: 1px solid; }
+  body hr {
+    border: 0px;
+    border-bottom: dashed 1px #979797;
+    width: 70%;
+    margin-left: 0px; }
+
+.article {
+  margin: 5px 0px;
+  padding: 5px 0px; }
+  .article .article-image {
+    float: left; }
+  .article .article-text {
+    float: left;
+    width: 175px;
+    margin-left: 5px; }
+    .article .article-text a {
+      text-decoration: none;
+      color: #000000; }
+      .article .article-text a:hover {
+        text-decoration: underline;
+        color: #525252; }
+    .article .article-text p, .article .article-text h4 {
+      margin: 0px; }
+  .article .datetime {
+    color: #979797;
+    font-weight: bold;
+    font-size: 10px; }
+  .article::after {
+    content: "";
+    display: block;
+    zoom: 1;
+    clear: both; }
+

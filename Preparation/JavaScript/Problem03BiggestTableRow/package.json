@@ -1,0 +1,10 @@
+{
+  "name": "Problem03BiggestTableRow",
+  "version": "0.0.0",
+  "description": "Problem03BiggestTableRow",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

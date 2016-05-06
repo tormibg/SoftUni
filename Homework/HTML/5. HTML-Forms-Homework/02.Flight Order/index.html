@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02.Flight Order</title>
+    <link href="style/style.css"  type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+    <form>
+        <fieldset>
+            <legend>
+                flight order
+            </legend>
+            <label for="from-city">From</label>
+            <select id="from-city">
+                <option value="" disabled selected>enter a city</option>
+                <option value="Sofia">Sofia</option>
+                <option value="Varna">Varna</option>
+                <option value="Plovdiv">Plovdiv</option>
+                <option value="Bourgas">Bourgas</option>
+            </select>
+
+            <label for="to-city">To</label>
+            <select id="to-city">
+                <option value="" disabled selected>enter a city</option>
+                <option value="Sofia">Sofia</option>
+                <option value="Varna">Varna</option>
+                <option value="Plovdiv">Plovdiv</option>
+                <option value="Bourgas">Bourgas</option>
+            </select>
+
+            <input type="checkbox" id="prefer-directs"/>
+            <label for="prefer-directs">prefer-directs</label>
+
+            <label for="dep-date">Departure Date</label>
+            <input type="date" id="dep-date" value="09.06.2014"/>
+
+            <label for="dep-time">Time Interval</label>
+            <input type="time" id="dep-time" name="dep-time-from" value="00:20"/>
+            <input type="time" id="dep-time" name="dep-time-to" value="05:00"/>
+
+            <label for="ret-date">Departure Date</label>
+            <input type="date" id="ret-date" value="13.06.2014"/>
+
+            <label for="ret-time">Time Interval</label>
+            <input type="time" id="ret-time" name="dep-time-from" value="16:00"/>
+            <input type="time" id="ret-time" name="dep-time-to" value="22:00"/>
+
+            <label for="ch12+">12+</label>
+            <input type="number" max="99" min="0" id="ch12+" value="0"/>
+
+            <label for="ch2-12">2-12</label>
+            <input type="text" id="ch2-12" value="0" pattern="[0-9]"/>
+
+            <label for="ch0-2">0-2</label>
+            <input type="text"/>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

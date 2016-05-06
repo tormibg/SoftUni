@@ -1,0 +1,13 @@
+﻿body {
+    width: 200px;
+
+    input[type=text] {
+        width: 100%;
+    }
+
+
+    #data-for-invoice {
+        margin-top: 30px;
+        visibility: hidden;
+    }
+}

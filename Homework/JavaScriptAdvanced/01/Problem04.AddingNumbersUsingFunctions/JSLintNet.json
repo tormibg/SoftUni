@@ -1,0 +1,7 @@
+﻿{
+  "version": "2.2.0",
+  "ignore": [
+    "\\app1.js"
+  ],
+  "globalVariables": []
+}

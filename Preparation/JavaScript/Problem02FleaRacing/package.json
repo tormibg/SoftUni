@@ -1,0 +1,10 @@
+{
+  "name": "Problem02FleaRacing",
+  "version": "0.0.0",
+  "description": "Problem02FleaRacing",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

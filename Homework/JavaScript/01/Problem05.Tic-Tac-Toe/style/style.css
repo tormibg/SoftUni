@@ -1,0 +1,61 @@
+﻿#tic-tac-toe {
+    width: 220px;
+    margin: 0 auto;
+}
+
+    #tic-tac-toe .disable {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+    #tic-tac-toe #game li {
+        float: left;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 70px;
+        color: #ccc;
+    }
+
+        #tic-tac-toe #game li.disable {
+            color: #000000;
+        }
+
+        #tic-tac-toe #game li.win {
+            color: #adff2f;
+        }
+
+    #tic-tac-toe #game {
+        float: left;
+        padding: 0;
+        clear: both;
+    }
+
+    #tic-tac-toe li::-moz-selection {
+        background: none;
+        color: #000;
+    }
+
+.btn {
+    border-radius: 0px;
+    background-image: none;
+    box-shadow: none;
+    background-color: white;
+    border: none;
+}
+
+.right-border {
+    border-right: 5px solid black;
+}
+
+.bottom-border {
+    border-bottom: 5px solid black;
+}
+
+.new_span {
+    width: 226px;
+}

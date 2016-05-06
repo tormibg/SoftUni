@@ -1,0 +1,144 @@
+﻿@mixin reset() {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0px;
+    zoom: 1;
+}
+
+body {
+    background-color: #EBEBEB;
+    margin: 0;
+
+    #wrapper {
+        font: 13px Tahoma, Helvetica, sans-serif;
+        width: 800px;
+        margin: 0 auto;
+
+        input, select {
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            height: 25px;
+            line-height: 25px;
+            padding-left: 5px;
+            margin: 5px 0;
+        }
+
+        label {
+            display: block;
+            font-size: 10px;
+        }
+
+        & > header {
+            background-color: #F1F1F1;
+            border-bottom: 1px dashed #C4C4C4;
+
+            h1 {
+                font-size: 28px;
+                color: #31A3DF;
+                margin-top: 0;
+                padding-top: 20px;
+                padding-left: 10px;
+                font-weight: normal;
+            }
+        }
+
+        header {
+
+            h4 {
+                font-size: 16px;
+            }
+        }
+
+        section {
+            border-bottom: 1px dashed #C4C4C4;
+            padding: 15px;
+
+            &:after {
+                @include reset;
+            }
+
+            p {
+                width: 570px;
+                float: left;
+            }
+
+            .search {
+                width: 180px;
+                float: left;
+                position: relative;
+
+                label {
+                    display: block;
+                    font-weight: bold;
+                }
+
+                button {
+                    margin: 0;
+                    padding: 0;
+                    border: none;
+                    background: none;
+                    cursor: pointer;
+                    position: absolute;
+                    right: 6px;
+                    top: 20px;
+
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+
+            .left {
+                float: left;
+                width: 200px;
+            }
+
+            .right {
+                float: right;
+                width: 570px;
+
+                div {
+                    display: inline-block;
+                    box-sizing: border-box;
+
+                    .select-room {
+                        width: 69%;
+
+                        select {
+                            width: 95%;
+                        }
+                    }
+
+                    .rooms {
+                        width: 30%;
+
+                        input {
+                            width: 88%;
+                        }
+                    }
+
+                    .date {
+                        width: 49%;
+
+                        input {
+                            width: 95%;
+                        }
+                    }
+                }
+            }
+        }
+
+        & > button {
+            float: right;
+            margin-top: 15px;
+            width: 100px;
+            height: 30px;
+            color: #fff;
+            background-color: #32A2E4;
+            border: 0;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    }
+}

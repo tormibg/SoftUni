@@ -1,0 +1,95 @@
+﻿body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px;
+
+    #wrapper {
+        width: 960px;
+        margin: 0px auto;
+
+        header {
+            background: url('../img/header-bg.png');
+
+            h3 {
+                float: left;
+                color: #575e5b;
+                text-transform: uppercase;
+                margin-left: 15px;
+            }
+
+            & > div {
+                content: "";
+                display: block;
+                zoom: 1;
+                clear: both;
+            }
+
+            nav, input {
+                float: right;
+            }
+
+            nav {
+                margin: 20px 5px;
+
+                a {
+                    color: #3333ff;
+                    text-decoration: none;
+                    margin: 0px 10px;
+
+                    &:hover {
+                        color: #0000aa;
+                    }
+                }
+            }
+
+            .search-bar {
+                background-color: black;
+                height: 40px;
+                color: #B1C7C2;
+                padding: 5px;
+
+                a {
+                    color: #c6c6c6;
+                    text-decoration: none;
+                    line-height: 40px;
+
+                    &:first-child {
+                        margin-left: 5px;
+                    }
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+
+                input {
+                    margin: 9px 10px 0px 0px;
+                    border-radius: 15px;
+                    background-color: black;
+                    color: #B1C7C2;
+                    padding-left: 8px;
+                    border: solid 1px #B1C7C2;
+                    width: 160px;
+
+                    &:focus {
+                        outline: #2648fd solid 2px;
+                    }
+                }
+            }
+        }
+
+        section {
+            padding: 20px;
+            text-align: justify;
+            border: 1px dotted #eeeeee;
+            color: #575e5b;
+
+            h1 {
+                color: #575e5b;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}

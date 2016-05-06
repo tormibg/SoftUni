@@ -1,0 +1,19 @@
+<table>
+    <thead>
+    <td>{{nameHeader}}</td>
+    <td>{{ageHeader}}</td>
+    <td>{{countryHeader}}</td>
+    </thead>
+    {{#success}}
+    {{#students}}
+    <tr>
+        <td>{{_fullName}}</td>
+        <td>{{_age}}</td>
+        <td>{{_country}}</td>
+    </tr>
+    {{/students}}
+    {{/success}}
+</table>
+<a href="#/logOut">
+    <button id="logOut">LogOut</button>
+</a>

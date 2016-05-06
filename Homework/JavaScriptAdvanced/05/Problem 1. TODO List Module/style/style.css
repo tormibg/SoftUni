@@ -1,0 +1,56 @@
+﻿body {
+}
+
+#wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+button {
+    margin: 5px;
+}
+
+#insideWrapper {
+    padding: 5px;
+    margin: 15px 0px;
+    border: 1px solid black;
+}
+
+    #insideWrapper h2 {
+        text-align: right;
+        margin: 0;
+    }
+
+    #insideWrapper button,
+    #insideWrapper input[id='itemName'] {
+        position: relative;
+        left: 280px;
+        margin: 5px;
+    }
+
+    #insideWrapper .listItems {
+        border: 1px solid black;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+        #insideWrapper .listItems > div {
+            margin: 3px 0;
+        }
+
+        #insideWrapper .listItems div label {
+            display: inline-block;
+            border-bottom: 1px solid black;
+            width: 95%;
+        }
+
+        #insideWrapper .listItems div input[type='checkbox']:checked + label {
+            background-color: lightgreen;
+        }

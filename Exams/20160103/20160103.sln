@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem01-Art-Galery", "Problem01-Art-Galery\", "{2F61E533-CCCF-4CC1-AA0C-232BC2ECC3FF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51908"
+		Debug.AspNetCompiler.PhysicalPath = "Problem01-Art-Galery\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51908\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51908"
+		Release.AspNetCompiler.PhysicalPath = "Problem01-Art-Galery\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51908\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51908"
+		SlnRelativePath = "Problem01-Art-Galery\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem02-Blues-Page", "Problem02-Blues-Page\", "{2ACFAA5D-4B41-4E64-A3FD-00EE0398A68E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52656"
+		Debug.AspNetCompiler.PhysicalPath = "Problem02-Blues-Page\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52656\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52656"
+		Release.AspNetCompiler.PhysicalPath = "Problem02-Blues-Page\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52656\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52656"
+		SlnRelativePath = "Problem02-Blues-Page\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem04-The-Mandarin-Bird", "Problem04-The-Mandarin-Bird\", "{471FDF24-4586-41CE-8CFB-071530B76855}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53518"
+		Debug.AspNetCompiler.PhysicalPath = "Problem04-The-Mandarin-Bird\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53518\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53518"
+		Release.AspNetCompiler.PhysicalPath = "Problem04-The-Mandarin-Bird\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53518\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53518"
+		SlnRelativePath = "Problem04-The-Mandarin-Bird\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem03-Extreme-Reservation", "Problem03-Extreme-Reservation\", "{CEDD5436-D54E-4F2B-A488-8F5B24407253}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53881"
+		Debug.AspNetCompiler.PhysicalPath = "Problem03-Extreme-Reservation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53881\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53881"
+		Release.AspNetCompiler.PhysicalPath = "Problem03-Extreme-Reservation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53881\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53881"
+		SlnRelativePath = "Problem03-Extreme-Reservation\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F61E533-CCCF-4CC1-AA0C-232BC2ECC3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F61E533-CCCF-4CC1-AA0C-232BC2ECC3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACFAA5D-4B41-4E64-A3FD-00EE0398A68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACFAA5D-4B41-4E64-A3FD-00EE0398A68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471FDF24-4586-41CE-8CFB-071530B76855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471FDF24-4586-41CE-8CFB-071530B76855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDD5436-D54E-4F2B-A488-8F5B24407253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDD5436-D54E-4F2B-A488-8F5B24407253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

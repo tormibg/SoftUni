@@ -1,0 +1,10 @@
+{
+  "name": "Problem03GoshkoTheRabbit",
+  "version": "0.0.0",
+  "description": "Problem03GoshkoTheRabbit",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Skeleton", "8. Advanced-JavaScript-Exam-IMDb\Skeleton\", "{A373BA97-C70E-49C7-8151-AE7B97F584DE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58742"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\SoftUni\Preparation\JavaScriptAdvanced\8. Advanced-JavaScript-Exam-IMDb\Skeleton\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58742\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58742"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\SoftUni\Preparation\JavaScriptAdvanced\8. Advanced-JavaScript-Exam-IMDb\Skeleton\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58742\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58742"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Skeleton(1)", "Advanced-JS-Sample-Exam-Amazon\Skeleton\", "{CCFDC8EE-B626-4D75-ADA8-8D8F9A17BED3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64815"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\SoftUni\Preparation\JavaScriptAdvanced\Advanced-JS-Sample-Exam-Amazon\Skeleton\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64815\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64815"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\SoftUni\Preparation\JavaScriptAdvanced\Advanced-JS-Sample-Exam-Amazon\Skeleton\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64815\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64815"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A373BA97-C70E-49C7-8151-AE7B97F584DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A373BA97-C70E-49C7-8151-AE7B97F584DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFDC8EE-B626-4D75-ADA8-8D8F9A17BED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFDC8EE-B626-4D75-ADA8-8D8F9A17BED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem01.WebinarRegistrationForm", "Problem01.WebinarRegistrationForm\", "{9420DF35-11A5-465A-8579-B3BD12C157D6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49267"
+		Debug.AspNetCompiler.PhysicalPath = "Problem01.WebinarRegistrationForm\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49267\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49267"
+		Release.AspNetCompiler.PhysicalPath = "Problem01.WebinarRegistrationForm\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49267\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49267"
+		SlnRelativePath = "Problem01.WebinarRegistrationForm\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem02.EmailOnlyField", "Problem02.EmailOnlyField\", "{73CA2DDD-EDE1-4A7E-8D8F-546FD287686D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49933"
+		Debug.AspNetCompiler.PhysicalPath = "Problem02.EmailOnlyField\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49933\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49933"
+		Release.AspNetCompiler.PhysicalPath = "Problem02.EmailOnlyField\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49933\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49933"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem03.CreateAParagraphGeneratorFunction", "Problem03.CreateAParagraphGeneratorFunction\", "{776EAAAC-96DB-4849-9D54-B351BA9BCA1C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58919"
+		Debug.AspNetCompiler.PhysicalPath = "Problem03.CreateAParagraphGeneratorFunction\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58919\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58919"
+		Release.AspNetCompiler.PhysicalPath = "Problem03.CreateAParagraphGeneratorFunction\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58919\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58919"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Problem04.CreateHTMLGeneratorObject", "Problem04.CreateHTMLGeneratorObject\", "{2B8A0B6C-01DC-48CB-A143-67648CB28BEA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58950"
+		Debug.AspNetCompiler.PhysicalPath = "Problem04.CreateHTMLGeneratorObject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58950\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58950"
+		Release.AspNetCompiler.PhysicalPath = "Problem04.CreateHTMLGeneratorObject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58950\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58950"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9420DF35-11A5-465A-8579-B3BD12C157D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9420DF35-11A5-465A-8579-B3BD12C157D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CA2DDD-EDE1-4A7E-8D8F-546FD287686D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CA2DDD-EDE1-4A7E-8D8F-546FD287686D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776EAAAC-96DB-4849-9D54-B351BA9BCA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776EAAAC-96DB-4849-9D54-B351BA9BCA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8A0B6C-01DC-48CB-A143-67648CB28BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8A0B6C-01DC-48CB-A143-67648CB28BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

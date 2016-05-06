@@ -1,0 +1,10 @@
+{
+  "name": "Problem01.Group-People",
+  "version": "0.0.0",
+  "description": "Problem01.Group People",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

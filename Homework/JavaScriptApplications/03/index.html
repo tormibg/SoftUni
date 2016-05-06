@@ -1,0 +1,35 @@
+<!--With a huge help : https://raw.githubusercontent.com/TzvetanIG/JavaScript-App/master/BaaS-and-Parse.com/data-base-functions.js-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Overview</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="lib/jquery.js"></script>
+    <script src="lib/Q.js"></script>
+</head>
+<body>
+<div id="countriesID">
+    <h3>Countries</h3>
+    <input id="countryName" type="text" placeholder="ADD new country or EDIT it">
+    <button id="saveCountryButton" title="Save country">Save</button>
+    <button id="editCountryButton" title="Edit selected country">Edit</button>
+    <br/>
+    <select id="countries"></select>
+    <button id="removeCountryButton" title="Remove selected country">Remove</button>
+</div>
+<div>
+    <input id="townName" type="text" placeholder="ADD town">
+    <button id="saveTownButton" title="Save town">Save</button>
+</div>
+<table id="townList">
+    <tr>
+        <th>Town</th>
+    </tr>
+</table>
+<script src="js/requester.js"></script>
+<script src="js/userRequester.js"></script>
+<script src="js/collectionRequest.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

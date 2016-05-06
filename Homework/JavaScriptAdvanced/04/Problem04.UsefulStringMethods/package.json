@@ -1,0 +1,10 @@
+{
+  "name": "Problem04.UsefulStringMethods",
+  "version": "0.0.0",
+  "description": "Problem04.UsefulStringMethods",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

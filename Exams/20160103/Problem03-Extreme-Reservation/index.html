@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Extreme-Reservation</title>
+    <meta charset="utf-8" />
+    <!--<link href="style/reset.css" rel="stylesheet" type="text/css" />-->
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="Resources/Images/paraglider-icon.png" />Paragliding</a></li>
+                    <li><a href="#"><img src="Resources/Images/sky-diver.png" />Skydiving</a></li>
+                    <li><a href="#"><img src="Resources/Images/climbing.png" />Climbing</a></li>
+                    <li><a href="#"><img src="Resources/Images/about-us.png" /> About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <fieldset>
+            <legend>
+                Personal Info
+            </legend>
+            <input type="text" placeholder="Enter your full name" />
+            <input type="email" placeholder="Enter a valid e-mail" />
+            <input type="text" placeholder="Enter a phone number" />
+        </fieldset>
+        <fieldset>
+            <legend>Flight Info</legend>
+            <label>Are flying for first time?</label>
+            <input type="radio" name="flying" value="Yes">Yes
+            <input type="radio" name="flying" value="No">No
+            <label>Choose Destination</label>
+            <select>
+                <option value="dobrostan">dobrostan</option>
+                <option value="vitosha">Vitosha</option>
+                <option value="alpi">Alpi</option>
+            </select>
+            <label>Choose Date</label>
+            <input type="date" />
+        </fieldset>
+    </main>
+</body>
+</html>

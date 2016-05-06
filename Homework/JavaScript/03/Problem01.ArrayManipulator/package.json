@@ -1,0 +1,10 @@
+{
+  "name": "Problem01.ArrayManipulator",
+  "version": "0.0.0",
+  "description": "Problem01.ArrayManipulator",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

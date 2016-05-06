@@ -1,0 +1,10 @@
+{
+  "name": "Problem04.SortedList",
+  "version": "0.0.0",
+  "description": "Problem04.SortedList",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

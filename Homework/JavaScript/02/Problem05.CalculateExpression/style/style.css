@@ -1,0 +1,32 @@
+﻿body {
+    width: 300px;
+    margin: 0 auto;
+}
+
+    body main {
+        margin: 0 auto;
+    }
+
+        body main input {
+            display: block;
+            margin: 0 auto;
+            box-sizing: border-box;
+            height: 40px;
+        }
+
+            body main input#inputL,
+            body main input#result {
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                background: blue;
+                color: orange;
+                font-weight: bold;
+                padding-left: 20px;
+            }
+
+            body main input#button {
+                width: 50%;
+                background: none;
+                color: darkblue;
+            }

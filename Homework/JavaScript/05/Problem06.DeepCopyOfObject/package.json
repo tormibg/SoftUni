@@ -1,0 +1,10 @@
+{
+  "name": "Problem06.DeepCopyOfObject",
+  "version": "0.0.0",
+  "description": "Problem06.DeepCopyOfObject",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

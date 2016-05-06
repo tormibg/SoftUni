@@ -1,0 +1,10 @@
+{
+  "name": "Problem04.Course-GradeScaling",
+  "version": "0.0.0",
+  "description": "Problem04.Course GradeScaling",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

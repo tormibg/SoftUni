@@ -1,0 +1,91 @@
+﻿@font-face {
+  font-family: Glyphs;
+  src: url("../03.LoginForm-Resources/glyphicons-halflings-regular.ttf"); }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-image: url("../03.LoginForm-Resources/background.png")*/ }
+  body main {
+    width: 750px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: #333333; }
+    body main > header {
+      width: 705px;
+      margin: 20px auto 10px auto; }
+      body main > header h1 {
+        font-family: Lobster, sans-serif;
+        background-color: #679966;
+        color: #D7E5EE;
+        text-align: center; }
+    body main section.left,
+    body main section.right {
+      width: 350px;
+      height: 215px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 22px;
+      box-sizing: border-box; }
+    body main .left article {
+      height: 50%; }
+    body main .left .fire {
+      border-bottom: 1px solid #EEEEEE; }
+      body main .left .fire:before {
+        font-family: Glyphs, sans-serif;
+        content: "\e104";
+        display: block;
+        margin: 10px 0 0 40%;
+        font-size: 4em;
+        color: #D7E5EE; }
+    body main .left .menu ul {
+      text-align: center; }
+      body main .left .menu ul li {
+        margin-top: 7px;
+        color: #D7E5EE; }
+        body main .left .menu ul li a {
+          text-decoration: none;
+          color: #D7E5EE; }
+        body main .left .menu ul li:before {
+          font-family: Glyphs, sans-serif;
+          content: "\e089";
+          margin-right: 5px; }
+    body main .right header h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #D7E5EE;
+      font-size: 1rem; }
+    body main .right form input {
+      display: inline-block;
+      width: 78%;
+      margin-top: 20px;
+      height: 20px; }
+    body main .right form label:before {
+      font-family: Glyphs, sans-serif;
+      background-color: #679966;
+      display: inline-block;
+      width: 30px;
+      height: 23px;
+      margin-left: 20px;
+      vertical-align: middle;
+      line-height: 30px;
+      position: relative;
+      top: -1px;
+      text-align: center;
+      font-size: 0.8rem; }
+    body main .right form label[for="username"]:before {
+      content: "\e008"; }
+    body main .right form label[for="country"]:before {
+      content: "\e135"; }
+    body main .right form input[type=submit] {
+      margin-left: 20px;
+      width: 307px;
+      border-radius: 2px;
+      background-color: #232323;
+      border: none;
+      color: #D7E5EE;
+      cursor: pointer; }
+
+section.right form input:focus {
+  outline: 1px solid #66AFE9;
+  /*border: 1px solid #66AFE9;*/ }
+

@@ -1,0 +1,10 @@
+﻿{
+  "name": "Problem01.Don-tRelyOnChance",
+  "version": "0.0.0",
+  "description": "Problem01.Don’tRelyOnChance",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Problem02.CallandApply",
+  "version": "0.0.0",
+  "description": "Problem02.CallandApply",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

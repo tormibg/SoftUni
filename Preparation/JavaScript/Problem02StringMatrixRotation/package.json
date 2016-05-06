@@ -1,0 +1,10 @@
+{
+  "name": "Problem02StringMatrixRotation",
+  "version": "0.0.0",
+  "description": "Problem02StringMatrixRotation",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

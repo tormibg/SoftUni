@@ -1,0 +1,113 @@
+﻿
+@media all and (max-width:959px ) {
+
+
+    header h1 {
+        width: 20%;
+    }
+
+    header nav[role="navigation"] {
+        width: 80%;
+    }
+
+    header nav li {
+        width: 20%;
+    }
+
+    #content {
+        margin: 0 5px 0 0;
+        width: 70%;
+    }
+
+        #content .postinfo li {
+            width: 29%;
+        }
+
+    #sidebar {
+        width: 26%;
+        float: left;
+        padding: 4px 0 0 0;
+    }
+
+        #sidebar #categories {
+            width: 100%;
+            margin: 0 0 47px 0;
+        }
+
+        #sidebar #social {
+            width: 100%;
+        }
+}
+
+@media all and (max-width:759px ) {
+    #content {
+        width: 100%;
+    }
+
+    #sidebar {
+        width: 100%;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+    header nav[role="navigation"] {
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    header nav li {
+        margin: 10px 0;
+    }
+
+    #sidebar #categories {
+        width: 30%;
+    }
+
+    #sidebar #social {
+        width: 27%;
+    }
+
+    #sidebar #latest {
+        display: inline-block;
+    }
+
+    #sidebar #search {
+        clear: both;
+        width: 100%;
+    }
+
+        #sidebar #search #searchbar {
+            width: 90%;
+        }
+}
+
+@media all and (max-width:539px ) {
+    header nav li {
+        width: 32%;
+    }
+
+    #container > header > nav > ul > li:nth-child(3) {
+        clear: both;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    #content .postinfo li {
+        width: 40%;
+    }
+
+    #sidebar #categories {
+        width: 40%;
+    }
+
+    #sidebar #social {
+        width: 40%;
+    }
+
+    #sidebar #latest {
+        width: 100%;
+    }
+}

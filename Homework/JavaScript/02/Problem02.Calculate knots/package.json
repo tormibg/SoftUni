@@ -1,0 +1,10 @@
+{
+  "name": "Problem02.Calculate-knots",
+  "version": "0.0.0",
+  "description": "Problem02.Calculate knots",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

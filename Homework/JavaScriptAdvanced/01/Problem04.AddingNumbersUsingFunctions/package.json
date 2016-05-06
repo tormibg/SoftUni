@@ -1,0 +1,10 @@
+{
+  "name": "Problem04.AddingNumbersUsingFunctions",
+  "version": "0.0.0",
+  "description": "Problem04.AddingNumbersUsingFunctions",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

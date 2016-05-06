@@ -1,0 +1,102 @@
+﻿@font-face {
+    src: url('../Resources/Vollkorn-Regular.ttf');
+    font-family: Vollkorn;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+
+    #wrapper {
+        font: 16px Tahoma, sans-serif;
+        width: 1000px;
+        margin: 0px auto;
+
+        header, p {
+            font-family: Vollkorn, serif;
+            color: #9da6af;
+
+            h1 {
+                font-size: 40px;
+                margin: 0px;
+                text-align: center;
+            }
+
+            h3 {
+                font-size: 30px;
+                margin: 0px;
+                text-align: center;
+                font-weight: normal;
+                padding: 35px 0px;
+            }
+        }
+
+        .pricing {
+            float: left;
+            width: 320px;
+            height: 500px;
+            background-color: #f6f7f9;
+            margin-right: 20px;
+            position: relative;
+
+            &:last-of-type {
+                margin: 0px;
+            }
+
+            .pricing-content {
+                p {
+                    font-size: 60px;
+                    margin: 5px 0px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                ul {
+                    list-style-type: none;
+                    padding: 0px;
+
+                    li {
+                        color: #9da6af;
+                        text-align: center;
+                        height: 40px;
+                        border-bottom: 1px solid #F1F2F4;
+                        box-sizing: border-box;
+                        padding: 8px;
+                    }
+                }
+            }
+
+            header {
+                background-color: #ebeff2;
+            }
+
+            button {
+                position: absolute;
+                bottom: 0px;
+                width: 260px;
+                background-color: #CAD5D9;
+                color: #fff;
+                border: 0px;
+                height: 50px;
+                margin-bottom: 15px;
+                left: 30px;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #65D3E2;
+                }
+            }
+
+            &:hover > header,
+            &:hover > button {
+                color: #fff;
+                background-color: #65D3E2;
+            }
+
+            &:hover > .pricing-content > p {
+                color: #65D3E2;
+            }
+        }
+    }
+}

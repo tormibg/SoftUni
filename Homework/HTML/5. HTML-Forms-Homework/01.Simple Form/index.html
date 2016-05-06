@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01.Simple Form</title>
+    <link href="style/SimpleForm.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Enter the system</h1>
+            <p>It is necessary to login in Your account in order to sign in for a course</p>
+        </header>
+        <main>
+            <form action="/" method="post" class="form-register">
+                <fieldset>
+                    <label>are you new? <span class="darkblue">register</span> </label>
+                    <input name="user-name" type="text" placeholder="User Name" required="required" title="Choose name" />
+                    <input name="user-email" type="text" placeholder="Email" required="required" title="Enter your email" />
+                    <input name="user-pass" type="password" placeholder="Password" required="required" title="Choose password, use A..z O..9 , 4-12 symbols"
+                        pattern="[A-z0-9]{4-12}"/>
+                    <input name="user-conf-pass" type="password" placeholder="Confirm Password" required="required" title="ReEnter password, use A..z O..9 , 4-12 symbols"
+                           pattern="[A-z0-9]{4-12}"/>
+                    <input type="submit" class="submit-button" value="Register"/>
+                </fieldset>
+            </form>
+            <form action="/" method="post" class="form-login">
+                <fieldset>
+                    <label>already a student? login</label>
+                    <input name="user-name" type="text" placeholder="User name" pattern="\w{6,15}" title="Username should be between 6 and 15 characters" required="required"/>
+                    <input name="user=pass" type="password" placeholder="Password" required="required" />
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="remember" id="remember" />
+                            </td>
+                            <td>
+                                <label for="remember">Remember me?</label>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" class="login-button" value="Login" />
+                </fieldset>
+                <div id="forgot-pass"><a href="#">Forgot Password</a></div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

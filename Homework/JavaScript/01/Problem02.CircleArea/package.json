@@ -1,0 +1,10 @@
+{
+  "name": "Problem02.CircleArea",
+  "version": "0.0.0",
+  "description": "Problem02.CircleArea",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

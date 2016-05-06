@@ -1,0 +1,10 @@
+{
+  "name": "Problem02TheNumbers",
+  "version": "0.0.0",
+  "description": "Problem02TheNumbers",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

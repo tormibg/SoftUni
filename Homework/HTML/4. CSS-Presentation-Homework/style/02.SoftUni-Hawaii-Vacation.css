@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Animated;
+    src: url("../resources/Animated.ttf");
+}
+
+main{
+    width: 900px;
+    height: 600px;
+    background: #0067DB;
+    background: radial-gradient(circle at 20% 20%, #FFF 0%, #F9F9E5 0%, #F9F8CF 10%, #007DDB 34%) no-repeat top;
+}
+
+main>div>span{
+    display: inline-block;
+    font-family: Animated;
+    color: #FDBC21;
+    font-size: 3em;
+    margin: 20px 20px;
+}
+
+#cartoon{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    background: url("../resources/TediHula.png") no-repeat 35% 97%,
+        url("../resources/AlexHula.png") no-repeat 74% 90%,
+        url("../resources/PetiaHula.png") no-repeat 27% 88%,
+        url("../resources/VladoGHula.png") no-repeat 6% 92%,
+        url("../resources/NakovHula.png") no-repeat 59% 81%,
+        url("../resources/VladoKHula.png") no-repeat 97% 93%,
+        url(../resources/HawaiiBackground.png) no-repeat 0% 0%;
+
+}
+

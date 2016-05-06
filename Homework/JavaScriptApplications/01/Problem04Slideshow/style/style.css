@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#slideShowWindow{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftArrow{
+    margin-top: 260px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../pictures/arrow/left.png);
+    opacity: 0.4;
+    vertical-align: middle;
+}
+
+#rightArrow{
+    margin-top: 260px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../pictures/arrow/right.jpg);
+    opacity: 0.4;
+}

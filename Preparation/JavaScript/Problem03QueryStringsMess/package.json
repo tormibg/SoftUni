@@ -1,0 +1,10 @@
+{
+  "name": "Problem03QueryStringsMess",
+  "version": "0.0.0",
+  "description": "Problem03QueryStringsMess",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

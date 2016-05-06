@@ -1,0 +1,10 @@
+{
+  "name": "Problem01.FunctionArguments",
+  "version": "0.0.0",
+  "description": "Problem01.FunctionArguments",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

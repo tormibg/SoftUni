@@ -1,0 +1,220 @@
+﻿@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://fonts.gstatic.com/s/ubuntu/v8/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(http://fonts.gstatic.com/s/ubuntu/v8/_xyN3apAT_yRRDeqB3sPRg.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url(http://fonts.gstatic.com/s/ubuntu/v8/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+
+body, #wrapper, h1, h2, h3, h4, h5, div, p {
+  padding: 0px;
+  margin: 0px; }
+
+header:before, header:after {
+  content: "";
+  height: 100%; }
+
+body {
+  font: 13px 'Myriad Pro'; }
+  body #wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0px 10px; }
+    body #wrapper > header {
+      position: relative;
+      color: #fff;
+      padding-bottom: 15px; }
+      body #wrapper > header:before {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f4c84+0,4c9996+100,4c9996+100 */
+        background: #4f4c84;
+        /* Old browsers */
+        background: -moz-linear-gradient(45deg, #4f4c84 0%, #4c9996 100%, #4c9996 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg, #4f4c84 0%, #4c9996 100%, #4c9996 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(45deg, #4f4c84 0%, #4c9996 100%, #4c9996 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4c84', endColorstr='#4c9996',GradientType=1 );
+        /* IE6-9 fallback on horizontal gradient */
+        position: absolute;
+        width: 100vw;
+        left: calc(-50vw + 550px);
+        z-index: -1; }
+      body #wrapper > header .logo-and-nav {
+        border-bottom: 1px solid #607EA9; }
+        body #wrapper > header .logo-and-nav:after {
+          content: "";
+          clear: both;
+          display: block;
+          height: 0px;
+          zoom: 1; }
+        body #wrapper > header .logo-and-nav h4 {
+          font-weight: 300;
+          float: left;
+          margin: 13px; }
+        body #wrapper > header .logo-and-nav nav {
+          font: 13px 'Ubuntu';
+          float: right; }
+          body #wrapper > header .logo-and-nav nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 5px 10px; }
+            body #wrapper > header .logo-and-nav nav ul li a {
+              color: #fff;
+              text-decoration: none;
+              text-transform: uppercase; }
+              body #wrapper > header .logo-and-nav nav ul li a:hover {
+                color: #57EFFF; }
+      body #wrapper > header .logo-and-slogan {
+        text-align: center; }
+        body #wrapper > header .logo-and-slogan .header {
+          font-family: Ubuntu;
+          font-weight: bold; }
+          body #wrapper > header .logo-and-slogan .header h1 {
+            color: #57EFFF;
+            font-size: 54px;
+            margin-top: 20px;
+            letter-spacing: 15px; }
+          body #wrapper > header .logo-and-slogan .header p {
+            font-size: 16px;
+            margin-top: -10px;
+            letter-spacing: 3px; }
+        body #wrapper > header .logo-and-slogan p.slogan {
+          font: 60px Ubuntu;
+          margin-top: 40px; }
+        body #wrapper > header .logo-and-slogan .get-started {
+          margin: 20px;
+          margin-top: 40px; }
+          body #wrapper > header .logo-and-slogan .get-started a {
+            border: 2px solid #fff;
+            padding: 15px 35px;
+            color: #fff;
+            text-decoration: none;
+            font: 24px Ubuntu; }
+        body #wrapper > header .logo-and-slogan .have-something {
+          margin: 20px;
+          margin-top: 40px; }
+          body #wrapper > header .logo-and-slogan .have-something a {
+            color: #fff;
+            font: 16px 'Myriad Pro';
+            letter-spacing: 2px;
+            font-weight: bold;
+            text-decoration: none;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #98acc8; }
+            body #wrapper > header .logo-and-slogan .have-something a:hover {
+              color: #57EFFF;
+              border-bottom-color: #57EFFF; }
+    body #wrapper main {
+      text-align: center; }
+      body #wrapper main header h3 {
+        font: 28px Ubuntu;
+        text-transform: uppercase;
+        color: #6C7982;
+        letter-spacing: 2px;
+        margin: 25px 0px; }
+      body #wrapper main .services {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        body #wrapper main .services .options .logo {
+          background: url("../Resources/02-Icons-Sprite.png") -10px 0px; }
+        body #wrapper main .services .interface .logo {
+          background: url("../Resources/02-Icons-Sprite.png") -176px 0px; }
+        body #wrapper main .services .documentation .logo {
+          background: url("../Resources/02-Icons-Sprite.png") 140px 0px; }
+        body #wrapper main .services > div {
+          width: 295px;
+          color: #6C7982; }
+          body #wrapper main .services > div .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto; }
+          body #wrapper main .services > div h5 {
+            font: 20px Ubuntu;
+            margin: 15px 0px; }
+          body #wrapper main .services > div p {
+            margin-bottom: 15px; }
+          body #wrapper main .services > div a {
+            text-decoration: none;
+            color: #57EFFF; }
+      body #wrapper main .work-together {
+        position: relative;
+        height: 60px;
+        margin-top: 40px;
+        color: #fff;
+        font: 20px Ubunto;
+        text-transform: uppercase; }
+        body #wrapper main .work-together p {
+          line-height: 60px;
+          letter-spacing: 2px; }
+        body #wrapper main .work-together:after, body #wrapper main .work-together:before {
+          content: "";
+          height: 100%; }
+        body #wrapper main .work-together:before {
+          background-color: #FF7978;
+          position: absolute;
+          width: 100vw;
+          left: calc(-50vw + 550px);
+          z-index: -1; }
+      body #wrapper main .work-better div {
+        width: 498px;
+        display: inline-block;
+        background-color: #F7F8FA;
+        margin: 20px;
+        color: #6C7982;
+        text-align: left; }
+        body #wrapper main .work-better div h5 {
+          font: 20px Ubuntu;
+          margin: 15px 0px; }
+        body #wrapper main .work-better div:after {
+          content: "";
+          clear: both;
+          display: block;
+          height: 0px;
+          zoom: 1; }
+        body #wrapper main .work-better div img {
+          float: left;
+          padding-right: 20px; }
+      body #wrapper main .so-our-clients-say div p {
+        font: 16px 'Myriad Pro';
+        font-weight: bold;
+        color: #6C7982;
+        width: 730px;
+        margin: 15px auto; }
+      body #wrapper main .so-our-clients-say div a {
+        text-decoration: none;
+        color: #57EFFF; }
+    body #wrapper footer {
+      position: relative;
+      height: 50px;
+      margin-top: 20px; }
+      body #wrapper footer:before, body #wrapper footer:after {
+        content: "";
+        height: 100%; }
+      body #wrapper footer:before {
+        position: absolute;
+        width: 100vw;
+        left: calc(-50vw + 550px);
+        z-index: -1;
+        background-color: #282E3C; }
+      body #wrapper footer p {
+        color: #5D7786;
+        font: 12px 'Myriad Pro';
+        line-height: 50px;
+        padding: 0px 30px; }
+      body #wrapper footer .design {
+        float: left; }
+      body #wrapper footer .copy {
+        float: right; }
+

@@ -1,0 +1,10 @@
+{
+  "name": "Problem03.ReplaceATag",
+  "version": "0.0.0",
+  "description": "Problem03.ReplaceATag",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

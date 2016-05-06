@@ -1,0 +1,10 @@
+{
+  "name": "Problem01DaggersAndSwords",
+  "version": "0.0.0",
+  "description": "Problem01DaggersAndSwords",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

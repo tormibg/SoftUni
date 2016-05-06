@@ -1,0 +1,111 @@
+﻿@font-face {
+  font-family: RicksAmericanNF;
+  src: url("../Resources/Fonts/RicksAmericanNF.ttf"); }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 960px;
+  /*border: 1px solid white;*/
+  color: #FFAC00;
+  background-color: #000000; }
+  body > header {
+    font-family: RicksAmericanNF;
+    color: #FFAC00;
+    text-align: center; }
+    body > header h1 {
+      font-size: 60px;
+      text-transform: uppercase;
+      letter-spacing: 18px;
+      margin: 10px;
+      text-shadow: 0px 0px #FFAC00; }
+    body > header nav {
+      margin: 15px 10px; }
+      body > header nav ul li {
+        display: inline-block;
+        width: 23%;
+        padding: 10px 0; }
+        body > header nav ul li:hover {
+          background-color: #FFA300;
+          border-radius: 50px; }
+        body > header nav ul li:hover > a {
+          color: #000000; }
+        body > header nav ul li a {
+          width: 100%;
+          font-size: 30px;
+          text-decoration: none;
+          color: #FFAC00;
+          text-transform: uppercase; }
+  body main {
+    background-color: #3C3C3C;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px; }
+    body main section {
+      display: inline-block;
+      width: 60%;
+      margin-left: 30px;
+      padding: 0; }
+      body main section article h3 {
+        width: 100%;
+        font-size: 23px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        margin-left: -10px; }
+      body main section article img {
+        width: 47%;
+        float: left;
+        margin-right: 10px; }
+      body main section article p {
+        width: 47%;
+        text-align: justify;
+        float: left; }
+      body main section article:after {
+        content: "";
+        clear: both;
+        display: block;
+        height: 0px;
+        zoom: 1; }
+    body main aside {
+      width: 35%;
+      float: right; }
+      body main aside article {
+        border: 1px solid #FFAC00;
+        width: 85%;
+        margin-top: 20px;
+        border-radius: 8px; }
+        body main aside article a.hovertext {
+          position: relative;
+          width: 100%;
+          text-decoration: none !important;
+          text-align: center; }
+          body main aside article a.hovertext img {
+            width: 100%;
+            border-radius: 8px; }
+        body main aside article a.hovertext:after {
+          content: attr(title);
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          padding: 5px 20px;
+          width: 86%;
+          background: rgba(0, 0, 0, 0.8);
+          text-decoration: none !important;
+          opacity: 0.8;
+          color: #FFAC00;
+          font-weight: bold;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -o-transition: 0.5s;
+          -ms-transition: 0.5s;
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px; }
+  body > header nav ul li:hover > a.hovertext:after {
+    color: #000000;
+    opacity: 1; }
+  body footer {
+    text-align: center;
+    padding-top: 20px; }
+

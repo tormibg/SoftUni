@@ -1,0 +1,10 @@
+{
+  "name": "Problem01TheTetevenTrip",
+  "version": "0.0.0",
+  "description": "Problem01TheTetevenTrip",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

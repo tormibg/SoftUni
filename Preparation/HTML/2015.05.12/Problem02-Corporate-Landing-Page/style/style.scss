@@ -1,0 +1,336 @@
+﻿@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v8/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v8/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v8/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@mixin reset($zoom) {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0px;
+    zoom: $zoom;
+}
+
+
+body, #wrapper, h1, h2, h3, h4, h5, div, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+header:before, header:after {
+    content: "";
+    height: 100%;
+}
+
+body {
+    font: 13px 'Myriad Pro';
+
+    #wrapper {
+        width: 1100px;
+        margin: 0 auto;
+        padding:  0px 10px;
+
+        & > header {
+            position: relative;
+            color: #fff;
+            padding-bottom: 15px;
+
+            &:before {
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f4c84+0,4c9996+100,4c9996+100 */
+                background: #4f4c84; /* Old browsers */
+                background: -moz-linear-gradient(45deg, #4f4c84 0%, #4c9996 100%, #4c9996 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(45deg, #4f4c84 0%,#4c9996 100%,#4c9996 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(45deg, #4f4c84 0%,#4c9996 100%,#4c9996 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4c84', endColorstr='#4c9996',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                position: absolute;
+                width: 100vw;
+                left: calc(-50vw + 550px);
+                z-index: -1;
+            }
+
+            .logo-and-nav {
+                border-bottom: 1px solid #607EA9;
+
+                &:after {
+                    @include reset(1);
+                }
+
+                h4 {
+                    font-weight: 300;
+                    float: left;
+                    margin: 13px;
+                }
+
+                nav {
+                    font: 13px 'Ubuntu';
+                    float: right;
+
+                    ul {
+                        li {
+                            list-style-type: none;
+                            display: inline-block;
+                            margin: 5px 10px;
+
+                            a {
+                                color: #fff;
+                                text-decoration: none;
+                                text-transform: uppercase;
+
+                                &:hover {
+                                    color: #57EFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .logo-and-slogan {
+                text-align: center;
+
+                .header {
+                    font-family: Ubuntu;
+                    font-weight: bold;
+
+
+                    h1 {
+                        color: #57EFFF;
+                        font-size: 54px;
+                        margin-top: 20px;
+                        letter-spacing: 15px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        margin-top: -10px;
+                        letter-spacing: 3px;
+                    }
+                }
+
+                p.slogan {
+                    font: 60px Ubuntu;
+                    margin-top: 40px;
+                }
+
+                .get-started {
+                    margin: 20px;
+                    margin-top: 40px;
+
+                    a {
+                        border: 2px solid #fff;
+                        padding: 15px 35px;
+                        color: #fff;
+                        text-decoration: none;
+                        font: 24px Ubuntu;
+                    }
+                }
+
+                .have-something {
+                    margin: 20px;
+                    margin-top: 40px;
+
+                    a {
+                        color: #fff;
+                        font: 16px 'Myriad Pro';
+                        letter-spacing: 2px;
+                        font-weight: bold;
+                        text-decoration: none;
+                        padding-bottom: 5px;
+                        border-bottom: 1px solid #98acc8;
+
+                        &:hover {
+                            color: #57EFFF;
+                            border-bottom-color: #57EFFF;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+            text-align: center;
+
+            header {
+                h3 {
+                    font: 28px Ubuntu;
+                    text-transform: uppercase;
+                    color: #6C7982;
+                    letter-spacing: 2px;
+                    margin: 25px 0px;
+                }
+            }
+
+            .services {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                .options {
+                    .logo {
+                        background: url('../Resources/02-Icons-Sprite.png') -10px 0px;
+                    }
+                }
+
+                .interface {
+                    .logo {
+                        background: url('../Resources/02-Icons-Sprite.png') -176px 0px;
+                    }
+                }
+
+                .documentation {
+                    .logo {
+                        background: url('../Resources/02-Icons-Sprite.png') 140px 0px;
+                    }
+                }
+
+                & > div {
+                    width: 295px;
+                    color: #6C7982;
+
+                    .logo {
+                        width: 120px;
+                        height: 120px;
+                        margin: 0 auto;
+                    }
+
+
+                    h5 {
+                        font: 20px Ubuntu;
+                        margin: 15px 0px;
+                    }
+
+                    p {
+                        margin-bottom: 15px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #57EFFF;
+                    }
+                }
+            }
+
+            .work-together {
+                position: relative;
+                height: 60px;
+                margin-top: 40px;
+                color: #fff;
+                font: 20px Ubunto;
+                text-transform: uppercase;
+
+                p {
+                    line-height: 60px;
+                    letter-spacing: 2px;
+                }
+
+                &:after, &:before {
+                    content: "";
+                    height: 100%;
+                }
+
+                &:before {
+                    background-color: #FF7978;
+                    position: absolute;
+                    width: 100vw;
+                    left: calc(-50vw + 550px);
+                    z-index: -1;
+                }
+            }
+
+            .work-better {
+                div {
+                    width: 498px;
+                    display: inline-block;
+                    background-color: #F7F8FA;
+                    margin: 20px;
+                    color: #6C7982;
+                    text-align: left;
+
+                    h5 {
+                        font: 20px Ubuntu;
+                        margin: 15px 0px;
+                    }
+
+                    &:after {
+                        @include reset(1);
+                    }
+
+                    img {
+                        float: left;
+                        padding-right: 20px;
+                    }
+                }
+            }
+
+            .so-our-clients-say {
+                header {
+                    h3 {
+                    }
+                }
+
+                div {
+                    p {
+                        font: 16px 'Myriad Pro';
+                        font-weight: bold;
+                        color: #6C7982;
+                        width: 730px;
+                        margin: 15px auto;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #57EFFF;
+                    }
+                }
+            }
+        }
+
+        footer {
+            position: relative;
+            height: 50px;
+            margin-top: 20px;
+
+            &:before, &:after {
+                content: "";
+                height: 100%;
+            }
+
+            &:before {
+                position: absolute;
+                width: 100vw;
+                left: calc(-50vw + 550px);
+                z-index: -1;
+                background-color: #282E3C;
+            }
+            
+            p {
+                color: #5D7786;
+                font: 12px 'Myriad Pro';
+                line-height: 50px;
+                padding: 0px 30px;
+            }
+            .design{
+                float: left;
+            }
+            .copy{
+                float: right;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Problem02X-Remove",
+  "version": "0.0.0",
+  "description": "Problem02X-Remove",
+  "main": "app.js",
+  "author": {
+    "name": "gery",
+    "email": ""
+  }
+}

@@ -1,0 +1,19 @@
+<table>
+    <thead>
+    <td>{{nameHeader}}</td>
+    <td>{{jobTitleHeader}}</td>
+    <td>{{websiteHeader}}</td>
+    </thead>
+    {{#success}}
+    {{#workers}}
+    <tr>
+        <td>{{_name}}</td>
+        <td>{{_jobTitle}}</td>
+        <td>{{_website}}</td>
+    </tr>
+    {{/workers}}
+    {{/success}}
+</table>
+<a href="#/logOut">
+    <button id="logOut">LogOut</button>
+</a>

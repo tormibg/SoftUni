@@ -1,0 +1,9 @@
+﻿body input#radius {
+    width: 30px;
+    height: 30px;
+}
+
+body input#result {
+    width: 200px;
+    height: 30px;
+}
