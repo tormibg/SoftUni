@@ -10,6 +10,8 @@
     "angular-route": "~1.4.0",
     "bootstrap": "^3.3.6",
     "toastr": "^2.1.2",
-    "angular-ui-notification": "^0.2.0"
+    "angular-ui-notification": "^0.2.0",
+    "angularLocalStorage": "ngStorage#^0.3.2",
+    "ngstorage": "ng-storage#^0.4.2"
   }
 }

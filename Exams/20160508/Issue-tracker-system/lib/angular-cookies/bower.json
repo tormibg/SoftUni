@@ -1,8 +1,8 @@
 {
-  "name": "angular-mocks",
+  "name": "angular-cookies",
   "version": "1.4.10",
   "license": "MIT",
-  "main": "./angular-mocks.js",
+  "main": "./angular-cookies.js",
   "ignore": [],
   "dependencies": {
     "angular": "1.4.10"

@@ -1,4 +1,4 @@
-angular.module('issueTracker.controllers', ['issueTracker.services'])
+angular.module('issueTracker.controllers', ['issueTracker.services', 'ui-notification'])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/', {
             templateUrl: 'app/views/home.html',
@@ -8,12 +8,22 @@ angular.module('issueTracker.controllers', ['issueTracker.services'])
     .controller('HomeController', [
         '$scope',
         'authentication',
-        function ($scope, authentication) {
+        'Notification',
+        function ($scope, authentication, Notification) {
             $scope.login = function (userData) {
-                authentication.loginUser(userData)
+                authentication.loginUser(userData).then(
+                    function success(data){
+                        authentication.getUser(data, data.access_token).then(
+                            function success(responseData){
+                                authentication.loggedUser(responseData);
+                                Notification.success('User successfully logged in');
+                            }
+                        );
+                    }
+                )
             };
 
             $scope.register = function (userData) {
-                authentication.registeruser(userData);
+                authentication.registerUser(userData);
             };
         }]);
