@@ -6,7 +6,8 @@ angular.module('issueTracker', [
         'issueTracker.controllers.DashboardController',
         'issueTracker.controllers.ProjectController',
         'ngStorage',
-        'ui.bootstrap.pagination'
+        'ui.bootstrap.pagination',
+        'ngResource'
     ])
 
     .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider, $localStorage) {
@@ -46,7 +47,6 @@ angular.module('issueTracker', [
 
     .constant('BASE_URL', 'http://softuni-issue-tracker.azurewebsites.net/')
     .constant('toastr', toastr)
-    .constant('PRJ_PARAM', {pageNumber: 1, pageSize: 6})
 
     .run(['$rootScope', '$location', '$route', '$http', 'authentication', '$localStorage', function ($rootScope, $location, $route, $http, authentication, $localStorage) {
         $rootScope.$on('$locationChangeStart', function (event) {

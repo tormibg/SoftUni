@@ -13,6 +13,10 @@
             </td>
         </tr>
         </tbody>
+        <uib-pagination ng-if="allProjetcs.TotalPages > 1" total-items="allProjetcs.TotalPages" ng-model="prjParams.pageNumber"
+                        items-per-page="prjParams.pageSize" ng-change="reloadProjects()"
+                        max-size="9" boundary-links="true" template-url="app/views/pagination.html">
+        </uib-pagination>
     </table>
 
     <div ng-if="myProjetcs.TotalCount === 0">

@@ -5,10 +5,10 @@ angular.module('issueTracker.services.projects', [])
         '$http',
         '$q',
         'BASE_URL',
-        'PRJ_PARAM',
-        function ($http, $q, BASE_URL, PRJ_PARAM) {
+        '$resource',
+        function ($http, $q, BASE_URL, $resource) {
 
-            function getProjectById(id) {
+            function getProjectById(params,id) {
                 var deferred = $q.defer();
                 var filter = '';
                 if (id) {
@@ -18,7 +18,7 @@ angular.module('issueTracker.services.projects', [])
                 console.log(id);*/
                 var requestData = {
                     method: 'GET',
-                    url: BASE_URL + 'projects/'
+                    url: BASE_URL + 'projects?filter=' + filter + '&pageSize='+ params.pageSize + '&pageNumber=' + params.pageNumber
                 };
                 //url: BASE_URL + 'projects?filter=' + filter + '&pageSize='+ PRJ_PARAM.pageSize + '&pageNumber=' + PRJ_PARAM.pageNumber
                 /*console.log(param.pageNumber);

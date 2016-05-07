@@ -8,19 +8,25 @@ angular.module('issueTracker.controllers.ProjectController', ['issueTracker.serv
         });
     }])
 
+
     .controller('ProjectController', [
         '$scope',
         'projects',
         function ($scope, projects) {
-            projects.getProjects().then(
-                function success(data) {
+
+            $scope.prjParams = {
+                'pageNumber': 1,
+                'pageSize': 5
+            };
+
+            $scope.reloadProjects = function(){
+                projects.getProjects($scope.prjParams).then(
+                function success(data){
                     console.log(data);
                     $scope.allProjetcs = data;
-                }
-            );
-
-            $scope.allProjetcsParams = {
-                pageNumber: 1,
-                pageSize: 8
+                })
             };
+
+            $scope.reloadProjects();
+
         }]);

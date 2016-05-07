@@ -7,11 +7,16 @@ angular.module('issueTracker.controllers.DashboardController', ['issueTracker.se
         'projects',
         function ($scope, identity, projects) {
 
+            $scope.prjParams = {
+                'pageNumber': 1,
+                'pageSize': 5
+            };
+
             reloadProject();
 
             function reloadProject() {
                 var userId = identity.getCurrentUser();
-                projects.getProjects(userId).then(
+                projects.getProjects($scope.prjParams, userId).then(
                     function success(data){
                         $scope.myProjetcs = data;
                         /*console.log($scope.myProjetcs)*/
