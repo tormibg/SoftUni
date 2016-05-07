@@ -13,18 +13,18 @@
             </td>
         </tr>
         </tbody>
-        <uib-pagination ng-if="myProjetcs.TotalPages > 1" total-items="myProjetcs.TotalPages" ng-model="prjParams.pageNumber"
-                        items-per-page="prjParams.pageSize" ng-change="reloadProject()"
-                        max-size="9" boundary-links="true" template-url="app/views/pagination.html">
-        </uib-pagination>
     </table>
+    <uib-pagination ng-if="myProjetcs.TotalPages > 1" total-items="myProjetcs.TotalPages" ng-model="prjParams.pageNumber"
+                    items-per-page="prjParams.pageSize" ng-change="reloadProject()"
+                    max-size="9" boundary-links="true" template-url="app/views/pagination.html">
+    </uib-pagination>
 
     <div ng-if="myProjetcs.TotalCount === 0">
         <h3>No data !</h3>
     </div>
 </div>
 <div class="jumbotron row col-md-7 col-md-offset-1">
-    <h2 class="title">Title</h2>
+    <h2 class="title">Issues</h2>
     <table class="table table-striped table-hover" ng-if="myIssues.TotalCount > 0">
         <thead>
         <tr>
@@ -50,11 +50,11 @@
             </td>
         </tr>
         </tbody>
-        <uib-pagination ng-if="myIssues.TotalPages > 1" total-items="myIssues.TotalPages" ng-model="issParams.pageNumber"
-                        items-per-page="issParams.pageSize" ng-change="reloadIssue()"
-                        max-size="9" boundary-links="true" template-url="app/views/pagination.html">
-        </uib-pagination>
     </table>
+    <uib-pagination ng-if="myIssues.TotalPages > 1" total-items="myIssues.TotalPages" ng-model="issParams.pageNumber"
+                    items-per-page="issParams.pageSize" ng-change="reloadIssue()"
+                    max-size="9" boundary-links="true" template-url="app/views/pagination.html">
+    </uib-pagination>
 
     <div ng-if="myIssues.TotalCount === 0">
         <h3>No data !</h3>

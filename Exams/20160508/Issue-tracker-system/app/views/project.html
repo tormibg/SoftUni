@@ -1,0 +1,60 @@
+<div class="jumbotron col-md-12 project-and-issue">
+    <h2 class="title">Project Info</h2>
+    <label class="col-md-1">Name:</label>
+    <input class="col-md-4" disabled value="{{project.Name}}">
+    <label class="col-md-1">Project Key:</label>
+    <input class="col-md-2" disabled value="{{project.ProjectKey}}">
+    <label class="col-md-1">Lead name:</label>
+    <input class="col-md-3" disabled value="{{project.Lead.Username}}">
+    <br/>
+    <br/>
+    <div>
+        <label class="col-md-1">Priorities:</label>
+        <span ng-repeat="priority in project.Priorities">{{priority.Name}}<span ng-if="!$last">, </span></span>
+    </div>
+    <br/>
+    <div>
+        <label class="col-md-1">Labels:</label>
+        <span ng-repeat="labels in project.Labels">{{labels.Name}}<span ng-if="!$last">, </span></span>
+    </div>
+
+    <br/>
+    <br/>
+    <label class="col-md-1">Description:</label>
+    <textarea class="col-md-12 largeTxt" rows="5" disabled>{{project.Description}}</textarea>
+</div>
+
+<div class="jumbotron col-md-12 project-and-issue">
+    <h2 class="title">Issue Info</h2>
+    <table ng-cloak class="table table-striped table-hover" ng-if="allIssuesByPrjId.length > 0" rows="10    ">
+        <thead>
+        <tr>
+            <th class="increased col-md-2">Title</th>
+            <th class="increased col-md-7">Description</th>
+            <th class="increased col-md-2">Project</th>
+            <th class="increased col-md-1">Due Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="obj in paggedIssues">
+            <td>
+                <a href="#/issues/{{obj.Id}}">{{obj.Title}}</a>
+            </td>
+            <td>
+                {{obj.Description}}
+            </td>
+            <td>
+                <a href="#/projects/{{obj.Project.Id}}">{{obj.Project.Name}}</a>
+            </td>
+            <td>
+                {{obj.DueDate}}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <uib-pagination ng-if="allIssuesByPrjId.length > 0" total-items="allIssuesByPrjId.length"
+                    ng-model="issParams.pageNumber"
+                    items-per-page="issParams.pageSize" ng-change="reloadIssues()"
+                    max-size="9" boundary-links="true" template-url="app/views/pagination.html">
+    </uib-pagination>
+</div>

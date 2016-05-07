@@ -25,8 +25,27 @@ angular.module('issueTracker.services.issue', [])
 
             }
 
+            function getIssuesByProjectId(params, id){
+                var deferred = $q.defer();
+
+                var requestData = {
+                    method: 'GET',
+                    url: BASE_URL + 'projects/' + id + '/issues?pageSize=' + params.pageSize + '&pageNumber=' + params.pageNumber
+                };
+
+
+                $http(requestData)
+                    .then(function success(response) {
+                        deferred.resolve(response.data);
+                    });
+
+                return deferred.promise;
+
+            }
+
             return {
-                getMyIssue: getMyIssue
+                getMyIssue: getMyIssue,
+                getIssuesByProjectId: getIssuesByProjectId
             }
         }]);
 

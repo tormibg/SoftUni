@@ -34,3 +34,7 @@ body {
   content: "";
   padding: 0;
 }
+
+.project-and-issue {
+  padding-top: 5px;
+}

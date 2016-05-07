@@ -5,6 +5,7 @@ angular.module('issueTracker', [
         'issueTracker.controllers.HomeController',
         'issueTracker.controllers.DashboardController',
         'issueTracker.controllers.ProjectController',
+        'issueTracker.controllers.ProjectIdController',
         'ngStorage',
         'ui.bootstrap.pagination',
         'ngResource'

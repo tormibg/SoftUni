@@ -8,7 +8,7 @@ angular.module('issueTracker.services.projects', [])
         '$resource',
         function ($http, $q, BASE_URL, $resource) {
 
-            function getProjectById(params,id) {
+            function getProjects(params,id) {
                 var deferred = $q.defer();
                 var filter = '';
                 if (id) {
@@ -33,8 +33,24 @@ angular.module('issueTracker.services.projects', [])
 
             }
 
+            function getProjectById(id) {
+                var deferred = $q.defer();
+                var requestData = {
+                    method: 'GET',
+                    url: BASE_URL + 'projects/' + id
+                };
+
+                $http(requestData)
+                    .then(function success(response) {
+                        deferred.resolve(response.data);
+                    });
+
+                return deferred.promise;
+            }
+
             return {
-                getProjects: getProjectById
+                getProjects: getProjects,
+                getProjectById: getProjectById
             }
         }]);
 
