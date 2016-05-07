@@ -1,5 +1,5 @@
-<div class="jumbotron row col-lg-3">
-    <h2 class="title">Dashboard</h2>
+<div class="jumbotron row col-md-4">
+    <h2 class="title">Projects</h2>
     <table class="table table-striped table-hover" ng-if="myProjetcs.TotalCount > 0">
         <thead>
         <tr>
@@ -9,17 +9,54 @@
         <tbody>
         <tr ng-repeat="obj in myProjetcs.Projects">
             <td>
-                <a href="#/{{obj.Id}}">{{obj.Name}}</a>
+                <a href="#/projects/{{obj.Id}}">{{obj.Name}}</a>
             </td>
         </tr>
         </tbody>
-        <uib-pagination ng-if="allProjetcs.TotalPages > 1" total-items="allProjetcs.TotalPages" ng-model="prjParams.pageNumber"
-                        items-per-page="prjParams.pageSize" ng-change="reloadProjects()"
+        <uib-pagination ng-if="myProjetcs.TotalPages > 1" total-items="myProjetcs.TotalPages" ng-model="prjParams.pageNumber"
+                        items-per-page="prjParams.pageSize" ng-change="reloadProject()"
                         max-size="9" boundary-links="true" template-url="app/views/pagination.html">
         </uib-pagination>
     </table>
 
     <div ng-if="myProjetcs.TotalCount === 0">
+        <h3>No data !</h3>
+    </div>
+</div>
+<div class="jumbotron row col-md-7 col-md-offset-1">
+    <h2 class="title">Title</h2>
+    <table class="table table-striped table-hover" ng-if="myIssues.TotalCount > 0">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Project</th>
+            <th>Due Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="obj in myIssues.Issues">
+            <td>
+                <a href="#/issues/{{obj.Id}}">{{obj.Title}}</a>
+            </td>
+            <td>
+                {{obj.Description}}
+            </td>
+            <td>
+                <a href="#/projects/{{obj.Project.Id}}">{{obj.Project.Name}}</a>
+            </td>
+            <td>
+                {{obj.DueDate}}
+            </td>
+        </tr>
+        </tbody>
+        <uib-pagination ng-if="myIssues.TotalPages > 1" total-items="myIssues.TotalPages" ng-model="issParams.pageNumber"
+                        items-per-page="issParams.pageSize" ng-change="reloadIssue()"
+                        max-size="9" boundary-links="true" template-url="app/views/pagination.html">
+        </uib-pagination>
+    </table>
+
+    <div ng-if="myIssues.TotalCount === 0">
         <h3>No data !</h3>
     </div>
 </div>
