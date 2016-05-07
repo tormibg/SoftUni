@@ -1,71 +1,75 @@
-<div class="col-lg-6">
-    <div class="well bs-component">
-        <form class="form-horizontal" name="loginForm">
-            <fieldset>
-                <legend class="text-center">Login</legend>
-                <div class="form-group">
-                    <label for="log-username" class="col-lg-2 control-label">Username:</label>
-                    <div class="col-lg-10">
-                        <input type="text" class="form-control" id="log-username" placeholder="UserName"
-                               required="required" ng-model="userData.username">
+<div class="row" ng-if="!isAuthenticated()">
+    <div class="col-lg-6">
+        <div class="well bs-component">
+            <form class="form-horizontal" name="loginForm">
+                <fieldset>
+                    <legend class="text-center">Login</legend>
+                    <div class="form-group">
+                        <label for="log-username" class="col-lg-2 control-label">Email:</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="log-username" placeholder="Email"
+                                   required="required" ng-model="userData.username">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-                    <div class="col-lg-10">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Password"
-                               required="required" ng-model="userData.password">
-                    </div>
-                <div class="form-group loginBtn">
-                    <div class="col-lg-10 col-lg-offset-2">
-                        <button type="reset" class="btn btn-default">Cancel</button>
-                        <button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid"
-                                ng-click="login(userData)">Login
-                        </button>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-lg-2 control-label">Password:</label>
+                        <div class="col-lg-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password"
+                                   required="required" ng-model="userData.password">
+                        </div>
+                        <div class="form-group loginBtn">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="reset" class="btn btn-default">Cancel</button>
+                                <button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid"
+                                        ng-click="login(userData)">Login
+                                </button>
+                            </div>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
     </div>
-</div>
 
-<div class="col-lg-6">
-    <div class="well bs-component">
-        <form class="form-horizontal" name="registerForm">
-            <fieldset>
-                <legend class="text-center">Register</legend>
-                <div class="form-group">
-                    <label for="reg-username" class="col-lg-2 control-label">Username:</label>
-                    <div class="col-lg-10">
-                        <input type="text" class="form-control" id="reg-username" placeholder="UserName"
-                               required="required" ng-model="registerData.username">
+    <div class="col-lg-6">
+        <div class="well bs-component">
+            <form class="form-horizontal" name="registerForm">
+                <fieldset>
+                    <legend class="text-center">Register</legend>
+                    <div class="form-group">
+                        <label for="reg-username" class="col-lg-2 control-label">Email:</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="reg-username" placeholder="Email"
+                                   required="required" ng-model="registerData.Email">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="reg-password" class="col-lg-2 control-label">Password</label>
-                    <div class="col-lg-10">
-                        <input min-length="6" max-length="100" type="password" class="form-control" id="reg-password"
-                               placeholder="Password" required="required" ng-model="registerData.password">
+                    <div class="form-group">
+                        <label for="reg-password" class="col-lg-2 control-label">Password:</label>
+                        <div class="col-lg-10">
+                            <input min-length="6" max-length="100" type="password" class="form-control"
+                                   id="reg-password"
+                                   placeholder="Password" required="required" ng-model="registerData.Password">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="reg-confirm-password" class="col-lg-2 control-label">Password</label>
-                    <div class="col-lg-10">
-                        <input min-length="6" max-length="100" type="password" class="form-control"
-                               id="reg-confirm-password"
-                               placeholder="ConfirmPassword" required="required"
-                               ng-model="registerData.confirmPassword">
+                    <div class="form-group">
+                        <label for="reg-confirm-password" class="col-lg-2 control-label">Confirm Password:</label>
+                        <div class="col-lg-10">
+                            <input min-length="6" max-length="100" type="password" class="form-control"
+                                   id="reg-confirm-password"
+                                   placeholder="ConfirmPassword" required="required"
+                                   ng-model="registerData.confirmPassword">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-lg-10 col-lg-offset-2">
-                        <button type="reset" class="btn btn-default">Cancel</button>
-                        <button type="submit" class="btn btn-primary"
-                                ng-disabled="registerForm.$invalid || registerData.password != registerData.confirmPassword"
-                                ng-click="register(registerData)">Register
+                    <div class="form-group">
+                        <div class="col-lg-10 col-lg-offset-2">
+                            <button type="reset" class="btn btn-default">Cancel</button>
+                            <button type="submit" class="btn btn-primary"
+                                    ng-disabled="registerForm.$invalid || registerData.Password != registerData.confirmPassword"
+                                    ng-click="register(registerData)">Register
+                        </div>
                     </div>
-                </div>
-            </fieldset>
-        </form>
+                </fieldset>
+            </form>
+        </div>
     </div>
 </div>
+<div ng-if="isAuthenticated()" data-ng-include="'app/views/dashboard.html'" ng-controller="DashboardController"></div>

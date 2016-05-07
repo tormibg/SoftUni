@@ -2,9 +2,14 @@
 
 angular.module('issueTracker', [
         'ngRoute',
-        'issueTracker.controllers'
+        'issueTracker.controllers.HomeController',
+        'issueTracker.controllers.DashboardController',
+        'issueTracker.controllers.ProjectController',
+        'ngStorage',
+        'ui.bootstrap.pagination'
     ])
-    .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider) {
+
+    .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider, $localStorage) {
 
         $routeProvider.otherwise({redirectTo: '/'});
 
@@ -14,8 +19,20 @@ angular.module('issueTracker', [
                     if (rejection.data && rejection.data['error_description']) {
                         toastr.error(rejection.data['error_description']);
                     }
-                    else if (rejection.data && rejection.data.modelState && rejection.data.modelState['']) {
-                        var errors = rejection.data.modelState[''];
+                    else if (rejection.data && rejection.data.ModelState && rejection.data.ModelState['']) {
+                        var errors = rejection.data.ModelState[''];
+                        if (errors.length > 0) {
+                            toastr.error(errors[0]);
+                        }
+                    }
+                    else if (rejection.data && rejection.data.ModelState && rejection.data.ModelState['model.Email']) {
+                        var errors = rejection.data.ModelState['model.Email'];
+                        if (errors.length > 0) {
+                            toastr.error(errors[0]);
+                        }
+                    }
+                    else if (rejection.data && rejection.data.ModelState && rejection.data.ModelState['model.Password']) {
+                        var errors = rejection.data.ModelState['model.Password'];
                         if (errors.length > 0) {
                             toastr.error(errors[0]);
                         }
@@ -24,8 +41,20 @@ angular.module('issueTracker', [
                     return $q.reject(rejection);
                 }
             }
-        }]);
+        }])
     }])
 
     .constant('BASE_URL', 'http://softuni-issue-tracker.azurewebsites.net/')
-    .constant('toastr', toastr);
+    .constant('toastr', toastr)
+    .constant('PRJ_PARAM', {pageNumber: 1, pageSize: 6})
+
+    .run(['$rootScope', '$location', '$route', '$http', 'authentication', '$localStorage', function ($rootScope, $location, $route, $http, authentication, $localStorage) {
+        $rootScope.$on('$locationChangeStart', function (event) {
+            if ($location.path() != "/" && !authentication.isAuthenticated()) {
+                $location.path("/");
+            }
+            if ($localStorage.logUser) {
+                $http.defaults.headers.common.Authorization = 'Bearer ' + $localStorage.logUser.access_token;
+            }
+        })
+    }]);

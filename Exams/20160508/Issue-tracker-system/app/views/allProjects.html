@@ -1,0 +1,36 @@
+<div class="jumbotron" ng-controller="ProjectController">
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Lead Name</th>
+            <th>Priorities</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="obj in allProjetcs.Projects">
+            <td>
+                {{obj.Id}}
+            </td>
+            <td>
+                <a href="#/{{obj.Id}}">{{obj.Name}}</a>
+            </td>
+            <td class="col-lg-4">
+                {{obj.Description | limitTo: 100: begin}}
+            </td>
+            <td>
+                {{obj.Lead.Username}}
+            </td>
+            <td>
+                <span ng-repeat="prior in obj.Priorities">{{prior.Name}}, </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <uib-pagination total-items="allProjetcs.TotalPages" ng-model="allProjetcsParams.pageNumber"
+                    items-per-page="allProjetcsParams.pageSize" ng-change="getProjects()"
+                    max-size="5" boundary-links="true" template-url="app/views/pagination.html">
+    </uib-pagination>
+</div>
