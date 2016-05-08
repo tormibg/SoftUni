@@ -16,6 +16,7 @@ angular.module('issueTracker', [
         'ui.bootstrap.modal',
         'ui.bootstrap.tpls',
         'ui.bootstrap.datepickerPopup',
+        'ui-notification',
         'ngResource'
     ])
 
@@ -64,13 +65,24 @@ angular.module('issueTracker', [
     .constant('BASE_URL', 'http://softuni-issue-tracker.azurewebsites.net/')
     .constant('toastr', toastr)
 
-    .run(['$rootScope', '$location', '$route', '$http', 'authentication', '$localStorage', function ($rootScope, $location, $route, $http, authentication, $localStorage) {
-        $rootScope.$on('$locationChangeStart', function (event) {
-            if ($location.path() != "/" && !authentication.isAuthenticated()) {
-                $location.path("/");
-            }
-            if ($localStorage.logUser) {
-                $http.defaults.headers.common.Authorization = 'Bearer ' + $localStorage.logUser.access_token;
-            }
-        })
-    }]);
+    .run([
+        '$rootScope',
+        '$location',
+        '$route',
+        '$http',
+        'authentication',
+        '$localStorage',
+        'Notification',
+        function ($rootScope, $location, $route, $http, authentication, $localStorage, Notification) {
+            $rootScope.$on('$locationChangeStart', function (event) {
+                if ($location.path() != "/" && !authentication.isAuthenticated()) {
+                    $location.path("/");
+                    Notification.error('Only registered and logged in users are allowed to view this site');
+                }
+                if ($localStorage.logUser) {
+                    $http.defaults.headers.common.Authorization = 'Bearer ' + $localStorage.logUser.access_token;
+                }
+            })
+
+        }]);
+

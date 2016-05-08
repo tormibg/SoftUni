@@ -56,6 +56,10 @@ angular.module('issueTracker.controllers.HomeController', ['issueTracker.service
                 return authentication.isAuthenticated();
             };
 
+            $scope.isAdmin = function () {
+                return identity.isUserAdmin();
+            };
+
             $scope.getCurrentUserName = function(){
                 return identity.getCurrentUserName();
             };
