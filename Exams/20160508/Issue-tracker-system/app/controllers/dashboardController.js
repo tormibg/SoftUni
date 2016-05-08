@@ -18,6 +18,8 @@ angular.module('issueTracker.controllers.DashboardController', ['issueTracker.se
                 'pageSize': 5
             };
 
+            $scope.getCurrentUserName = 'TUKA';
+
             $scope.reloadDashboard = function () {
                 reloadProject();
                 reloadIssue();

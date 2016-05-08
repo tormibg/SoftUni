@@ -1,0 +1,43 @@
+<div class="modal-header">
+    <h2 class="modal-title">Edit Profile</h2>
+</div>
+<div class="modal-body others-color">
+    <form name="editProfileForm">
+        <div>{{UserData.userName}}</div>
+
+        <label class="formLabel" for="title">Name:</label>
+
+        <div class="input-group">
+            <input type="text" id="title" ng-model="UserData.userName" disabled
+                   value="{{UserData.userName}}"/>
+        </div>
+
+        <label class="formLabel" for="oldPassword">Old Password:</label>
+
+        <div class="input-group">
+            <input min-length="6" max-length="100" type="password" id="oldPassword" ng-model="newUserData.OldPassword" required/>
+        </div>
+
+        <label class="formLabel" for="newPassword">New Password:</label>
+
+        <div class="input-group">
+            <input min-length="6" max-length="100" type="password" id="newPassword" ng-model="newUserData.NewPassword" required/>
+        </div>
+
+        <label class="formLabel" for="confirmPassword">Confirm Password:</label>
+
+        <div class="input-group">
+            <input type="password" id="confirmPassword"
+                   ng-model="newUserData.ConfirmPassword"
+                   required/>
+        </div>
+
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button"
+            ng-disabled="editProfileForm.$invalid || newUserData.Password != newUserData.confirmPassword"
+            ng-click="changePassword(newUserData)">Change Password
+    </button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

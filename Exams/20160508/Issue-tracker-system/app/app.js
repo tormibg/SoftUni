@@ -10,6 +10,7 @@ angular.module('issueTracker', [
         'issueTracker.controllers.AddIssueController',
         'issueTracker.controllers.EditPrjController',
         'issueTracker.controllers.EditIssueController',
+        'issueTracker.controllers.ProfileController',
         'ngStorage',
         'ui.bootstrap.pagination',
         'ui.bootstrap.modal',

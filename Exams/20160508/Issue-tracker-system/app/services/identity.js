@@ -7,6 +7,7 @@ angular.module('issueTracker.services.identity', ['ngStorage'])
         'BASE_URL',
         '$localStorage',
         function ($http, $q, BASE_URL, $localStorage) {
+
             function getUser(user, token) {
                 user = user || $localStorage.logUser;
                 token = token || $localStorage.logUser.access_token;
@@ -28,13 +29,23 @@ angular.module('issueTracker.services.identity', ['ngStorage'])
                 return $localStorage.logUser.Id;
             }
 
+            function getCurrentUserName() {
+                return $localStorage.logUser.userName;
+            }
+
             function isUserAdmin() {
                 return $localStorage.logUser.isAdmin;
+            }
+
+            function getCurrentUserData(){
+                return $localStorage.logUser;
             }
 
             return {
                 getUser: getUser,
                 getCurrentUser: getCurrentUser,
-                isUserAdmin: isUserAdmin
+                isUserAdmin: isUserAdmin,
+                getCurrentUserName: getCurrentUserName,
+                getCurrentUserData: getCurrentUserData
             }
         }]);

@@ -56,6 +56,10 @@ angular.module('issueTracker.controllers.HomeController', ['issueTracker.service
                 return authentication.isAuthenticated();
             };
 
+            $scope.getCurrentUserName = function(){
+                return identity.getCurrentUserName();
+            };
+
             $scope.logout = function () {
                 authentication.logoutUser().then(
                     function success(response) {

@@ -49,30 +49,42 @@ angular.module('issueTracker.services', ['ngStorage'])
                 var requestData = {
                     method: 'POST',
                     url: BASE_URL + 'api/Account/Logout',
-                    headers:{'Authorization': 'Bearer ' + token}
+                    headers: {'Authorization': 'Bearer ' + token}
                 };
 
                 $http(requestData)
-                    .then(function success(response){
+                    .then(function success(response) {
                         $http.defaults.headers.common.Authorization = undefined;
                         deferred.resolve(response);
                     });
 
                 /*$http.post(BASE_URL + 'api/Account/Logout', {
-                    headers: {
-                        Authorization: 'Bearer ' + token
-                    }
-                })
-                    .then(function success(response) {
-                        deferred.resolve(response)
-                    });*/
+                 headers: {
+                 Authorization: 'Bearer ' + token
+                 }
+                 })
+                 .then(function success(response) {
+                 deferred.resolve(response)
+                 });*/
 
                 return deferred.promise;
             }
 
-            function  deleteLoggedUser() {
+            function deleteLoggedUser() {
                 $localStorage.$reset();
             }
+
+            function changePassword(data) {
+                var deferred = $q.defer();
+
+                $http.post(BASE_URL + 'api/Account/ChangePassword', data)
+                    .then(function success(response) {
+                            deferred.resolve(response.data);
+                        }
+                    );
+                return deferred.promise;
+            }
+
 
             return {
                 loginUser: loginUser,
@@ -81,6 +93,7 @@ angular.module('issueTracker.services', ['ngStorage'])
                 isAuthenticated: isAuthenticated,
                 logoutUser: logoutUser,
                 deleteLoggedUser: deleteLoggedUser,
-                preserveUserData: preserveUserData
+                preserveUserData: preserveUserData,
+                changePassword: changePassword
             }
         }]);
