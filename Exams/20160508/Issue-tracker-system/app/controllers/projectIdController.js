@@ -43,7 +43,11 @@ angular.module('issueTracker.controllers.ProjectIdController', [
             function getIsuesByProjectId() {
                 issue.getIssuesByProjectId($scope.issParams, id).then(
                     function success(data) {
-                        $scope.allIssuesByPrjId = data;
+                        $scope.allIssuesByPrjIdOrig = data;
+                        $scope.myIssues = data.filter(function (el) {
+                            return el.Assignee.Id === identity.getCurrentUser();
+                        });
+                        $scope.allIssuesByPrjId = $scope.myIssues;
                         changePage();
                     }
                 )
@@ -65,6 +69,21 @@ angular.module('issueTracker.controllers.ProjectIdController', [
                 }
                 $scope.paggedIssues = $scope.allIssuesByPrjId.slice(start, end);
             }
+
+            $scope.currentVal = "my";
+
+            $scope.onChangeFilter = function(val){
+
+                if(val==="my"){
+                    $scope.allIssuesByPrjId = $scope.myIssues;
+                }
+                if(val==="all"){
+                    $scope.allIssuesByPrjId = $scope.allIssuesByPrjIdOrig;
+                }
+
+                $scope.reloadIssues();
+            };
+
 
             getProjectById();
             getIsuesByProjectId();

@@ -30,7 +30,12 @@
 </div>
 
 <div class="jumbotron col-md-12 project-and-issue">
-    <h2 class="title">Issue Info</h2>
+    <h2 class="title col-md-2">Issue Info</h2>
+    <label class="col-md-2">Filter:</label>
+    <select class="col-md-3 others-color" ng-change="onChangeFilter(currentVal)" ng-model="currentVal">
+        <option value="my">My Issues</option>
+        <option value="all">All</option>
+    </select>
     <table ng-cloak class="table table-striped table-hover" ng-if="allIssuesByPrjId.length > 0" rows="10    ">
         <thead>
         <tr>
