@@ -1,0 +1,36 @@
+<div class="modal-header">
+    <h2 class="modal-title">Edit Project</h2>
+</div>
+<div class="modal-body others-color">
+    <form name="editProjectForm">
+        <!--<div>{{project}}</div>-->
+
+        <label class="formLabel">Lead:</label>
+        <select ng-required="true" ng-model="newProject.Lead"
+                ng-options="user as user.Username for user in users | orderBy: 'Username' track by user.Id"
+                class="col-md-12">
+        </select>
+
+        <label class="formLabel">Project key:</label>
+        <input ng-required="true" class="col-md-12" type="text" id="prjKey" ng-model="newProject.ProjectKey" value="{{newProject.ProjectKey}}"/>
+
+        <label class="formLabel">Priority:</label>
+        <input ng-required="true" class="col-md-12" type="text" id="priority" ng-model="newProject.Priorities" value="{{newProject.Priorities}}"/>
+
+        <label class="formLabel">Labels:</label>
+        <input ng-required="true" class="col-md-12" type="text" id="labels" ng-model="newProject.Labels" value="{{newProject.Labels}}"/>
+
+        <label class="formLabel" >Name:</label>
+        <input ng-required="true" class="col-md-12" type="text" id="title" ng-model="newProject.Name" value="{{newProject.Name}}"/>
+
+        <label class="formLabel" >Description:</label>
+            <textarea ng-required="true" class="col-md-12" id="description"
+                      ng-model="newProject.Description" rows="5">{{newProject.Description}}</textarea>
+
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="createProject()">Create Project
+    </button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

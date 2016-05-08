@@ -5,6 +5,7 @@ angular.module('issueTracker', [
         'issueTracker.controllers.HomeController',
         'issueTracker.controllers.DashboardController',
         'issueTracker.controllers.ProjectController',
+        'issueTracker.controllers.AddPrjController',
         'issueTracker.controllers.ProjectIdController',
         'issueTracker.controllers.IssueController',
         'issueTracker.controllers.AddIssueController',
