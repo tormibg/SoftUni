@@ -7,6 +7,13 @@ body {
     margin-top: 94px;
 }
 
+.overflow{
+    overflow: auto;
+    text-overflow: clip;
+    white-space: normal;
+}
+
+
 .menu {
     list-style: none;
     border-bottom: 0.1em solid black;

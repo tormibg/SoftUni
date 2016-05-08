@@ -57,6 +57,41 @@ angular.module('issueTracker.services.issue', [])
                 return deferred.promise;
             }
 
+            function getComments(id) {
+                var deferred = $q.defer();
+
+                var requestData = {
+                    method: 'GET',
+                    url: BASE_URL + 'issues/' + id + '/comments'
+                };
+
+                $http(requestData)
+                    .then(function success(response) {
+                        deferred.resolve(response.data);
+                    });
+
+                return deferred.promise;
+
+            }
+
+            function postComment(id, data) {
+                var deferred = $q.defer();
+
+                var requestData = {
+                    method: 'POST',
+                    url: BASE_URL + 'issues/' + id + '/comments',
+                    data: data
+                };
+
+                $http(requestData)
+                    .then(function success(response) {
+                        deferred.resolve(response.data);
+                    });
+
+                return deferred.promise;
+
+            }
+
             function addIssue(data) {
                 var deferred = $q.defer();
 
@@ -119,7 +154,9 @@ angular.module('issueTracker.services.issue', [])
                 getIssueById: getIssueById,
                 addIssue: addIssue,
                 changeStatus: changeStatus,
-                updateIssue: updateIssue
+                updateIssue: updateIssue,
+                getComments: getComments,
+                postComment: postComment
             }
         }]);
 

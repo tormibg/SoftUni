@@ -24,22 +24,25 @@ angular.module('issueTracker.controllers.IssueController', [
 
             var id = $routeParams['id'];
 
-            $scope.isAssignee = null;
-            $scope.isIssueAuthor = null;
+            $scope.comParams = {
+                'pageNumber': 1,
+                'pageSize': 5
+            };
+
+            $scope.isIssueAuthor = undefined;
             $scope.newStatusId = undefined;
             $scope.isPrLead = undefined;
+            $scope.commentText = undefined;
 
             function getIsueById() {
                 issue.getIssueById(id).then(
                     function success(data) {
-                        if (data.Assignee.Id === identity.getCurrentUser()) {
-                            $scope.isAssignee = true;
-                        }
                         if (data.Author.Id === identity.getCurrentUser()) {
                             $scope.isIssueAuthor = true;
                         }
+
                         $scope.issuesById = data;
-                       /* console.log($scope.issuesById)*/
+                        /* console.log($scope.issuesById)*/
                         projects.getProjectById($scope.issuesById.Project.Id).then(
                             function success(project) {
                                 $scope.priorities = project.Priorities;
@@ -54,6 +57,29 @@ angular.module('issueTracker.controllers.IssueController', [
                 )
             }
 
+            function getComments() {
+                $scope.commentText = '';
+                issue.getComments(id).then(
+                    function success(data) {
+                        $scope.comments = data;
+                        /*console.log(data);*/
+                        changePage();
+                    }
+                )
+            }
+
+            $scope.postComment = function () {
+                var data = {
+                    Text: $scope.commentText
+                };
+                issue.postComment(id, data).then(
+                    function success(data) {
+                        Notification.success('Comment posted successfully');
+                        getComments();
+                    })
+            };
+
+
             $scope.changeStatus = function () {
                 /*console.log($scope.newStatusId.Id);*/
                 issue.changeStatus($scope.issuesById.Id, $scope.newStatusId.Id).then(
@@ -63,5 +89,23 @@ angular.module('issueTracker.controllers.IssueController', [
                     })
             };
 
+            $scope.reloadComments = function () {
+                if (!$scope.comments) {
+                    getComments();
+                } else {
+                    changePage();
+                }
+            };
+
+            function changePage() {
+                var start = ($scope.comParams.pageNumber - 1) * $scope.comParams.pageSize;
+                var end = $scope.comParams.pageNumber * $scope.comParams.pageSize;
+                if (end > $scope.comments.length) {
+                    end = $scope.comments.length;
+                }
+                $scope.paggedComments = $scope.comments.slice(start, end);
+            }
+
             getIsueById();
+            getComments();
         }]);
