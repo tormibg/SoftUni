@@ -3,6 +3,7 @@
 angular.module('issueTracker.controllers.IssueController', [
         'issueTracker.services.issue',
         'issueTracker.services.identity',
+        'issueTracker.services.projects',
         'ui-notification'])
 
     .config(['$routeProvider', function ($routeProvider) {
@@ -18,13 +19,15 @@ angular.module('issueTracker.controllers.IssueController', [
         'issue',
         'identity',
         'Notification',
-        function ($scope, $routeParams, issue, identity, Notification) {
+        'projects',
+        function ($scope, $routeParams, issue, identity, Notification, projects) {
 
             var id = $routeParams['id'];
 
             $scope.isAssignee = null;
-            $scope.isPrjLeader = null;
+            $scope.isIssueAuthor = null;
             $scope.newStatusId = undefined;
+            $scope.isPrLead = undefined;
 
             function getIsueById() {
                 issue.getIssueById(id).then(
@@ -33,10 +36,20 @@ angular.module('issueTracker.controllers.IssueController', [
                             $scope.isAssignee = true;
                         }
                         if (data.Author.Id === identity.getCurrentUser()) {
-                            $scope.isPrjLeader = true;
+                            $scope.isIssueAuthor = true;
                         }
                         $scope.issuesById = data;
                        /* console.log($scope.issuesById)*/
+                        projects.getProjectById($scope.issuesById.Project.Id).then(
+                            function success(project) {
+                                $scope.priorities = project.Priorities;
+                                if (project.Lead.Id === identity.getCurrentUser()) {
+                                    $scope.isPrLead = true;
+                                }
+                                /*console.log(project);*/
+                                /*console.log(project.Priorities)*/
+                            }
+                        )
                     }
                 )
             }

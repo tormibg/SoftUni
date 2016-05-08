@@ -26,10 +26,11 @@ angular.module('issueTracker.controllers.EditIssueController', [
 
             var id = $routeParams['id'];
 
-            $scope.isAssignee = null;
-            $scope.isPrjLeader = null;
+            $scope.isAssignee = undefined;
+            $scope.isIssueAuthor = undefined;
             $scope.newStatusId = undefined;
             $scope.issuesById = {};
+            $scope.isPrLead = undefined;
 
             function getIsueById() {
                 issue.getIssueById(id).then(
@@ -38,7 +39,7 @@ angular.module('issueTracker.controllers.EditIssueController', [
                             $scope.isAssignee = true;
                         }
                         if (data.Author.Id === identity.getCurrentUser()) {
-                            $scope.isPrjLeader = true;
+                            $scope.isIssueAuthor = true;
                         }
                         $scope.issuesById = data;
                         $scope.currentDueDate = new Date(data.DueDate);
@@ -47,6 +48,10 @@ angular.module('issueTracker.controllers.EditIssueController', [
                         projects.getProjectById($scope.issuesById.Project.Id).then(
                             function success(project) {
                                 $scope.priorities = project.Priorities;
+                                if (project.Lead.Id === identity.getCurrentUser()) {
+                                    $scope.isPrLead = true;
+                                }
+                                /*console.log(project);*/
                                 /*console.log(project.Priorities)*/
                             }
                         )
@@ -55,14 +60,16 @@ angular.module('issueTracker.controllers.EditIssueController', [
             }
 
             $scope.saveIssue = function () {
+
                 var changedIssue = {
                     Title: $scope.issuesById.Title,
                     Description: $scope.issuesById.Description,
                     DueDate: $scope.currentDueDate,
                     PriorityId: $scope.issuesById.Priority.Id.toString(),
-                    AssigneeId: $scope.issuesById.Assignee.Id,
-                    Labels: $scope.issuesById.Labels
+                    Labels: $scope.issuesById.Labels,
+                    AssigneeId: $scope.issuesById.Assignee.Id
                 };
+
                 issue.updateIssue($scope.issuesById.Id, changedIssue).then(
                     function success(data) {
                         $scope.reloadIssue();

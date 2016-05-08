@@ -1,5 +1,5 @@
 <div class="jumbotron col-md-12 project-and-issue">
-    {{issuesById.priorities}}
+    <!--{{isPrLead}}-->
     <h2 class="title">Edit Issue:</h2>
     <div class="col-md-12">
         <label class="col-md-1">Name:</label>
@@ -10,7 +10,7 @@
         <!--<input class="col-md-3" value="{{issuesById.Assignee.Username}}">-->
         <select ng-model="issuesById.Assignee"
                 ng-options="user as user.Username for user in users | orderBy: 'Username' track by user.Id"
-                class="col-md-3 others-color">
+                class="col-md-3 others-color" >
         </select>
     </div>
     <br/>
@@ -66,7 +66,7 @@
     </div>
     <form name="test">
         <div class="col-md-12">
-            <a ng-disabled="isPrjLeader && !issuesById.priorities && !currentDueDate" class="btn btn-danger" ng-click="saveIssue()">Save Issue</a>
+            <a ng-if="isPrLead && currentDueDate && issuesById.priorities" class="btn btn-danger" ng-click="saveIssue()">Save Issue</a>
 
             <label ng-show="isAssignee && issuesById.AvailableStatuses.length > 0">Status :</label>
 

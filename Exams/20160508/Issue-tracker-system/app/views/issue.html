@@ -41,7 +41,7 @@
     </div>
     <form name="test">
         <div class="col-md-12">
-            <a ng-if="isPrjLeader" class="btn btn-danger" href="#/issues/{{issuesById.Id}}/edit">Edit Issue</a>
+            <a ng-if="isPrLead" class="btn btn-danger" href="#/issues/{{issuesById.Id}}/edit">Edit Issue</a>
 
             <label ng-if="isAssignee && issuesById.AvailableStatuses.length > 0">Status :</label>
 
