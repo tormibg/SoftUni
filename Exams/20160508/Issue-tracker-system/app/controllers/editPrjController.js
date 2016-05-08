@@ -12,18 +12,20 @@ angular.module('issueTracker.controllers.EditPrjController', [
         $routeProvider.when('/projects/:id/edit', {
             title: "Add Issue",
             resolve: {
+
                 showModal: ['$uibModal', '$route', function ($uibModal, $route) {
-                    var modalInstance = $uibModal.open({
-                        animation: true,
-                        templateUrl: 'app/views/edit-project.html',
-                        controller: 'EditPrjController',
-                        resolve: {
-                            id: function () {
-                                return $route.current.params['id'];
-                            }
-                        }
-                    });
-                }]
+                 var modalInstance = $uibModal.open({
+                 animation: true,
+                 templateUrl: 'app/views/edit-project.html',
+                 controller: 'EditPrjController',
+                 resolve: {
+                 id: function () {
+                 return $route.current.params['id'];
+                 }
+                 }
+                 });
+                 }]
+
             }
         });
     }])

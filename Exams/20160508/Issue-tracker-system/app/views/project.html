@@ -25,7 +25,7 @@
 
     <a ng-if="isLead" class="btn btn-danger col-md-2" href="#/projects/{{project.Id}}/add-issue">Add
         Issue</a>
-    <a ng-if="isLead" class="btn btn-danger col-md-2 sideMargin-5" href="#/projects/{{project.Id}}/edit">Edit Project</a>
+    <a ng-if="isLead || isAdmin" class="btn btn-danger col-md-2 sideMargin-5" href="#/projects/{{project.Id}}/edit">Edit Project</a>
 
 </div>
 

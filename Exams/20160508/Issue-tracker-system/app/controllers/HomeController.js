@@ -32,10 +32,8 @@ angular.module('issueTracker.controllers.HomeController', ['issueTracker.service
             };
 
             $scope.register = function (userData) {
-                debugger;
                 authentication.registerUser(userData).then(
                     function success(data) {
-                        debugger;
                         var loginData = {
                             username: userData.Email,
                             password: userData.Password

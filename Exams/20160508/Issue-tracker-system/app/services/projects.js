@@ -8,6 +8,27 @@ angular.module('issueTracker.services.projects', [])
         '$resource',
         function ($http, $q, BASE_URL, $resource) {
 
+            function getMyProjects(params, id) {
+                var deferred = $q.defer();
+                var filter = '';
+                if (id) {
+                    filter = 'Lead.Id="' + id + '"'
+                }
+
+                var requestData = {
+                    method: 'GET',
+                    url: BASE_URL + 'projects?' + 'filter=LeadId=\"' + id + '\"' + ' or Issues.Any(AssigneeId==\"' + id + '\")' + '&pageSize=' + params.pageSize + '&pageNumber=' + params.pageNumber
+                };
+
+                $http(requestData)
+                    .then(function success(response) {
+                        deferred.resolve(response.data);
+                    });
+
+                return deferred.promise;
+
+            }
+
             function getProjects(params, id) {
                 var deferred = $q.defer();
                 var filter = '';
@@ -84,6 +105,7 @@ angular.module('issueTracker.services.projects', [])
             }
 
             return {
+                getMyProjects: getMyProjects,
                 getProjects: getProjects,
                 getProjectById: getProjectById,
                 editProject: editProject,

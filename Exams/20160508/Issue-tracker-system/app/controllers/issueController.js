@@ -33,6 +33,7 @@ angular.module('issueTracker.controllers.IssueController', [
             $scope.newStatusId = undefined;
             $scope.isPrLead = undefined;
             $scope.commentText = undefined;
+            $scope.isIssueAssignee = undefined;
 
             function getIsueById() {
                 issue.getIssueById(id).then(
@@ -40,7 +41,9 @@ angular.module('issueTracker.controllers.IssueController', [
                         if (data.Author.Id === identity.getCurrentUser()) {
                             $scope.isIssueAuthor = true;
                         }
-
+                        if (data.Assignee.Id === identity.getCurrentUser()) {
+                            $scope.isIssueAssignee = true;
+                        }
                         $scope.issuesById = data;
                         /* console.log($scope.issuesById)*/
                         projects.getProjectById($scope.issuesById.Project.Id).then(

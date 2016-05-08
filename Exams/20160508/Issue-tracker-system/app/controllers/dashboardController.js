@@ -18,7 +18,6 @@ angular.module('issueTracker.controllers.DashboardController', ['issueTracker.se
                 'pageSize': 5
             };
 
-            $scope.getCurrentUserName = 'TUKA';
 
             $scope.reloadDashboard = function () {
                 reloadProject();
@@ -37,7 +36,7 @@ angular.module('issueTracker.controllers.DashboardController', ['issueTracker.se
 
             function reloadProject() {
                 var userId = identity.getCurrentUser();
-                projects.getProjects($scope.prjParams, userId).then(
+                projects.getMyProjects($scope.prjParams, userId).then(
                     function success(data) {
                         $scope.myProjetcs = data;
                         /*console.log($scope.myProjetcs)*/

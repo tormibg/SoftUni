@@ -4,19 +4,50 @@ angular.module('issueTracker.controllers.AddPrjController', [
         'ui.bootstrap.modal',
         'issueTracker.services.projects',
         'issueTracker.services.users',
+        'issueTracker.services.identity',
         'ui-notification'])
 
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/projects/add', {
             title: "Add Project",
             resolve: {
-                showModal: ['$uibModal', '$route', function ($uibModal, $route) {
-                    var modalInstance = $uibModal.open({
-                        animation: true,
-                        templateUrl: 'app/views/add-project.html',
-                        controller: 'AddPrjController'
-                    });
-                }]
+
+                access: ['$q',
+                    '$location',
+                    '$route',
+                    '$uibModal',
+                    'identity',
+                    'Notification',
+                    'projects',
+                    function ($q, $location, $route, $uibModal, identity, Notification, projects) {
+
+                        var deferred = $q.defer();
+
+                        if (!identity.isUserAdmin()) {
+                            Notification.error("You are not authorized to open this link !");
+                            $location.path('/');
+                            deferred.reject();
+                        } else {
+                            var modalInstance = $uibModal.open({
+                                animation: true,
+                                templateUrl: 'app/views/add-project.html',
+                                controller: 'AddPrjController'
+                            });
+                        }
+                        deferred.resolve();
+
+                        return deferred.promise;
+
+                    }]
+
+
+                /*showModal: ['$uibModal', '$route', function ($uibModal, $route) {
+                 var modalInstance = $uibModal.open({
+                 animation: true,
+                 templateUrl: 'app/views/add-project.html',
+                 controller: 'AddPrjController'
+                 });
+                 }]*/
             }
         });
     }])

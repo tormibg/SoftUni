@@ -26,6 +26,7 @@ angular.module('issueTracker.controllers.ProjectIdController', [
             };
 
             $scope.isLead = null;
+            $scope.isAdmin = null;
 
             var id = $routeParams['id'];
 
@@ -35,6 +36,7 @@ angular.module('issueTracker.controllers.ProjectIdController', [
                         if (data.Lead.Id == identity.getCurrentUser()) {
                             $scope.isLead = true;
                         }
+                        $scope.isAdmin = identity.isUserAdmin();
                         $scope.project = data;
                     }
                 )

@@ -5,10 +5,11 @@
         <label class="col-md-1">Name:</label>
         <input class="col-md-4" value="{{issuesById.Title}}">
         <label class="col-md-1">Issue Key:</label>
-        <input class="col-md-2" disabled value="{{issuesById.IssueKey}}">
+        <input class="col-md-2" value="{{issuesById.IssueKey}}">
         <label class="col-md-1">Assignee name:</label>
         <!--<input class="col-md-3" value="{{issuesById.Assignee.Username}}">-->
-        <select ng-model="issuesById.Assignee"
+        <select ng-disabled="!isPrLead"
+                ng-model="issuesById.Assignee"
                 ng-options="user as user.Username for user in users | orderBy: 'Username' track by user.Id"
                 class="col-md-3 others-color" >
         </select>
@@ -66,7 +67,7 @@
     </div>
     <form name="test">
         <div class="col-md-12">
-            <a ng-if="isPrLead && currentDueDate && issuesById.priorities" class="btn btn-danger" ng-click="saveIssue()">Save Issue</a>
+            <a ng-if="currentDueDate && issuesById.priorities" class="btn btn-danger" ng-click="saveIssue()">Save Issue</a>
 
             <label ng-show="isAssignee && issuesById.AvailableStatuses.length > 0">Status :</label>
 
