@@ -1,5 +1,6 @@
 'use strict';
 
+
 angular.module('issueTracker', [
         'ngRoute',
         'issueTracker.controllers.HomeController',
@@ -76,6 +77,7 @@ angular.module('issueTracker', [
         'Notification',
         function ($rootScope, $location, $route, $http, authentication, $localStorage, Notification) {
             $rootScope.$on('$locationChangeStart', function (event) {
+                debugger;
                 if ($location.path() != "/" && !authentication.isAuthenticated()) {
                     $location.path("/");
                     Notification.error('Only registered and logged in users are allowed to view this site');
