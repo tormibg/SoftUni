@@ -77,7 +77,7 @@ angular.module('issueTracker', [
         'Notification',
         function ($rootScope, $location, $route, $http, authentication, $localStorage, Notification) {
             $rootScope.$on('$locationChangeStart', function (event) {
-                debugger;
+                /*debugger;*/
                 if ($location.path() != "/" && !authentication.isAuthenticated()) {
                     $location.path("/");
                     Notification.error('Only registered and logged in users are allowed to view this site');

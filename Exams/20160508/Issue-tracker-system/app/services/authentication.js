@@ -24,9 +24,11 @@ angular.module('issueTracker.services', ['ngStorage'])
             }
 
             function registerUser(userData) {
+                debugger;
                 var deferred = $q.defer();
                 $http.post(BASE_URL + 'api/Account/Register', userData)
                     .then(function success(response) {
+                        debugger;
                         deferred.resolve(response)
                     });
 

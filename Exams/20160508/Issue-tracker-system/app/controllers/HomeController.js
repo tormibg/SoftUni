@@ -32,22 +32,26 @@ angular.module('issueTracker.controllers.HomeController', ['issueTracker.service
             };
 
             $scope.register = function (userData) {
+                debugger;
                 authentication.registerUser(userData).then(
-                    function success() {
+                    function success(data) {
+                        debugger;
                         var loginData = {
                             username: userData.Email,
                             password: userData.Password
                         };
-                        authentication.loginUser(loginData).then(
+                        Notification.success('User registered successfully');
+                        $scope.login(loginData);
+                        /*.then(
                             function success(data) {
                                 identity.getUser(data, data.access_token).then(
                                     function success(responseData) {
                                         authentication.loggedUser(responseData);
                                         Notification.success('User registered successfully');
                                     }
-                                );
+                                )
                             }
-                        )
+                        );*/
                     }
                 )
             };
