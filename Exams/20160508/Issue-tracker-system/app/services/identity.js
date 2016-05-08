@@ -28,8 +28,13 @@ angular.module('issueTracker.services.identity', ['ngStorage'])
                 return $localStorage.logUser.Id;
             }
 
+            function isUserAdmin() {
+                return $localStorage.logUser.isAdmin;
+            }
+
             return {
                 getUser: getUser,
-                getCurrentUser: getCurrentUser
+                getCurrentUser: getCurrentUser,
+                isUserAdmin: isUserAdmin
             }
         }]);

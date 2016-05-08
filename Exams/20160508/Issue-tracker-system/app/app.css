@@ -1,40 +1,57 @@
 /* app css stylesheet */
 body {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 .loginBtn {
-  margin-top: 94px;
+    margin-top: 94px;
 }
+
 .menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
 }
 
 .menu:before {
-  content: "[";
+    content: "[";
 }
 
 .menu:after {
-  content: "]";
+    content: "]";
 }
 
 .menu > li {
-  display: inline;
+    display: inline;
 }
 
 .menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+    content: "|";
+    padding-right: 0.3em;
 }
 
 .menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+    content: "";
+    padding: 0;
 }
 
 .project-and-issue {
-  padding-top: 5px;
+    padding-top: 5px;
+}
+
+.formLabel {
+    display: block;
+}
+
+.others-color {
+    color: black;
+}
+
+.btn-danger {
+    padding: 14px 24px;
+    border: solid black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }

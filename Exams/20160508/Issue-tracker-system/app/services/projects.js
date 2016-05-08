@@ -8,21 +8,21 @@ angular.module('issueTracker.services.projects', [])
         '$resource',
         function ($http, $q, BASE_URL, $resource) {
 
-            function getProjects(params,id) {
+            function getProjects(params, id) {
                 var deferred = $q.defer();
                 var filter = '';
                 if (id) {
                     filter = 'Lead.Id="' + id + '"'
                 }
                 /*console.log(filter);
-                console.log(id);*/
+                 console.log(id);*/
                 var requestData = {
                     method: 'GET',
-                    url: BASE_URL + 'projects?filter=' + filter + '&pageSize='+ params.pageSize + '&pageNumber=' + params.pageNumber
+                    url: BASE_URL + 'projects?filter=' + filter + '&pageSize=' + params.pageSize + '&pageNumber=' + params.pageNumber
                 };
                 //url: BASE_URL + 'projects?filter=' + filter + '&pageSize='+ PRJ_PARAM.pageSize + '&pageNumber=' + PRJ_PARAM.pageNumber
                 /*console.log(param.pageNumber);
-                console.log(requestData);*/
+                 console.log(requestData);*/
 
                 $http(requestData)
                     .then(function success(response) {
@@ -35,6 +35,7 @@ angular.module('issueTracker.services.projects', [])
 
             function getProjectById(id) {
                 var deferred = $q.defer();
+
                 var requestData = {
                     method: 'GET',
                     url: BASE_URL + 'projects/' + id
@@ -48,9 +49,27 @@ angular.module('issueTracker.services.projects', [])
                 return deferred.promise;
             }
 
+            function editProject(id, data) {
+                var deferred = $q.defer();
+
+                var requestData = {
+                    method: 'PUT',
+                    url: BASE_URL + 'projects/' + id,
+                    data: data
+                };
+
+                $http(requestData)
+                    .then(function success(response) {
+                        deferred.resolve(response.data);
+                    });
+
+                return deferred.promise;
+            }
+
             return {
                 getProjects: getProjects,
-                getProjectById: getProjectById
+                getProjectById: getProjectById,
+                editProject: editProject
             }
         }]);
 

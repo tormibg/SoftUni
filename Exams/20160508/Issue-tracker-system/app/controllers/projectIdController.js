@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('issueTracker.controllers.ProjectIdController', ['issueTracker.services.projects', 'issueTracker.services.issue'])
+angular.module('issueTracker.controllers.ProjectIdController', ['issueTracker.services.projects', 'issueTracker.services.issue', 'issueTracker.services.identity'])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/projects/:id', {
             templateUrl: 'app/views/project.html',
@@ -13,18 +13,24 @@ angular.module('issueTracker.controllers.ProjectIdController', ['issueTracker.se
         '$routeParams',
         'projects',
         'issue',
-        function ($scope, $routeParams, projects, issue) {
+        'identity',
+        function ($scope, $routeParams, projects, issue, identity) {
 
             $scope.issParams = {
                 'pageNumber': 1,
                 'pageSize': 5
             };
 
+            $scope.isLead = null;
+
             var id = $routeParams['id'];
 
             function getProjectById() {
                 projects.getProjectById(id).then(
                     function success(data) {
+                        if (data.Lead.Id == identity.getCurrentUser()) {
+                            $scope.isLead = true;
+                        }
                         $scope.project = data;
                     }
                 )

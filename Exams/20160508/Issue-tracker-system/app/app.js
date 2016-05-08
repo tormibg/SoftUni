@@ -6,8 +6,15 @@ angular.module('issueTracker', [
         'issueTracker.controllers.DashboardController',
         'issueTracker.controllers.ProjectController',
         'issueTracker.controllers.ProjectIdController',
+        'issueTracker.controllers.IssueController',
+        'issueTracker.controllers.AddIssueController',
+        'issueTracker.controllers.EditPrjController',
+        'issueTracker.controllers.EditIssueController',
         'ngStorage',
         'ui.bootstrap.pagination',
+        'ui.bootstrap.modal',
+        'ui.bootstrap.tpls',
+        'ui.bootstrap.datepickerPopup',
         'ngResource'
     ])
 
@@ -18,6 +25,7 @@ angular.module('issueTracker', [
         $httpProvider.interceptors.push(['$q', 'toastr', function ($q, toastr) {
             return {
                 'responseError': function (rejection) {
+                    /*debugger;*/
                     if (rejection.data && rejection.data['error_description']) {
                         toastr.error(rejection.data['error_description']);
                     }
@@ -37,6 +45,12 @@ angular.module('issueTracker', [
                         var errors = rejection.data.ModelState['model.Password'];
                         if (errors.length > 0) {
                             toastr.error(errors[0]);
+                        }
+                    }
+                    else if (rejection.data && rejection.data.Message) {
+                        var errors = rejection.data.Message;
+                        if (errors.length > 0) {
+                            toastr.error(errors);
                         }
                     }
 

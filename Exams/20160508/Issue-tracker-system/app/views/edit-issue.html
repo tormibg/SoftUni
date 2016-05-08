@@ -1,0 +1,82 @@
+<div class="jumbotron col-md-12 project-and-issue">
+    {{issuesById.priorities}}
+    <h2 class="title">Edit Issue:</h2>
+    <div class="col-md-12">
+        <label class="col-md-1">Name:</label>
+        <input class="col-md-4" value="{{issuesById.Title}}">
+        <label class="col-md-1">Issue Key:</label>
+        <input class="col-md-2" disabled value="{{issuesById.IssueKey}}">
+        <label class="col-md-1">Assignee name:</label>
+        <!--<input class="col-md-3" value="{{issuesById.Assignee.Username}}">-->
+        <select ng-model="issuesById.Assignee"
+                ng-options="user as user.Username for user in users | orderBy: 'Username' track by user.Id"
+                class="col-md-3 others-color">
+        </select>
+    </div>
+    <br/>
+    <br/>
+    <div class="col-md-12">
+        <label class="col-md-1">Priority:</label>
+        <!--<input class="col-md-2" value="{{issuesById.Priority.Name}}">-->
+        <select ng-model="issuesById.priorities"
+                ng-options="priority as priority.Name for priority in priorities | orderBy: 'Name' track by priority.Id"
+                class="col-md-1 others-color">
+        </select>
+        <label class="col-md-1">DueDate:</label>
+        <!--<div class="row">-->
+        <div class="col-md-2">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="currentDueDate"
+                       ng-required="true"
+                       is-open="datepicker.opened" datepicker-options="dateOptions"
+                       close-text="Close"
+                       alt-input-formats="altInputFormats"/>
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="openDatepicker()"><i
+                    class="glyphicon glyphicon-calendar"></i></button>
+          </span>
+            </p>
+        </div>
+        <!--</div>-->
+
+        <!--<input class="col-md-1" value="{{issuesById.DueDate}}">-->
+        <label class="col-md-1">Project:</label>
+        <input class="col-md-2" disabled value="{{issuesById.Project.Name}}">
+        <label class="col-md-1">Author:</label>
+        <input class="col-md-3" disabled value="{{issuesById.Author.Username}}">
+    </div>
+    <br/>
+    <br/>
+    <div class="col-md-12">
+        <label class="col-md-1">STATUS:</label>
+        <input class="col-md-3" value="{{issuesById.Status.Name}}">
+    </div>
+    <br/>
+    <br/>
+    <div class="col-md-12">
+        <label class="col-md-1">Labels:</label>
+        <span ng-repeat="labels in issuesById.Labels">{{labels.Name}}<span ng-if="!$last">, </span></span>
+    </div>
+
+    <br/>
+    <br/>
+    <div class="col-md-12">
+        <label class="col-md-1">Description:</label>
+        <textarea class="col-md-12 largeTxt" rows="5">{{issuesById.Description}}</textarea>
+    </div>
+    <form name="test">
+        <div class="col-md-12">
+            <a ng-disabled="isPrjLeader && !issuesById.priorities && !currentDueDate" class="btn btn-danger" ng-click="saveIssue()">Save Issue</a>
+
+            <label ng-show="isAssignee && issuesById.AvailableStatuses.length > 0">Status :</label>
+
+            <select ng-show="isAssignee && issuesById.AvailableStatuses.length > 0" ng-model="newStatusId"
+                    class="others-color"
+                    ng-options="status as status.Name for status in issuesById.AvailableStatuses">
+            </select>
+            <a ng-show="isAssignee && issuesById.AvailableStatuses.length > 0" class="btn btn-danger"
+               ng-disabled="!newStatusId"
+               ng-click="changeStatus()">Change Status</a>
+        </div>
+    </form>
+</div>

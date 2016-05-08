@@ -22,7 +22,6 @@ angular.module('issueTracker.controllers.ProjectController', ['issueTracker.serv
             $scope.reloadProjects = function(){
                 projects.getProjects($scope.prjParams).then(
                 function success(data){
-                    console.log(data);
                     $scope.allProjetcs = data;
                 })
             };

@@ -22,6 +22,11 @@
     <br/>
     <label class="col-md-1">Description:</label>
     <textarea class="col-md-12 largeTxt" rows="5" disabled>{{project.Description}}</textarea>
+
+    <a ng-if="isLead" class="btn btn-danger col-md-2" href="#/projects/{{project.Id}}/add-issue">Add
+        Issue</a>
+    <a ng-if="isLead" class="btn btn-danger col-md-2 sideMargin-5" href="#/projects/{{project.Id}}/edit">Edit Project</a>
+
 </div>
 
 <div class="jumbotron col-md-12 project-and-issue">
