@@ -1,35 +1,48 @@
 var app = app || {};
 
 (function (scope) {
+
     function Lecture(options) {
         scope._Event.call(this, options);
-        this._trainer = options.trainer;
-        this._course = options.course;
+        /*this.trainer = options.trainer;*/
+        this.setTrainer(options.trainer);
+        /*this.course = options.course;*/
+        this.setCourse(options.course);
     }
 
     Lecture.extends(scope._Event);
 
     Lecture.prototype.getCourse = function getCourse() {
-        return this._course;
-    }
+        return this.course;
+    };
 
-    Lecture.prototype.setCourse = function setCourse(options) {
-        this._course = options.course;
-    }
+    Lecture.prototype.setCourse = function setCourse(course) {
+        if (course instanceof app.course) {
+            this.course = course;
+        } else {
+            throw new ArgumentException('Course');
+        }
+    };
 
     Lecture.prototype.getTrainer = function getTrainer() {
-        return this._trainer;
-    }
+        return this.trainer;
+    };
 
-    Lecture.prototype.setTrainer = function setTrainer(options) {
-        this._trainer = options.trainer;
-    }
+    Lecture.prototype.setTrainer = function setTrainer(trainer) {
+        if (trainer instanceof app.trainer) {
+            this.trainer = trainer;
+        } else {
+            throw new ArgumentException('Trainer');
+        }
+    };
 
     Lecture.prototype.getClass = function () {
         return 'Lecture';
-    }
+    };
 
-    scope.lecture = function (options) {
+    scope.lecture = Lecture;
+
+    /*scope.lecture = function (options) {
         return new Lecture(options);
-    }
+    }*/
 })(app);

@@ -4,6 +4,7 @@ var app = app || {};
     //TODO: Dynamicaly add options to select HTML tag
     var select = document.querySelector('select');
     var index = 0;
+
     for (var apss in app.halls) {
         var opt = document.createElement("option");
         opt.value = app.halls[apss]._name;
@@ -11,6 +12,8 @@ var app = app || {};
         select.appendChild(opt);
         index++;
     }
+
+
     select.addEventListener('change', function (ev) {
         if ($('#halls option:first-child').val() === 'Choose Hall') {
             $('#halls option:first-child').remove();
@@ -42,12 +45,12 @@ var app = app || {};
                 data: lectures,
 
                 fields: [
-                    { name: "title", title: 'Title', type: "text", width: 80 },
-                    { name: "duration", title: 'Duration', type: "number", width: 30 },
-                    { name: "date", title: 'Date', type: "date", width: 80 },
-                    { name: "course", title: 'Course', type: 'text', width: 130 },
-                    { name: "trainer", title: 'Trainer', type: 'text', width: 130 },
-                    { type: 'control', editButton: false }
+                    {name: "title", title: 'Title', type: "text", width: 80},
+                    {name: "duration", title: 'Duration', type: "number", width: 30},
+                    {name: "date", title: 'Date', type: "date", width: 80},
+                    {name: "course", title: 'Course', type: 'text', width: 130},
+                    {name: "trainer", title: 'Trainer', type: 'text', width: 130},
+                    {type: 'control', editButton: false}
                 ]
             });
 
@@ -67,13 +70,13 @@ var app = app || {};
                 data: parties,
 
                 fields: [
-                    { name: "title", title: 'Title', type: "text", width: 80 },
-                    { name: "duration", title: 'Duration', type: "number", width: 30 },
-                    { name: "date", title: 'Date', type: "date", width: 80 },
-                    { name: "organiser", title: 'Organiser', type: 'text', width: 130 },
-                    { name: "isCatered", title: 'Is it catered?', type: 'checkbox' },
-                    { name: "isBirthday", title: 'Is a birthday party?', type: 'checkbox' },
-                    { type: 'control', editButton: false }
+                    {name: "title", title: 'Title', type: "text", width: 80},
+                    {name: "duration", title: 'Duration', type: "number", width: 30},
+                    {name: "date", title: 'Date', type: "date", width: 80},
+                    {name: "organiser", title: 'Organiser', type: 'text', width: 130},
+                    {name: "isCatered", title: 'Is it catered?', type: 'checkbox'},
+                    {name: "isBirthday", title: 'Is a birthday party?', type: 'checkbox'},
+                    {type: 'control', editButton: false}
                 ]
             })
         }

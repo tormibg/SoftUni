@@ -1,9 +1,12 @@
 var app = app || {};
 
 (function (scope) {
+
     function Course(name, numberOfLectures) {
-        this._name = name;
-        this._numberOfLectures = numberOfLectures;
+        /*this._name = name;*/
+        this.setName(name);
+        /*this._numberOfLectures = numberOfLectures;*/
+        this.setNumberOfLectures(numberOfLectures);
     }
 
     Course.prototype.getName = function getName() {
@@ -11,7 +14,12 @@ var app = app || {};
     };
 
     Course.prototype.setName = function setName(name) {
-        this._name = name;
+        var pat = /^[A-Za-z ]+$/g;
+        if(pat.test(name)) {
+            this._name = name;
+        } else {
+            throw new ArgumentException('letters and spaces only');
+        }
     };
 
     Course.prototype.getNumberOfLectures = function getNumberOfLectures() {
@@ -19,10 +27,16 @@ var app = app || {};
     };
 
     Course.prototype.setNumberOfLectures = function setNumberOfLectures(numberOfLectures) {
-        this._numberOfLectures = numberOfLectures;
+        if(typeof numberOfLectures === 'number') {
+            this._numberOfLectures = numberOfLectures;
+        } else {
+            throw new ArgumentException('Number');
+        }
     };
 
-    scope.course = function (name, numberOfLectures) {
+    scope.course = Course;
+
+    /*scope.course = function (name, numberOfLectures) {
         return new Course(name, numberOfLectures);
-    }
+    }*/
 })(app);

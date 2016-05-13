@@ -3,17 +3,17 @@ var imdb = imdb || {};
 (function (scope) {
     function loadHtml(selector, data) {
         var container = document.querySelector(selector),
-			moviesContainer = document.getElementById('movies'),
-			detailsContainer = document.getElementById('details'),
-			genresUl = loadGenres(data);
+            moviesContainer = document.getElementById('movies'),
+            detailsContainer = document.getElementById('details'),
+            genresUl = loadGenres(data);
 
         container.appendChild(genresUl);
 
         genresUl.addEventListener('click', function (ev) {
             if (ev.target.tagName === 'LI') {
                 var genreId,
-					genre,
-					moviesHtml;
+                    genre,
+                    moviesHtml;
 
                 genreId = parseInt(ev.target.getAttribute('data-id'));
                 genre = data.filter(function (genre) {
@@ -32,7 +32,7 @@ var imdb = imdb || {};
 
                         while (detailsContainer.firstChild) {
                             detailsContainer.removeChild(detailsContainer.firstChild);
-                        };
+                        }
 
                         var id = this.getAttribute('data-id'),
                             movie = genre.getMovies().filter(function (movie) {
@@ -43,7 +43,7 @@ var imdb = imdb || {};
 
                         /// ACTORS !!!!
                         var actorsFragment = document.createDocumentFragment(),
-                         actorsH3 = document.createElement('h3');
+                            actorsH3 = document.createElement('h3');
 
                         actorsH3.innerHTML = "Actors";
                         var actorsUl = document.createElement('ul');
@@ -64,7 +64,7 @@ var imdb = imdb || {};
 
                         /// Review !!!!
                         var reviewFragment = document.createDocumentFragment(),
-                         reviewH3 = document.createElement('h3');
+                            reviewH3 = document.createElement('h3');
 
                         reviewH3.innerHTML = "Reviews";
                         var reviewUl = document.createElement('ul');
@@ -133,7 +133,7 @@ var imdb = imdb || {};
             var button = document.createElement('button');
             button.value = 'Delete';
             button.innerHTML = 'Delete Movie';
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 console.log('delete');
             });
 

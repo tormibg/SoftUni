@@ -1,45 +1,55 @@
 var app = app || {};
 
-(function (scope) {
+(function (eventsSystem) {
+
     function Party(options) {
-        scope._Event.call(this, options);
-        this._isCatered = options.isCatered;
-        this._isBirthday = options.isBirthday;
-        this._organiser = options.organiser;
+        eventsSystem._Event.call(this, options);
+        /*this._isCatered = options.isCatered;*/
+        this.setIsCatered(options.isCatered);
+        /*this._isBirthday = options.isBirthday;*/
+        this.setIsBirthday(options.isBirthday);
+        /*this._organiser = options.organiser;*/
+        this.setOrganiser(options.organiser);
     }
 
-    Party.extends(scope._Event);
+    Party.extends(eventsSystem._Event);
     //checkIsBirthday, checkIsCatered
 
     Party.prototype.getOrganiser = function getOrganiser() {
         return this._organiser;
-    }
+    };
 
-    Party.prototype.setOrganiser = function setOrganiser(options) {
-        this._organiser = options.organiser;
-    }
+    Party.prototype.setOrganiser = function setOrganiser(employee) {
+        if (employee instanceof app.employee) {
+            this._organiser = employee;
+        } else {
+            throw new ArgumentException('Organiser');
+        }
+    };
 
     Party.prototype.checkIsBirthday = function checkIsBirthday() {
-        return this._isBirthday;
-    }
+        return !!this._isBirthday;
+    };
 
-    Party.prototype.setIsBirthday = function setIsBirthday(options) {
-        this._isBirthday = options.isBirthday;
-    }
+    Party.prototype.setIsBirthday = function setIsBirthday(value) {
+        this._isBirthday = !!value;
+    };
 
     Party.prototype.checkIsCatered = function checkIsCatered() {
-        return this._isCatered;
-    }
+        return !!this._isCatered;
+    };
 
-    Party.prototype.setIsCatered = function setIsCatered(options) {
-        this._isCatered = options.isCatered;
-    }
+    Party.prototype.setIsCatered = function setIsCatered(value) {
+        this._isCatered = !!value;
+    };
 
     Party.prototype.getClass = function () {
         return 'Party';
-    }
+    };
 
-    scope.party = function (options) {
+    eventsSystem.party = Party;
+
+    /*scope.party = function (options) {
         return new Party(options);
-    }
+    }*/
 })(app);
