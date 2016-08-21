@@ -4,11 +4,25 @@
     {
         public static void Main()
         {
-            IOManager.TraverseDirectory(4);
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangecurrentDirectoryAbsolute(@"C:\Windows");
+            //IOManager.TraverseDirectory(20);
             /*StudentsRepository.InitializeData();
             StudentsRepository.GetAllStudentsFromCourse("Unity");
             StudentsRepository.GetStudentScoresFromCourse("Unity", "Ivan");*/
-            /*Tester.CompareContent(@"..\..\..\..\test2.txt", @"..\..\..\..\test3.txt");*/
+            //Tester.CompareContent(@"..\..\..\actual.txt", @"..\..\..\expected.txt");
         }
     }
 }

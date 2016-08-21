@@ -19,16 +19,23 @@
                 int identation = currentPath.Split('\\').Length - initialIdentation;
                 OutputWriter.WriteMessageOnNewLine($"{new string('-', identation)}{currentPath}");
 
-                foreach (var file in Directory.GetFiles(currentPath))
+                try
                 {
-                    int indexOfLastSlash = file.LastIndexOf("\\", StringComparison.Ordinal);
-                    string fileName = file.Substring(indexOfLastSlash);
-                    OutputWriter.WriteMessageOnNewLine(new string('-', indexOfLastSlash) + fileName);
-                }
+                    foreach (var file in Directory.GetFiles(currentPath))
+                    {
+                        int indexOfLastSlash = file.LastIndexOf("\\", StringComparison.Ordinal);
+                        string fileName = file.Substring(indexOfLastSlash);
+                        OutputWriter.WriteMessageOnNewLine(new string('-', indexOfLastSlash) + fileName);
+                    }
 
-                foreach (string directoryPath in Directory.GetDirectories(currentPath))
+                    foreach (string directoryPath in Directory.GetDirectories(currentPath))
+                    {
+                        subFolders.Enqueue(directoryPath);
+                    }
+                }
+                catch (UnauthorizedAccessException)
                 {
-                    subFolders.Enqueue(directoryPath);
+                    OutputWriter.DisplayException(ExceptionMessages.UnauthorizedAccessException);
                 }
 
                 if (depth - identation < 0)
@@ -41,17 +48,33 @@
         public static void CreateDirectoryInCurrentFolder(string name)
         {
             string path = Path.Combine(SessionData.currentPath, name);
-            Directory.CreateDirectory(path);
+            try
+            {
+                Directory.CreateDirectory(path);
+            }
+            catch (ArgumentException)
+            {
+                OutputWriter.DisplayException(ExceptionMessages.ForbiddenSymbolsContainedInName);
+            }
         }
 
         public static void ChangeCurrentDirectoryRelative(string relativePath)
         {
             if (relativePath == "..")
             {
-                string currentPath = SessionData.currentPath;
-                int indexOfLastSlash = currentPath.LastIndexOf("\\", StringComparison.Ordinal);
-                string newPath = currentPath.Substring(0, indexOfLastSlash);
-                SessionData.currentPath = newPath;
+                try
+                {
+                    string currentPath = SessionData.currentPath;
+                    int indexOfLastSlash = currentPath.LastIndexOf("\\", StringComparison.Ordinal);
+                    string newPath = currentPath.Substring(0, indexOfLastSlash);
+                    SessionData.currentPath = newPath;
+                }
+                catch (ArgumentOutOfRangeException)
+                {
+                    
+                    OutputWriter.DisplayException(ExceptionMessages.UnableToGoHigherInPartitionHierarchy);
+                }
+               
             }
             else
             {
