@@ -17,6 +17,10 @@
                 studentsByCourse = new Dictionary<string, Dictionary<string, List<int>>>();
                 ReadData();
             }
+            else
+            {
+                OutputWriter.WriteMessageOnNewLine(ExceptionMessages.DataAlreadyInitialisedException);
+            }
         }
 
         private static void ReadData()

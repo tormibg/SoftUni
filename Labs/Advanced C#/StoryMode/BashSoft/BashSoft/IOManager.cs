@@ -18,6 +18,7 @@
                 string currentPath = subFolders.Dequeue();
                 int identation = currentPath.Split('\\').Length - initialIdentation;
                 OutputWriter.WriteMessageOnNewLine($"{new string('-', identation)}{currentPath}");
+
                 foreach (var file in Directory.GetFiles(currentPath))
                 {
                     int indexOfLastSlash = file.LastIndexOf("\\", StringComparison.Ordinal);
@@ -29,6 +30,7 @@
                 {
                     subFolders.Enqueue(directoryPath);
                 }
+
                 if (depth - identation < 0)
                 {
                     break;
