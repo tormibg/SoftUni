@@ -4,19 +4,20 @@
     {
         public static void Main()
         {
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
-            IOManager.ChangeCurrentDirectoryRelative("..");
+            InputReader.StartReadingCommands();
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
+            //IOManager.ChangeCurrentDirectoryRelative("..");
             //IOManager.ChangecurrentDirectoryAbsolute(@"C:\Windows");
             //IOManager.TraverseDirectory(20);
             /*StudentsRepository.InitializeData();

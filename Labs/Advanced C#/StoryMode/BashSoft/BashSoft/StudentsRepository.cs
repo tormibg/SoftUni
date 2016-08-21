@@ -1,4 +1,6 @@
-﻿namespace BashSoft
+﻿using System.IO;
+
+namespace BashSoft
 {
     using System;
     using System.Collections.Generic;
@@ -9,13 +11,13 @@
 
         private static Dictionary<string, Dictionary<string, List<int>>> studentsByCourse;
 
-        public static void InitializeData()
+        public static void InitializeData(string fileName)
         {
             if (!IsDataInitialized)
             {
                 OutputWriter.WriteMessageOnNewLine("Reading data...");
                 studentsByCourse = new Dictionary<string, Dictionary<string, List<int>>>();
-                ReadData();
+                ReadData(fileName);
             }
             else
             {
@@ -23,30 +25,40 @@
             }
         }
 
-        private static void ReadData()
+        private static void ReadData(string fileName)
         {
-            string input = Console.ReadLine();
-
-            while (!string.IsNullOrEmpty(input))
+            //string input = Console.ReadLine();
+            string path = Path.Combine(SessionData.currentPath, fileName);
+            if (Directory.Exists(path))
             {
-                string[] tokens = input.Split(' ');
-                string course = tokens[0];
-                string student = tokens[1];
-                int mark = int.Parse(tokens[2]);
+                string[] allInputLines = File.ReadAllLines(path);
+                foreach (var line in allInputLines)
+                {
+                    if (!string.IsNullOrEmpty(line))
+                    {
+                        string[] data = line.Split(' ');
+                        string course = data[0];
+                        string student = data[1];
+                        int mark = int.Parse(data[2]);
 
-                if (!studentsByCourse.ContainsKey(course))
-                {
-                    studentsByCourse.Add(course, new Dictionary<string, List<int>>());
+                        if (!studentsByCourse.ContainsKey(course))
+                        {
+                            studentsByCourse.Add(course, new Dictionary<string, List<int>>());
+                        }
+                        if (!studentsByCourse[course].ContainsKey(student))
+                        {
+                            studentsByCourse[course].Add(student, new List<int>());
+                        }
+                        studentsByCourse[course][student].Add(mark);
+                    }
                 }
-                if (!studentsByCourse[course].ContainsKey(student))
-                {
-                    studentsByCourse[course].Add(student, new List<int>());
-                }
-                studentsByCourse[course][student].Add(mark);
-                input = Console.ReadLine();
+                IsDataInitialized = true;
+                OutputWriter.WriteMessageOnNewLine("Data read!");
             }
-            IsDataInitialized = true;
-            OutputWriter.WriteMessageOnNewLine("Data read!");
+            else
+            {
+                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
+            }
         }
 
         public static bool IsQueryForCoursePossible(string courseName)

@@ -86,6 +86,11 @@
 
         public static void ChangecurrentDirectoryAbsolute(string absolutePath)
         {
+            int indexOfLastSlash = absolutePath.LastIndexOf("\\", StringComparison.Ordinal);
+            if (indexOfLastSlash < 0)
+            {
+                absolutePath = absolutePath + "\\";
+            }
             if (!Directory.Exists(absolutePath))
             {
                 OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
