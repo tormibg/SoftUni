@@ -46,6 +46,8 @@
     <Compile Include="BashSoftProgram.cs" />
     <Compile Include="CommandInterpreter.cs" />
     <Compile Include="InputReader.cs" />
+    <Compile Include="RepositoryFilters.cs" />
+    <Compile Include="RepositorySorters.cs" />
     <Compile Include="SessionData.cs" />
     <Compile Include="StudentsRepository.cs" />
     <Compile Include="ExceptionMessages.cs" />
