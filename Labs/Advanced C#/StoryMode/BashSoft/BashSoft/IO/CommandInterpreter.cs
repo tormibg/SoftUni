@@ -1,7 +1,6 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
-using System.Security.Cryptography;
+using BashSoft.Network;
 
 namespace BashSoft
 {
@@ -50,14 +49,40 @@ namespace BashSoft
                     //TODO
                     break;
                 case "download":
-                    //TODO
+                    TryDownloadRequestedFile(input, data);
                     break;
                 case "downloadAsynch":
-                    //TODO
+                    TryDownloadRequestedFileAsync(input, data);
                     break;
                 default:
                     DisplayInvalidCommandMessage(input);
                     break;
+            }
+        }
+
+        private static void TryDownloadRequestedFile(string input, string[] data)
+        {
+            if (data.Length == 2)
+            {
+                string url = data[1];
+                DowloadManager.Download(url);
+            }
+            else
+            {
+                DisplayInvalidCommandMessage(input);
+            }
+        }
+
+        private static void TryDownloadRequestedFileAsync(string input, string[] data)
+        {
+            if (data.Length == 2)
+            {
+                string url = data[1];
+                DowloadManager.DownloadAsync(url);
+            }
+            else
+            {
+                DisplayInvalidCommandMessage(input);
             }
         }
 

@@ -46,6 +46,7 @@
     <Compile Include="BashSoftProgram.cs" />
     <Compile Include="IO\CommandInterpreter.cs" />
     <Compile Include="IO\InputReader.cs" />
+    <Compile Include="Network\DowloadManager.cs" />
     <Compile Include="Repository\RepositoryFilters.cs" />
     <Compile Include="Repository\RepositorySorters.cs" />
     <Compile Include="Static data\SessionData.cs" />
