@@ -11,13 +11,13 @@ namespace BashSoft
             switch (wantedFilter)
             {
                 case "excellent":
-                    FilterAndTake(wantedData,ExelentFilter, sudentsToTake);
+                    FilterAndTake(wantedData, x => x >= 5, sudentsToTake);
                     break;
                 case "average":
-                    FilterAndTake(wantedData, AverageFilter, sudentsToTake);
+                    FilterAndTake(wantedData, x => x < 5 && x >= 3.5, sudentsToTake);
                     break;
                 case "poor":
-                    FilterAndTake(wantedData, PoorFilter, sudentsToTake);
+                    FilterAndTake(wantedData, x => x < 3.5, sudentsToTake);
                     break;
                 default:
                     OutputWriter.DisplayException(ExceptionMessages.InvalidStudentsFilter);
@@ -35,39 +35,16 @@ namespace BashSoft
                     break;
                 }
 
-                double averageMark = Average(userName_Points.Value);
-                if (givenFilter(averageMark))
+                double averageScore = userName_Points.Value.Average();
+                double percentAgeOfFullfilmet = averageScore / 100;
+                double mark = percentAgeOfFullfilmet * 4 + 2;
+
+                if (givenFilter(mark))
                 {
                     OutputWriter.PrintStudent(userName_Points);
                     counterForPrinted++;
                 }
             }
-        }
-
-        private static bool ExelentFilter(double mark)
-        {
-            return mark >= 5.00;
-        }
-
-        private static bool AverageFilter(double mark)
-        {
-            return mark < 5.00 && mark >= 3.5;
-        }
-
-        private static bool PoorFilter(double mark)
-        {
-            return mark < 3.5;
-        }
-
-        private static double Average(List<int> scoresOnTasks)
-        {
-            int totalScore = scoresOnTasks.Sum();
-
-            double percentageOfAll = totalScore / scoresOnTasks.Count;
-
-            double mark = percentageOfAll * 4 + 2;
-
-            return mark;
         }
     }
 }
