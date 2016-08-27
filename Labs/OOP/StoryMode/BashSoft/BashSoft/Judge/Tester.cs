@@ -19,15 +19,15 @@ namespace BashSoft.Judge
                 string[] expectedOutputLines = File.ReadAllLines(expectedOutputPath);
 
                 bool hasMismatch;
-                string[] mismatches = GetLinesWithPossibleMismatches(actualOutputLines, expectedOutputLines,
+                string[] mismatches = this.GetLinesWithPossibleMismatches(actualOutputLines, expectedOutputLines,
                     out hasMismatch);
 
-                PrintOutput(mismatches, hasMismatch, mismatchPath);
+                this.PrintOutput(mismatches, hasMismatch, mismatchPath);
                 OutputWriter.WriteMessageOnNewLine("Files read!");
             }
-            catch (FileNotFoundException)
+            catch (IOException)
             {
-                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
+                //
             }
         }
 
@@ -40,16 +40,7 @@ namespace BashSoft.Judge
                     OutputWriter.WriteMessageOnNewLine(line);
                 }
 
-                try
-                {
-                    File.WriteAllLines(mismatchPath, mismatches);
-                }
-                catch (DirectoryNotFoundException)
-                {
-                    
-                    OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
-                }
-                
+                File.WriteAllLines(mismatchPath, mismatches);
                 return;
             }
             OutputWriter.WriteMessageOnNewLine("Files are identical. There are no mismatches.");

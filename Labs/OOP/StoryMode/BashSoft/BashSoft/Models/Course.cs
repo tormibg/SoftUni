@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using BashSoft.IO;
+﻿using System;
+using System.Collections.Generic;
 using BashSoft.Static_data;
 
 namespace BashSoft.Models
@@ -9,22 +9,39 @@ namespace BashSoft.Models
         public const int NumberOfTaskOnExam = 5;
         public const int MaxScoreOnExamTask = 100;
 
-        public string name;
-        public Dictionary<string, Student> studentsByName;
+        private string _name;
+        private Dictionary<string, Student> _studentsByName;
         public Course(string name)
         {
-            this.name = name;
-            this.studentsByName = new Dictionary<string, Student>();
+            this.Name = name;
+            this._studentsByName = new Dictionary<string, Student>();
+        }
+        public string Name
+        {
+            get { return this._name; }
+            private set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentException(nameof(this._name), ExceptionMessages.NullOrEmptyValue);
+                }
+                this._name = value;
+            }
+        }
+
+        public IReadOnlyDictionary<string, Student> StudentsByName
+        {
+            get { return this._studentsByName; }
         }
 
         public void EnrollStudent(Student student)
         {
-            if (this.studentsByName.ContainsKey(student.userName))
+            if (this._studentsByName.ContainsKey(student.UserName))
             {
-                OutputWriter.DisplayException(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, student.userName, this.name));
+                throw new Exception(string.Format(ExceptionMessages.StudentAlreadyEnrolledInGivenCourse, student.UserName, this._name));
             }
 
-            this.studentsByName.Add(student.userName, student);
+            this._studentsByName.Add(student.UserName, student);
         }
     }
 }

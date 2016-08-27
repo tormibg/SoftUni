@@ -55,7 +55,7 @@ namespace BashSoft.IO
             }
             catch (ArgumentException)
             {
-                OutputWriter.DisplayException(ExceptionMessages.ForbiddenSymbolsContainedInName);
+                throw new ArgumentException(ExceptionMessages.ForbiddenSymbolsContainedInName);
             }
         }
 
@@ -72,10 +72,9 @@ namespace BashSoft.IO
                 }
                 catch (ArgumentOutOfRangeException)
                 {
-                    
-                    OutputWriter.DisplayException(ExceptionMessages.UnableToGoHigherInPartitionHierarchy);
+                    throw new ArgumentOutOfRangeException("indexOfLastSlash", ExceptionMessages.UnableToGoHigherInPartitionHierarchy);
                 }
-               
+
             }
             else
             {
@@ -88,14 +87,17 @@ namespace BashSoft.IO
         public void ChangeCurrentDirectoryAbsolute(string absolutePath)
         {
             int indexOfLastSlash = absolutePath.LastIndexOf("\\", StringComparison.Ordinal);
+
             if (indexOfLastSlash < 0)
             {
                 absolutePath = absolutePath + "\\";
             }
+
             if (!Directory.Exists(absolutePath))
             {
-                OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
-                return;
+                throw new DirectoryNotFoundException(ExceptionMessages.InvalidPath);
+                //OutputWriter.DisplayException(ExceptionMessages.InvalidPath);
+                //return;
             }
             SessionData.currentPath = absolutePath;
         }

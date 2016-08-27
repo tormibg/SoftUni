@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.IO;
 using BashSoft.Judge;
 using BashSoft.Network;
@@ -13,7 +14,9 @@ namespace BashSoft.IO
         private readonly StudentsRepository _repository;
         private readonly DowloadManager _downloadManager;
         private readonly IOManager _inptuOutputManager;
-        public CommandInterpreter(Tester judge, StudentsRepository repository, DowloadManager downloadManager, IOManager inptuOutputManager)
+
+        public CommandInterpreter(Tester judge, StudentsRepository repository, DowloadManager downloadManager,
+            IOManager inptuOutputManager)
         {
             this._judge = judge;
             this._repository = repository;
@@ -24,7 +27,32 @@ namespace BashSoft.IO
         public void InterpredCommand(string input)
         {
             string[] data = input.Split(' ');
-            string command = data[0];
+            string command = data[0].ToLower();
+
+            try
+            {
+                this.ParseCommand(input, command, data);
+            }
+            catch (DirectoryNotFoundException ex)
+            {
+                OutputWriter.DisplayException(ex.Message);
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                OutputWriter.DisplayException(ex.Message);
+            }
+            catch (ArgumentException ex)
+            {
+                OutputWriter.DisplayException(ex.Message);
+            }
+            catch (Exception e)
+            {
+                OutputWriter.DisplayException(e.Message);
+            }
+        }
+
+        private void ParseCommand(string input, string command, string[] data)
+        {
             switch (command)
             {
                 case "open":
