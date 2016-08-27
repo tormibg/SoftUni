@@ -2,6 +2,7 @@
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
+using BashSoft.Exceptions;
 using BashSoft.IO;
 using BashSoft.Static_data;
 
@@ -53,7 +54,7 @@ namespace BashSoft.Network
             }
             else
             {
-                throw new WebException(ExceptionMessages.InvalidPath);
+                throw new WebException(InvalidPathException.InvalidPath);
             }
         }
     }

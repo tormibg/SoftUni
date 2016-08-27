@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using BashSoft.Exceptions;
 using BashSoft.IO;
 using BashSoft.Models;
 using BashSoft.Static_data;
@@ -114,7 +115,7 @@ namespace BashSoft.Repository
             }
             else
             {
-                throw new Exception(ExceptionMessages.InvalidPath);
+                throw new Exception(InvalidPathException.InvalidPath);
             }
         }
 
