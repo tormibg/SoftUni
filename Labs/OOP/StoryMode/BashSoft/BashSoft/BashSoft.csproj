@@ -45,10 +45,27 @@
   <ItemGroup>
     <Compile Include="BashSoftProgram.cs" />
     <Compile Include="Exceptions\DuplicateEntryInStructureException.cs" />
+    <Compile Include="Exceptions\InvalidCommandException.cs" />
     <Compile Include="Exceptions\InvalidFileNameException.cs" />
     <Compile Include="Exceptions\InvalidPathException.cs" />
     <Compile Include="Exceptions\InvalidStringException.cs" />
+    <Compile Include="Exceptions\InvalidTakeQuantityParameterException.cs" />
     <Compile Include="IO\CommandInterpreter.cs" />
+    <Compile Include="IO\Commands\ChangePathAbsoluteCommand.cs" />
+    <Compile Include="IO\Commands\ChangePathRelativeCommand.cs" />
+    <Compile Include="IO\Commands\Command.cs" />
+    <Compile Include="IO\Commands\CompareFilesCommand.cs" />
+    <Compile Include="IO\Commands\CreateDirectoryCommand.cs" />
+    <Compile Include="IO\Commands\DownloadRequestedFileAsyncCommand.cs" />
+    <Compile Include="IO\Commands\DownloadRequestedFileCommand.cs" />
+    <Compile Include="IO\Commands\DrobDbCommand.cs" />
+    <Compile Include="IO\Commands\FilterAndTakeCommand.cs" />
+    <Compile Include="IO\Commands\GetHelpCommand.cs" />
+    <Compile Include="IO\Commands\OpenFileCommand.cs" />
+    <Compile Include="IO\Commands\OrderAndTakeCommand.cs" />
+    <Compile Include="IO\Commands\ReadDatabaseFromFileCommand.cs" />
+    <Compile Include="IO\Commands\ShowWantedDataCommand.cs" />
+    <Compile Include="IO\Commands\TraverseFolderCommand.cs" />
     <Compile Include="IO\InputReader.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Student.cs" />

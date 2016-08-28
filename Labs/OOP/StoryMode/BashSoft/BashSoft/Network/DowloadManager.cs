@@ -34,7 +34,7 @@ namespace BashSoft.Network
             }
             catch (WebException ex)
             {
-                
+
                 OutputWriter.DisplayException(ex.Message);
             }
         }
@@ -54,7 +54,7 @@ namespace BashSoft.Network
             }
             else
             {
-                throw new WebException(InvalidPathException.InvalidPath);
+                throw new InvalidPathException();
             }
         }
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using BashSoft.Exceptions;
 using BashSoft.IO;
 using BashSoft.Static_data;
 
@@ -27,7 +28,7 @@ namespace BashSoft.Judge
             }
             catch (IOException)
             {
-                //
+                throw new InvalidPathException();
             }
         }
 

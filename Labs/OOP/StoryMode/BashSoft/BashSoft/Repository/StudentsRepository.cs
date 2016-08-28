@@ -99,7 +99,7 @@ namespace BashSoft.Repository
                             Student student = this.students[userName];
 
                             student.EnrollInCourse(course);
-                            student.SetMarksInCourse(courseName,scores);
+                            student.SetMarksInCourse(courseName, scores);
 
                             course.EnrollStudent(student);
                         }
@@ -115,30 +115,24 @@ namespace BashSoft.Repository
             }
             else
             {
-                throw new Exception(InvalidPathException.InvalidPath);
+                throw new InvalidPathException();
             }
         }
 
         public bool IsQueryForCoursePossible(string courseName)
         {
-            if (_isDataInitialized)
+            if (this.courses.ContainsKey(courseName))
             {
-                if (this.courses.ContainsKey(courseName))
-                {
-                    return true;
-                }
-                else
-                {
-                    OutputWriter.DisplayException(ExceptionMessages.InexistingCourseInDataBase);
-                }
-            }
-            else
-            {
-                OutputWriter.DisplayException(ExceptionMessages.DataNotInitializedExceptionMessage);
+                return true;
             }
 
-            return false;
+            if (!this._isDataInitialized)
+            {
 
+                throw new ArgumentNullException(ExceptionMessages.InexistingCourseInDataBase);
+            }
+
+            throw new ArgumentException(ExceptionMessages.DataNotInitializedExceptionMessage);
         }
 
         public bool IsQueryForStudentPossiblе(string courseName, string studentUserName)
@@ -147,10 +141,7 @@ namespace BashSoft.Repository
             {
                 return true;
             }
-            else
-            {
-                OutputWriter.DisplayException(ExceptionMessages.InexistingStudentInDataBase);
-            }
+            OutputWriter.DisplayException(ExceptionMessages.InexistingStudentInDataBase);
             return false;
         }
 
@@ -169,7 +160,7 @@ namespace BashSoft.Repository
                 OutputWriter.WriteMessageOnNewLine($"{courseName}");
                 foreach (var studentMarkEntry in courses[courseName].StudentsByName)
                 {
-                    this.GetStudentScoresFromCourse(courseName,studentMarkEntry.Key);
+                    this.GetStudentScoresFromCourse(courseName, studentMarkEntry.Key);
                 }
             }
         }
