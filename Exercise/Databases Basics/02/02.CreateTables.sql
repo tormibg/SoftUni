@@ -1,0 +1,19 @@
+USE Minions;
+GO
+
+CREATE TABLE Minions
+(id   INT NOT NULL,
+ Name NVARCHAR(30),
+ Age  INT
+);
+
+ALTER TABLE dbo.Minions
+ADD CONSTRAINT PK_Primary_ID PRIMARY KEY(id);
+
+CREATE TABLE Towns
+(id   INT NOT NULL,
+ Name NVARCHAR(30)
+);
+
+ALTER TABLE dbo.Towns
+ADD CONSTRAINT PK_Primary_Towns_ID PRIMARY KEY(id);
