@@ -1,0 +1,19 @@
+body{
+    background: url("/img/pizza_2.jpg");
+}
+
+.col-lg-3, .col-xs-4{
+    float: inherit;
+}
+
+#btns{
+    display: table;
+    margin: auto;
+}
+form input {
+    margin-left: 5px;
+}
+
+form label {
+    margin-left: 3px;
+}

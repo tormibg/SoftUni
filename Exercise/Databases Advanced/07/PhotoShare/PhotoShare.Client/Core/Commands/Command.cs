@@ -1,9 +1,15 @@
-﻿namespace PhotoShare.Client.Core.Commands
+﻿using PhotoShare.Client.Attributes;
+using PhotoShare.Data.Interfaces;
+
+namespace PhotoShare.Client.Core.Commands
 {
     using Interfaces;
 
     public abstract class Command : IExecutable
     {
+        [Inject]
+        protected IUnitOfWork unit;
+
         private string[] data;
 
         protected Command(string[] data)
@@ -18,5 +24,10 @@
         }
 
         public abstract string Execute();
+
+        public void CommitChanges()
+        {
+            this.unit.Commit();
+        }
     }
 }

@@ -1,0 +1,16 @@
+#Outside {
+    border: dotted blue
+}
+#Middle{
+    border: dotted red;
+}
+#Inner{
+    border: solid green;
+}
+div {
+    border: 2px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
