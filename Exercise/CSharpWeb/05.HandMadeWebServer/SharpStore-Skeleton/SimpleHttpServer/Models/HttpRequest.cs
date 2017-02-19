@@ -14,16 +14,11 @@
         public HttpRequest()
         {
             this.Header = new Header(HeaderType.HttpRequest);
-
         }
 
         public override string ToString()
         {
-            return string.Format("{0} {1} HTTP/1.0\r\n{2}{3}",
-                this.Method,
-                this.Url,
-                this.Header,
-                this.Content);
+            return $"{this.Method} {this.Url} HTTP/1.0\r\n{this.Header}{this.Content}";
         }
     }
 }
