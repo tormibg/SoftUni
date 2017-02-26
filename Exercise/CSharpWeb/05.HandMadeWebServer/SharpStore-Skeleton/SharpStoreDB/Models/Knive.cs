@@ -9,4 +9,4 @@ namespace SharpStoreDB.Models
         public SqlMoney Price { get; set; }
         public string ImageUrl { get; set; }
     }
-}
+} 
