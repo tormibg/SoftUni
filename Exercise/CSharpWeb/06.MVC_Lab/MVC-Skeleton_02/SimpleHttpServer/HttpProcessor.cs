@@ -13,13 +13,15 @@ namespace SimpleHttpServer
 {
     public class HttpProcessor
     {
-        private IList<Route> Routes;
+        private readonly IList<Route> Routes;
         private HttpRequest Request;
         private HttpResponse Response;
+        private IDictionary<string, HttpSession> Sessions;
 
-        public HttpProcessor(IEnumerable<Route> routes)
+        public HttpProcessor(IEnumerable<Route> routes, IDictionary<string, HttpSession> sessions)
         {
             this.Routes = new List<Route>(routes);
+            this.Sessions = sessions;
         }
 
         public void HandleClient(TcpClient tcpClient)
@@ -35,7 +37,6 @@ namespace SimpleHttpServer
                 StreamUtils.WriteResponse(stream, Response);
             }
         }
-
 
         private HttpRequest GetRequest(Stream inputStream)
         {
@@ -83,6 +84,10 @@ namespace SimpleHttpServer
                         header.AddCookie(cookie);
                     }
                 }
+                else if (name == "Location")
+                {
+                    header.Location = value;
+                }
                 else if (name == "Content-Length")
                 {
                     header.ContentLength = value;
@@ -92,8 +97,6 @@ namespace SimpleHttpServer
                     header.OtherParameters.Add(name, value);
                 }
             }
-
-
 
             string content = null;
             if (header.ContentLength != null)
@@ -114,9 +117,6 @@ namespace SimpleHttpServer
                 content = Encoding.ASCII.GetString(bytes);
             }
 
-
-
-
             var request = new HttpRequest()
             {
                 Method = method,
@@ -124,12 +124,23 @@ namespace SimpleHttpServer
                 Header = header,
                 Content = content
             };
+
+            if (request.Header.Cookies.Contains("sessionId"))
+            {
+                var sessionId = request.Header.Cookies["sessionId"].Value;
+                request.Session = new HttpSession(sessionId);
+                if (!this.Sessions.ContainsKey(sessionId))
+                {
+                    this.Sessions.Add(sessionId, request.Session);
+                }
+            }
             Console.WriteLine("-REQUEST-----------------------------");
             Console.WriteLine(request);
             Console.WriteLine("------------------------------");
 
             return request;
         }
+
         private HttpResponse RouteRequest()
         {
             var routes = this.Routes
@@ -150,7 +161,21 @@ namespace SimpleHttpServer
             // trigger the route handler...
             try
             {
-                return route.Callable(Request);
+                if (this.Request.Session == null)
+                {
+                    var session = SessionCreator.Create();
+                    this.Request.Session = session;
+                }
+
+                var response = route.Callable(this.Request);
+
+                if (!this.Request.Header.Cookies.Contains("sessionId"))
+                {
+                    var sessionCookie = new Cookie("sessionId",this.Request.Session.Id + "; HttpOnly; path=/");
+                    response.Header.AddCookie(sessionCookie);
+                }
+
+                return response;
             }
             catch (Exception ex)
             {

@@ -21,6 +21,9 @@ namespace SimpleMVC.App.MVC.Routers
         private string actionName;
         private object[] methodParams;
 
+        private HttpRequest request;
+        private HttpResponse response;
+
         private string[] controllerActionParams;
         private string[] controllerActions;
 
@@ -28,24 +31,30 @@ namespace SimpleMVC.App.MVC.Routers
         {
             this.getParams = new Dictionary<string, string>();
             this.postParams = new Dictionary<string, string>();
+            this.request = new HttpRequest();
+            this.response = new HttpResponse();
         }
 
         public HttpResponse Handle(HttpRequest request)
         {
-            this.ParseInput(request);
+            this.request = request;
+            this.response = new HttpResponse();
+            this.ParseInput();
 
             MethodInfo method = this.GetMethod();
             Controller controller = this.GetController();
 
             IInvocable actionResult = (IInvocable)this.GetMethod().Invoke(this.GetController(), this.methodParams);
 
-            string content = actionResult.Invoke();
-
-            var response = new HttpResponse()
+            if (string.IsNullOrEmpty(this.response.Header.Location))
             {
-                StatusCode = ResponseStatusCode.Ok,
-                ContentAsUTF8 = content
-            };
+                string content = actionResult.Invoke();
+
+                this.response.StatusCode = ResponseStatusCode.Ok;
+                this.response.ContentAsUTF8 = content;
+
+
+            }
 
             this.ClearRequestParameters();
             return response;
@@ -57,13 +66,13 @@ namespace SimpleMVC.App.MVC.Routers
             this.getParams = new Dictionary<string, string>();
         }
 
-        private void ParseInput(HttpRequest request)
+        private void ParseInput()
         {
-            string url = WebUtility.UrlDecode(request.Url);
+            string url = WebUtility.UrlDecode(this.request.Url);
             string query = string.Empty;
-            if (request.Url.Contains("?"))
+            if (this.request.Url.Contains("?"))
             {
-                query = request.Url.Split('?')[1];
+                query = this.request.Url.Split('?')[1];
             }
             this.controllerActionParams = url.Split('?');
             this.controllerActions = controllerActionParams[0].Split(new char[] { '/' },
@@ -96,7 +105,7 @@ namespace SimpleMVC.App.MVC.Routers
                 }
             }
 
-            this.InitRequestMethod(request);
+            this.InitRequestMethod();
             this.InitControllerName();
             this.InitActionName();
 
@@ -113,10 +122,25 @@ namespace SimpleMVC.App.MVC.Routers
             int index = 0;
             foreach (ParameterInfo parameter in parameters)
             {
-                if (parameter.ParameterType.IsPrimitive || parameter.ParameterType == typeof(string))
+                if (parameter.ParameterType.IsPrimitive) // || parameter.ParameterType == typeof(string)
                 {
                     object value = this.getParams[parameter.Name];
                     this.methodParams[index] = Convert.ChangeType(value, parameter.ParameterType);
+                    index++;
+                }
+                else if (parameter.ParameterType == typeof(HttpRequest))
+                {
+                    this.methodParams[index] = this.request;
+                    index++;
+                }
+                else if (parameter.ParameterType == typeof(HttpResponse))
+                {
+                    this.methodParams[index] = this.response;
+                    index++;
+                }
+                else if (parameter.ParameterType == typeof(HttpSession))
+                {
+                    this.methodParams[index] = this.request.Session;
                     index++;
                 }
                 else
@@ -186,9 +210,9 @@ namespace SimpleMVC.App.MVC.Routers
                                   MvcContext.Current.ControllerSuffix;
         }
 
-        private void InitRequestMethod(HttpRequest request)
+        private void InitRequestMethod()
         {
-            this.requestMethod = request.Method.ToString();
+            this.requestMethod = this.request.Method.ToString();
         }
     }
 }

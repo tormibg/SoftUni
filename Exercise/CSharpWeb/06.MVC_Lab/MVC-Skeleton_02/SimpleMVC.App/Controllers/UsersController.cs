@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using SimpleHttpServer.Models;
 using SimpleMVC.App.BindingModels;
 using SimpleMVC.App.Data;
 using SimpleMVC.App.Models;
@@ -7,12 +8,20 @@ using SimpleMVC.App.MVC.Attributes;
 using SimpleMVC.App.MVC.Controllers;
 using SimpleMVC.App.MVC.Interfaces;
 using SimpleMVC.App.MVC.Interfaces.Generic;
+using SimpleMVC.App.MVC.Security;
 using SimpleMVC.App.ViewModels;
 
 namespace SimpleMVC.App.Controllers
 {
     public class UsersController : Controller
     {
+        private SignInManager signInManager;
+
+        public UsersController()
+        {
+            signInManager = new SignInManager(new NotesAppContext());
+        }
+
         [HttpGet]
         public IActionResult Register()
         {
@@ -36,8 +45,51 @@ namespace SimpleMVC.App.Controllers
         }
 
         [HttpGet]
-        public IActionResult<IEnumerable<AllUsersViewModel>> All()
+        public IActionResult Login()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginUserBindingModel model, HttpSession session, HttpResponse response)
+        {
+            string userName = model.Username;
+            string password = model.Password;
+            string sessionId = session.Id;
+            using (var contex = new NotesAppContext())
+            {
+                var user = contex.Users.FirstOrDefault(u => u.Username == userName && u.Password == password);
+                if (user != null)
+                {
+                    contex.Logins.Add(new Login()
+                    {
+                        SessionId = sessionId,
+                        User = user,
+                        IsActive = true
+                    });
+                    contex.SaveChanges();
+                    Redirect(response, @"/home/index");
+                    return null;
+                }
+            }
+            return this.View();
+        }
+
+        [HttpGet]
+        public IActionResult Logout(HttpSession session)
+        {
+            signInManager.LogOut(session);
+            return this.View("Home", "Index");
+        }
+
+        [HttpGet]
+        public IActionResult<IEnumerable<AllUsersViewModel>> All(HttpSession session, HttpResponse response)
+        {
+            if (!signInManager.IsAuthenticated(session))
+            {
+                Redirect(response, "/users/login");
+                return null;
+            }
             List<User> userList = null;
             using (var context = new NotesAppContext())
             {
@@ -104,6 +156,16 @@ namespace SimpleMVC.App.Controllers
                 context.SaveChanges();
             }
             return Profile(model.UserId);
+        }
+
+        [HttpGet]
+        public IActionResult<GreetViewModel> Greet(HttpSession session)
+        {
+            var viewModel = new GreetViewModel()
+            {
+                SessionId = session.Id
+            };
+            return this.View(viewModel);
         }
     }
 }

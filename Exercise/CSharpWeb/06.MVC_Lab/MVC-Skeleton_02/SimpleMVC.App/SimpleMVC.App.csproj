@@ -54,11 +54,18 @@
   <ItemGroup>
     <Compile Include="AppStart.cs" />
     <Compile Include="BindingModels\AddNoteBindingModel.cs" />
+    <Compile Include="BindingModels\LoginUserBindingModel.cs" />
     <Compile Include="BindingModels\RegisterUserBindingModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Data\NotesAppContext.cs" />
     <Compile Include="Extensions\StringExtentions.cs" />
+    <Compile Include="Migrations\201702261521156_InitialCreate.cs" />
+    <Compile Include="Migrations\201702261521156_InitialCreate.Designer.cs">
+      <DependentUpon>201702261521156_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Note.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="MVC\Attributes\HttpGetAttribute.cs" />
@@ -68,22 +75,27 @@
     <Compile Include="MVC\Interfaces\Generic\IActionResult.cs" />
     <Compile Include="MVC\Interfaces\Generic\IRenderable.cs" />
     <Compile Include="MVC\Interfaces\IActionResult.cs" />
+    <Compile Include="MVC\Interfaces\IDbIdentityContext.cs" />
     <Compile Include="MVC\Interfaces\IHandleable.cs" />
     <Compile Include="MVC\Interfaces\IInvocable.cs" />
     <Compile Include="MVC\Interfaces\IRenderable.cs" />
     <Compile Include="MVC\MvcContext.cs" />
     <Compile Include="MVC\MvcEngine.cs" />
     <Compile Include="MVC\Routers\ControllerRouter.cs" />
+    <Compile Include="MVC\Security\SignInManager.cs" />
     <Compile Include="MVC\ViewEngine\ActionResult.cs" />
     <Compile Include="MVC\ViewEngine\Generic\ActionResult.cs" />
     <Compile Include="ViewModels\AllUserNamesViewModel.cs" />
     <Compile Include="ViewModels\AllUsersViewModel.cs" />
+    <Compile Include="ViewModels\GreetViewModel.cs" />
     <Compile Include="ViewModels\NoteViewModel.cs" />
     <Compile Include="ViewModels\UserProfileViewModel.cs" />
     <Compile Include="Views\Home\Index.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RouteTable.cs" />
     <Compile Include="Views\Users\All.cs" />
+    <Compile Include="Views\Users\Greet.cs" />
+    <Compile Include="Views\Users\Login.cs" />
     <Compile Include="Views\Users\Profile.cs" />
     <Compile Include="Views\Users\Register.cs" />
   </ItemGroup>
@@ -91,7 +103,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201702261521156_InitialCreate.resx">
+      <DependentUpon>201702261521156_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SimpleHttpServer\SimpleHttpServer.csproj">
       <Project>{9E139539-C272-488A-BFCF-CADDF458DF9D}</Project>

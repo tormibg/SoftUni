@@ -8,7 +8,7 @@ namespace SimpleMVC.App.Views.Home
         public string Render()
         {
             StringBuilder sb=  new StringBuilder("<h2>Notes App</h2>");
-            sb.AppendLine("<a href=\"/users/all\">All users</a> <a href=\"/users/register\">Register Users</a>");
+            sb.AppendLine("<a href=\"/users/all\">All users</a> <a href=\"/users/register\">Register Users</a> <a href=\"/users/login\">Login</a> <a href=\"/users/logout\">Log Out</a>");
 
             return sb.ToString();
         }
