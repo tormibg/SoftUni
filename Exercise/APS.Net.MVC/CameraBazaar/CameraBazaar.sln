@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraBazaar.Models", "CameraBazaar.Models\CameraBazaar.Models.csproj", "{487C68A3-8BC6-496F-87F2-C5C2C055688B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraBazzar.Data", "CameraBazzar.Data\CameraBazzar.Data.csproj", "{700F953C-02D2-4C86-8782-F2DBC9398EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraBazaar.App", "CameraBazaar.App\CameraBazaar.App.csproj", "{10686FF7-0538-4FBF-8FD0-C98769C4AAFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487C68A3-8BC6-496F-87F2-C5C2C055688B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487C68A3-8BC6-496F-87F2-C5C2C055688B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487C68A3-8BC6-496F-87F2-C5C2C055688B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487C68A3-8BC6-496F-87F2-C5C2C055688B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700F953C-02D2-4C86-8782-F2DBC9398EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700F953C-02D2-4C86-8782-F2DBC9398EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700F953C-02D2-4C86-8782-F2DBC9398EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700F953C-02D2-4C86-8782-F2DBC9398EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10686FF7-0538-4FBF-8FD0-C98769C4AAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10686FF7-0538-4FBF-8FD0-C98769C4AAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10686FF7-0538-4FBF-8FD0-C98769C4AAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10686FF7-0538-4FBF-8FD0-C98769C4AAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

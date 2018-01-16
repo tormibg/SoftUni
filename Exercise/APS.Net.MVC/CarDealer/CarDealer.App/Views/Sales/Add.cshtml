@@ -1,0 +1,34 @@
+﻿@using CarDealer.Models.ViewModels.Sale
+@model SalesAddVM
+
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add</h2>
+
+@using (Html.BeginForm("", "", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.CustomersId)
+        @Html.DropDownListFor(vm => vm.CustomersId, new SelectList(Model.CustomersId, "Id", "Name"), new { @id = "customer", @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.CarsId)
+        @Html.DropDownListFor(vm => vm.CarsId, new SelectList(Model.CarsId, "Id", "MakeAndModel"), new { @id = "car", @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Discounts)
+        @Html.DropDownListFor(vm => vm.Discounts, new SelectList(Model.Discounts), new { @id = "discounts", @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="submit" value="Submit" />
+    </div>
+}
+<div>
+    @Html.ActionLink("Back ....", "All")
+</div>

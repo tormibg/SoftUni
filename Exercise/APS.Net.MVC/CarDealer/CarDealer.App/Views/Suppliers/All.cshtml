@@ -1,0 +1,41 @@
+﻿@using CarDealer.Models.ViewModels
+@model IEnumerable<CarDealer.Models.ViewModels.Supplier.AllSupplierVM>
+
+@{
+    ViewBag.Title = "Suppliers";
+}
+
+<h2>All</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Count of parts
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Parts.Count
+            </td>
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("Back ....", "All")
+</div>

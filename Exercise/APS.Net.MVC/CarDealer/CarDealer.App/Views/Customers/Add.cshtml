@@ -1,0 +1,35 @@
+﻿@model CarDealer.Models.EntityModels.Customer
+
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <form method="post">
+
+        <div class="form-group">
+            <label for="name">Name: </label>
+            <input id="name" type="text" class="form-control" name="Name" />
+        </div>
+
+        <div class="form-group">
+            <label for="BirthDate">BirthDate</label>
+            <input id="BirthDate" type="date" class="form-control" name="BirthDate" />
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </div>
+        </div>
+    </form>
+
+    <div>
+        @Html.ActionLink("Back to List", "All")
+    </div>
+}

@@ -1,0 +1,14 @@
+﻿@model LiveTest.Models.RoleViewModel
+
+@{
+	ViewBag.Title = "Roles";
+}
+
+<h2>Assign</h2>
+
+@using (@Html.BeginForm("Assign", "Admin"))
+{
+	@Html.DropDownList("Role", ViewBag.Role as SelectList);
+	@Html.DropDownList("User", ViewBag.User as SelectList);
+	<input type="submit" value="Submit" />
+}

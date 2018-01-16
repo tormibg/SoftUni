@@ -1,0 +1,41 @@
+﻿@using CarDealer.Models.ViewModels
+@model IEnumerable<CarsByMakeVM>
+
+@{
+    ViewBag.Title = "Cars by Make";
+}
+
+<h2>All</h2>
+
+@*<a class="btn btn-primary" href="/cars/add">Add Car</a>*@
+
+@Html.ActionLink("Add Car","Add",null, new { @class = "btn btn-primary" })
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            Make
+        </th>
+        <th>
+            Model
+        </th>
+        <th>
+            Travelled Distance
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Make
+            </td>
+            <td>
+                @item.Model
+            </td>
+            <td>
+                @item.TravelledDistance
+            </td>
+        </tr>
+    }
+</table>

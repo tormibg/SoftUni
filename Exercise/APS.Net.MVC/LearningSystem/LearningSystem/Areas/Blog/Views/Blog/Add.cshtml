@@ -1,0 +1,13 @@
+﻿@{
+	ViewBag.Title = "Add Article";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add Article</h2>
+
+@using (@Html.BeginForm())
+{
+	<input type="text" name="title" />
+	<textarea rows="10" cols="30" name="content"></textarea>
+	<input type="submit" value="Add" />
+}

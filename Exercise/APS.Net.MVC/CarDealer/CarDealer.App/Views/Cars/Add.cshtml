@@ -1,0 +1,43 @@
+﻿@using CarDealer.Models.ViewModels.Car
+@model CarAddVm
+
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add Car</h2>
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Make)
+        @Html.TextBoxFor(vm => vm.Make, null, new { @class = "form-control", type = "text", placeholder = "Enter car make ..." })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Model)
+        @Html.TextBoxFor(vm => vm.Model, null, new { @class = "form-control", @type = "text", @placeholder = "Enter car model ..." })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.TravelledDistance)
+        @Html.TextBoxFor(vm => vm.TravelledDistance, "0", new { @class = "form-control", @type = "number", @min = "0" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Parts)
+        @Html.ListBoxFor(vm => vm.Parts, new SelectList(Model.Parts, "Id", "Name"), new { @class = "form-control", size = "10" })
+        @*<label for="parts">Parts: </label>*@
+        @*<input type="text" id="parts" name="parts" class="form-control"/>*@
+    </div>
+    
+    <div class="form-group">
+        <input type="submit" value="Add" class="btn btn-success btn-lg" />
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "All", "Cars", new {@class="btn btn-danger"})
+</div>

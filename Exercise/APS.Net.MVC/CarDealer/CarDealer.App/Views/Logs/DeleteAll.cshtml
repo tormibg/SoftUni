@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "DeleteAll";
+}
+
+<h2>DeleteAll</h2>
+
+@using (Html.BeginForm("DeleteAll", "Logs", FormMethod.Post))
+{
+    <fieldset>
+        @*<form method="post" action="/logs/deleteall">*@
+        <input type="submit" value="Confirm" />
+        @*</form>*@
+    </fieldset>
+}
+<div>
+    @Html.ActionLink("Back to ..","All")
+</div>

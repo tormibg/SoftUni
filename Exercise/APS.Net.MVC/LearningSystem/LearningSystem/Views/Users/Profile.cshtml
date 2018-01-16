@@ -1,0 +1,29 @@
+﻿@model LearningSystem.Models.ViewModels.Users.ProfileVm
+
+@{
+	ViewBag.Title = "Profile";
+}
+
+<h2>Profile</h2>
+
+@Html.ActionLink("Edit", "Edit")
+
+	<h3>Name : @Html.DisplayFor(m => m.Name)</h3>
+	<h3>Name : @Html.DisplayFor(m => m.Email)</h3>
+	<h3>Name : @Html.DisplayFor(m => m.BirthDate)</h3>
+
+	<table class="table table-striped">
+		<tr>
+			<th>Name</th>
+			<th>Grade</th>
+		</tr>
+		@foreach (var course in Model.EnrolledCourses)
+		{
+			<tr>
+				<td>@Html.DisplayFor(m => course.Name)</td>
+				<td>@Html.DisplayFor(m => course.Grade)</td>
+			</tr>
+		}
+	</table>
+
+	@Html.ActionLink("All Courses", "Index", "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-lg btn-primary" })

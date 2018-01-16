@@ -1,0 +1,34 @@
+﻿@model LearningSystem.Models.ViewModels.Courses.CourseDetailsVm
+
+@{
+	ViewBag.Title = "Course Details";
+}
+
+<h2>Course Details</h2>
+
+@Html.DisplayNameFor(vms => Model.Name)
+@Html.DisplayFor(vms => Model.Name)
+<br />
+
+@Html.DisplayNameFor(vms => Model.Description)
+@Html.DisplayFor(vms => Model.Description)
+<br />
+
+@Html.DisplayNameFor(vms => Model.StartDate)
+@Html.DisplayFor(vms => Model.StartDate)
+<br />
+
+@Html.DisplayNameFor(vms => Model.EndtDate)
+@Html.DisplayFor(vms => Model.EndtDate)
+<br />
+
+@Html.ActionLink("Home", "Index", "Home", null, new { @class = "btn btn-lg btn-primary" })
+
+@if (User.Identity.IsAuthenticated && Model.StartDate > DateTime.Now)
+{
+	using (@Html.BeginForm("Enroll", "Users", FormMethod.Post))
+	{
+		<input type="number" value="@Model.Id" hidden="hidden" name="courseId" />
+		<input type="submit" value="Sign in/Out" class="btn btn-lg btn-success" />
+	}
+}

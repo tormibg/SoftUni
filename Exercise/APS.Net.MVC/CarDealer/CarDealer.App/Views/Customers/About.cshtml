@@ -1,0 +1,22 @@
+﻿@using CarDealer.Models.ViewModels
+@model AboutCustomerVM
+
+@{
+    ViewBag.Title = "About customer";
+}
+
+<h2>
+    @Model.Name
+</h2>
+
+<p>
+    Bought cars count - @Model.BoughtCarsCount
+</p>
+
+<p>
+    Total spent money - @Model.TotalSpentMoney
+</p>
+
+<div>
+    @Html.ActionLink("Back to List", "All")
+</div>

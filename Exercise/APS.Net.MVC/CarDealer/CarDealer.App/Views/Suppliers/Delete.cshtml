@@ -1,0 +1,19 @@
+﻿@using CarDealer.Models.ViewModels.Supplier
+@model SupplierDeleteVM
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>@Model.Name</h3>
+
+<form method="post">
+    <input type="number" value="@Model.Id" name="Id" hidden="hidden" />
+    <input type="submit" value="Delete" />
+</form>
+
+<div>
+    @Html.ActionLink("Back ....", "All")
+</div>

@@ -1,0 +1,21 @@
+﻿@model LearningSystem.Models.ViewModels.Users.UserEditVm
+
+@{
+	ViewBag.Title = "Edit User";
+}
+
+<h2>Edit User</h2>
+
+@using (Html.BeginForm())
+{
+	@*@Html.HiddenFor(vm => vm.Id)*@
+
+	@Html.LabelFor(vm => vm.Email)
+	@Html.TextBoxFor(vm => vm.Email, null, htmlAttributes: new { @class = "form-control" })
+	<br />
+	@Html.LabelFor(vm => vm.Name)
+	@Html.TextBoxFor(vm => vm.Name, null, htmlAttributes: new { @class = "form-control" })
+	<br />
+
+	<input type="submit" value="Edit" class="btn btn-lg btn-primary form-control" />
+}

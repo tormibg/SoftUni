@@ -1,0 +1,54 @@
+﻿@using CameraBazaar.Models.ViewModels.Users
+@model RegisterUserVm
+
+@{
+    ViewBag.Title = "Resiter";
+}
+
+<h2>Register User</h2>
+
+@using (@Html.BeginForm(FormMethod.Post))
+{
+
+    @Html.ValidationMessage("UsernameEmail", null, new { @class = "text-danger" })
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Username)
+        @Html.EditorFor(vm => vm.Username, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(vm => vm.Username)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Email)
+        @Html.EditorFor(vm => vm.Email, new { htmlAttributes = new { @class = "form-control", @type = "email" } })
+        @Html.ValidationMessageFor(vm => vm.Email)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Phone)
+        @Html.EditorFor(vm => vm.Phone, new { htmlAttributes = new { @class = "form-control", @type = "text" } })
+        @Html.ValidationMessageFor(vm => vm.Phone)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.Password)
+        @Html.EditorFor(vm => vm.Password, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+        @Html.ValidationMessageFor(vm => vm.Password)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(vm => vm.ConfirmPassword)
+        @Html.EditorFor(vm => vm.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
+        @Html.ValidationMessageFor(vm => vm.ConfirmPassword)
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Register" class="form-control" />
+    </div>
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}

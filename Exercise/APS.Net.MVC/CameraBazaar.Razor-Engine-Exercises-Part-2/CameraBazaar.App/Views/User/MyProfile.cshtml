@@ -1,0 +1,59 @@
+﻿@using CameraBazaar.Models.ViewModels.Users
+@model ProfilePageVm
+
+@{
+	ViewBag.Title = "Profile page";
+	Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+<h2>@Html.DisplayFor(vm => vm.Username)</h2>
+@Html.ActionLink("Edit Profile", "EditProfile", "User", null, new { @class = "btn btn-lg btn-primary" })
+@Html.Action("LastLogin")
+<br />
+
+@Html.DisplayNameFor(vm => vm.Email):
+@Html.DisplayFor(vm => vm.Email)
+<br />
+@Html.DisplayNameFor(vm => vm.Phone):
+@Html.DisplayFor(vm => vm.Phone)
+<br />
+Cameras:
+@Html.DisplayFor(vm => vm.InStockCameras) in stock /
+@Html.DisplayFor(vm => vm.OutOfStockCameras) out of stock
+<br />
+
+<h3>Cameras:</h3>
+@if (Model.Cameras.Count() != 0)
+{
+	foreach (var vm in Model.Cameras)
+	{
+		<div style="border: 2px solid black">
+			<img src="@vm.ImageUrl" alt="" width="200" height="200" />
+			@Html.DisplayFor(vms => vm.Make)
+			@Html.DisplayFor(vms => vm.Model)
+
+			$@Html.DisplayFor(vms => vm.Price)
+			@if (vm.Quantity == 0)
+			{
+				<span class="text-danger">Out of stock</span>
+			}
+			else
+			{
+				<span class="text-success">In stock</span>
+			}
+
+			<br />
+			<br />
+			@Html.ActionLink("Details", "Details", "Camera", new { @id = vm.Id }, new { @class = "btn btn-lg btn-primary" })
+			@Html.ActionLink("Edit", "Edit", "Camera", new { @id = vm.Id }, new { @class = "btn btn-lg btn-primary" })
+			@Html.ActionLink("Delete", "Delete", "Camera", new { @id = vm.Id }, new { @class = "btn btn-lg btn-primary" })
+
+		</div>
+	}
+}
+else
+{
+	@: The user is no selling any cameras. Go to
+	@Html.ActionLink("home page", "All", "Camera")
+	@: to find more offers of other users.
+}
