@@ -43,8 +43,8 @@ local.properties
 
 # Build results
 
-/.vs
-.vs/
+#/.vs
+#.vs/
 
 [Dd]ebug/
 [Rr]elease/
