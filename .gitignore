@@ -43,6 +43,8 @@ local.properties
 
 # Build results
 
+.vs/
+
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -90,7 +92,6 @@ ipch/
 *.psess
 *.vsp
 *.vspx
-.vs
 
 # Guidance Automation Toolkit
 *.gpState
