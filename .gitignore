@@ -1,3 +1,16 @@
+<<<<<<< .mine
+/HCL_7.1.59-Setup
+HCL_7.1.59-Setup.zip
+VirtualBox-5.2.22-126460-Win.exe
+
+
+=======
+/HCL_7.1.59-Setup
+HCL_7.1.59-Setup.zip
+VirtualBox-5.2.22-126460-Win.exe
+*.exe
+
+>>>>>>> .theirs
 #################
 ## Eclipse
 #################

@@ -1,98 +1,101 @@
 ﻿using System;
 
-public class ArrayList<T>
+namespace Lists
 {
-	private const int InitialCapacity = 2;
-
-	private T[] items;
-
-	public ArrayList()
+	public class ArrayList<T>
 	{
-		this.items = new T[InitialCapacity];
-	}
+		private const int InitialCapacity = 2;
 
-	public int Count { get; private set; }
+		private T[] _items;
 
-	public T this[int index]
-	{
-		get
+		public ArrayList()
+		{
+			this._items = new T[InitialCapacity];
+		}
+
+		public int Count { get; private set; }
+
+		public T this[int index]
+		{
+			get
+			{
+				if (index >= this.Count)
+				{
+					throw new ArgumentOutOfRangeException();
+				}
+
+				return this._items[index];
+			}
+
+			set
+			{
+				if (index >= this.Count)
+				{
+					throw new ArgumentOutOfRangeException();
+				}
+
+				this._items[index] = value;
+			}
+		}
+
+		public void Add(T item)
+		{
+			if (this.Count == this._items.Length)
+			{
+				this.Resize();
+			}
+
+			this._items[this.Count++] = item;
+		}
+
+		private void Resize()
+		{
+			T[] copy = new T[this._items.Length * 2];
+			for (int i = 0; i < this._items.Length; i++)
+			{
+				copy[i] = this._items[i];
+			}
+
+			this._items = copy;
+		}
+
+		public T RemoveAt(int index)
 		{
 			if (index >= this.Count)
 			{
 				throw new ArgumentOutOfRangeException();
 			}
 
-			return this.items[index];
-		}
+			T element = this._items[index];
+			this._items[index] = default(T);
+			this.Shift(index);
+			this.Count--;
 
-		set
-		{
-			if (index >= this.Count)
+			if (this.Count <= this._items.Length / 4)
 			{
-				throw new ArgumentOutOfRangeException();
+				this.Shring();
 			}
 
-			this.items[index] = value;
-		}
-	}
-
-	public void Add(T item)
-	{
-		if (this.Count == this.items.Length)
-		{
-			this.Resize();
+			return element;
 		}
 
-		this.items[this.Count++] = item;
-	}
-
-	private void Resize()
-	{
-		T[] copy = new T[this.items.Length * 2];
-		for (int i = 0; i < this.items.Length; i++)
+		private void Shring()
 		{
-			copy[i] = this.items[i];
+			T[] copy = new T[this._items.Length / 2];
+			for (int i = 0; i < this.Count; i++)
+			{
+				copy[i] = this._items[i];
+			}
+
+			this._items = copy;
 		}
 
-		this.items = copy;
-	}
-
-	public T RemoveAt(int index)
-	{
-		if (index >= this.Count)
+		private void Shift(int index)
 		{
-			throw new ArgumentOutOfRangeException();
-		}
-
-		T element = this.items[index];
-		this.items[index] = default(T);
-		this.Shift(index);
-		this.Count--;
-
-		if (this.Count <= this.items.Length / 4)
-		{
-			this.Shring();
-		}
-
-		return element;
-	}
-
-	private void Shring()
-	{
-		T[] copy = new T[this.items.Length / 2];
-		for (int i = 0; i < this.Count; i++)
-		{
-			copy[i] = this.items[i];
-		}
-
-		this.items = copy;
-	}
-
-	private void Shift(int index)
-	{
-		for (int i = index; i < this.Count; i++)
-		{
-			this.items[i] = this.items[i + 1];
+			for (int i = index; i < this.Count; i++)
+			{
+				this._items[i] = this._items[i + 1];
+			}
 		}
 	}
 }

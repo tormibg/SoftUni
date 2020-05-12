@@ -8,7 +8,8 @@ namespace Problem._01.ReverseNumbersWithAStack
 	{
 		static void Main(string[] args)
 		{
-			var inputs = Console.ReadLine().Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse)
+			var inputs = Console.ReadLine()
+				?.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse)
 				.ToArray();
 			Stack<int> intQueue = new Stack<int>(inputs.Length);
 			foreach (int i in inputs)
