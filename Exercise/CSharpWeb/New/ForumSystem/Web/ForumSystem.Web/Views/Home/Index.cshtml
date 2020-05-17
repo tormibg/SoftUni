@@ -1,9 +1,22 @@
 ﻿@using ForumSystem.Common
+@model ForumSystem.Web.ViewModels.Home.IndexViewModel
 @{
-    this.ViewData["Title"] = "Home Page";
+    this.ViewData["Title"] = $"Welcome to {GlobalConstants.SystemName}!";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to @this.ViewData["Title"]</h1>
+</div>
+
+<div class="row">
+    @foreach (var item in Model.Categories)
+    {
+        <div class="media col-md-4 mb-3">
+            <img src="@item.ImageUrl" width="100" class="mr-3" alt="@item.Title">
+            <div class="media-body">
+                <h5 class="mt-0"><a href="@item.Url">@item.Title</a></h5>
+                @item.Description
+            </div>
+        </div>
+    }
 </div>
