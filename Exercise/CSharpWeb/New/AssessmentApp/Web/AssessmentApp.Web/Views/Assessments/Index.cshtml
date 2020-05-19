@@ -1,0 +1,20 @@
+﻿@using AssessmentApp.Common
+@model AssessmentApp.Web.ViewModels.Assessments.IndexViewModel
+
+@{ this.ViewData["Title"] = $@"{GlobalConstants.SystemName}"; }
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to @this.ViewData["Title"]</h1>
+</div>
+<ul class="list-unstyled">
+    @foreach (var Assessment in @Model.Assessments)
+    {
+        <li class="media">
+            <img src="@Assessment.ImageUrl" class="mr-3" alt="@Assessment.Name">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1"><a asp-controller="Assessments" asp-action="@Assessment.ActionName">@Assessment.Name</a></h5>
+                @Assessment.Description
+            </div>
+        </li>
+    }
+</ul>
