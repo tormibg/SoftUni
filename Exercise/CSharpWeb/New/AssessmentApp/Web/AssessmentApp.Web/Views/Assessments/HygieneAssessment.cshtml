@@ -1,21 +1,24 @@
-﻿@model AssessmentApp.Web.ViewModels.Assessments.HygieneAssessmentViewModel
+﻿@model AssessmentApp.Web.ViewModels.Assessments.HygieneAssessmentInputViewModel
+@{
+    this.ViewData["Title"] = "New";
+    var stores = Model.Stores.Select(x => new SelectListItem(x.Name, x.Id.ToString()));
+}
+<h1>@this.ViewData["Title"]</h1>
 
-<form>
+<form method="post" asp-action="Create">
     <div class="form-group">
-        <label for="UserName">Email address</label>
-        <input type="email" class="form-control" id="UserName" placeholder="@Model.UserName" readonly>
+        <label asp-for="UserName">Email address</label>
+        <input asp-for="UserName" type="email" class="form-control text-black-50 text-lg-center" id="UserName" placeholder="@Model.UserName" readonly>
     </div>
     <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+        <label asp-for="Id">Магазин</label>
+        <select asp-for="Id" asp-items="stores" class="form-control" id="Id">
+            <option value="">Изберете обект</option>
         </select>
+       
+        <span asp-validation-for="Id" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    @*<div class="form-group">
         <label for="exampleFormControlSelect2">Example multiple select</label>
         <select multiple class="form-control" id="exampleFormControlSelect2">
             <option>1</option>
@@ -28,5 +31,5 @@
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Example textarea</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+    </div>*@
 </form>

@@ -33,14 +33,12 @@
             throw new System.NotImplementedException();
         }
 
-        public HygieneAssessmentViewModel GetHygieneAssessmentVm(System.Security.Claims.ClaimsIdentity claimsIdentity)
+        public HygieneAssessmentInputViewModel GetHygieneAssessmentVm(string userId, string userName)
         {
-            var claimId = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
-            var claimUserName = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.Name);
-            var viewModel = new HygieneAssessmentViewModel()
+            var viewModel = new HygieneAssessmentInputViewModel()
             {
-                UserId = claimId.Value,
-                UserName = claimUserName.Value,
+                UserId = userId,
+                UserName = userName,
             };
             return viewModel;
         }

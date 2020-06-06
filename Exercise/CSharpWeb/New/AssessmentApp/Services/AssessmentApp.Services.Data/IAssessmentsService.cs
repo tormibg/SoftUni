@@ -10,6 +10,6 @@
 
         object GetViewByAssessmentId(string id);
 
-        HygieneAssessmentViewModel GetHygieneAssessmentVm(System.Security.Claims.ClaimsIdentity claimsIdentity);
+        HygieneAssessmentInputViewModel GetHygieneAssessmentVm(string userId, string userName);
     }
 }

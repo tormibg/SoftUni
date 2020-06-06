@@ -28,6 +28,8 @@
 
         public DbSet<Assessment> Assessments { get; set; }
 
+        public DbSet<Store> Stores { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
