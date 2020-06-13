@@ -1,0 +1,33 @@
+﻿@using AssessmentApp.Common
+@*@model AssessmentApp.Data.Models.ApplicationUser*@
+@model AssessmentApp.Web.ViewModels.TTPictures.TPPicturesInputViewModel
+
+@{ this.ViewData["Title"] = "Пращане на снимки към офис Фантастико"; }
+
+<div class="text-center">
+    <h1 class="display-4">@this.ViewData["Title"]</h1>
+</div>
+
+<form method="post" enctype="multipart/form-data" asp-controller="TTPictures" asp-action="Index" class="form">
+    <div>
+        <h2 class="text-capitalize text-center">от @Model.UserName</h2>
+        <h3>@Model.Email</h3>
+    </div>
+    <input asp-for="@Model.UserName" hidden />
+    <input asp-for="@Model.Email" hidden/>
+    <div class="form-group">
+        <label asp-for="@Model.Subject">Съобщение :</label>
+        <textarea asp-for="@Model.Subject" rows="2" class="form-control" placeholder="..."></textarea>
+        <span asp-validation-for="@Model.Subject" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Pictures">Прикачете снимки : </label>
+        <input asp-for="@Model.Pictures" class="form-control"/>
+        <span asp-validation-for="@Model.Pictures" class="text-danger"></span>
+        @*<input type="file" name="file" id="file" class="inputfile" multiple>
+        <label for="file">Избор на снимки (Натисни ме!)</label>*@
+    </div>
+    <div>
+        <input type="submit" value="Пращане" class="btn btn-primary" />
+    </div>
+</form>

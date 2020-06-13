@@ -15,21 +15,72 @@
         <select asp-for="Id" asp-items="stores" class="form-control" id="Id">
             <option value="">Изберете обект</option>
         </select>
-       
         <span asp-validation-for="Id" class="text-danger"></span>
     </div>
-    @*<div class="form-group">
-        <label for="exampleFormControlSelect2">Example multiple select</label>
-        <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-        </select>
+    <div class="form-group">
+        <label asp-for="StoreManager">Ръководител обект на смяна</label>
+        <input asp-for="StoreManager" type="text" class="form-control" placeholder="Въведете двете имена на управител на смяна" />
+        <span asp-validation-for="StoreManager" class="text-danger"></span>
+    </div>
+    <hr style=" border-top:1px solid">
+    <div class="form-group">
+        <label asp-for="VhodKatWc">Вход, кът за хранен, тоалетни ...</label>
+        <textarea asp-for="VhodKatWc" rows="2" class="form-control" placeholder="Опишете състоянието на ..."></textarea>
+        <span asp-validation-for="VhodKatWc" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>*@
+        <label asp-for="ClientArea">Търговска зала</label>
+        <textarea asp-for="ClientArea" rows="2" class="form-control" placeholder="Опишете състоянието на ..."></textarea>
+        <span asp-validation-for="ClientArea" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Warehouse">Склад, рампа, сервизни помещения</label>
+        <textarea asp-for="Warehouse" rows="2" class="form-control" placeholder="Опишете състоянието на ..."></textarea>
+        <span asp-validation-for="Warehouse" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Warehouse">Хигиена и състояние на работните помещения</label>
+        <div>
+            <label class="col col-lg-3">Много под очакванията  </label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label" for="inlineRadio3">3</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">4</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">5</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label" for="inlineRadio3">6</label>
+            </div>
+            <label style="padding-left:4%">Отлично</label>
+        </div>
+    </div>
+    @*<div class="form-group">
+            <label for="exampleFormControlSelect2">Example multiple select</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>*@
 </form>

@@ -15,5 +15,13 @@
         public int Id { get; set; }
 
         public IEnumerable<StoresDropDownViewModel> Stores { get; set; }
+
+        public string StoreManager { get; set; }
+
+        public string VhodKatWc { get; set; }
+
+        public string ClientArea { get; set; }
+
+        public string Warehouse { get; set; }
     }
 }
