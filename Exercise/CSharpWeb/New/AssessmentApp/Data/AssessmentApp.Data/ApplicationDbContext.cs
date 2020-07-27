@@ -30,6 +30,8 @@
 
         public DbSet<Store> Stores { get; set; }
 
+        public DbSet<Email> Emails { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

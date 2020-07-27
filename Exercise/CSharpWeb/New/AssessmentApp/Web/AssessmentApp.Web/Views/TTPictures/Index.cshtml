@@ -1,33 +1,77 @@
 ﻿@using AssessmentApp.Common
 @*@model AssessmentApp.Data.Models.ApplicationUser*@
-@model AssessmentApp.Web.ViewModels.TTPictures.TPPicturesInputViewModel
+@model AssessmentApp.Web.ViewModels.TtPictures.TtPicturesInputViewModel
 
-@{ this.ViewData["Title"] = "Пращане на снимки към офис Фантастико"; }
+@{ this.ViewData["Title"] = "Пращане на снимки към офис Фантастико";
+    var emails = Model.Emails.Select(x => new SelectListItem(x.Name, x.Emails)); }
+
+<!--<head>-->
+@* <link href="~/css/add_email.css" rel="stylesheet" type="text/css" asp-append-version="true" />*@
+<!--</head>-->
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/chosen-js@1.8.7/chosen.min.css">
+<script src="//cdn.jsdelivr.net/npm/chosen-js@1.8.7/chosen.jquery.js"></script>
 
 <div class="text-center">
     <h1 class="display-4">@this.ViewData["Title"]</h1>
 </div>
 
-<form method="post" enctype="multipart/form-data" asp-controller="TTPictures" asp-action="Index" class="form">
+<form method="post" enctype="multipart/form-data" asp-controller="TtPictures" asp-action="Index" class="form">
     <div>
         <h2 class="text-capitalize text-center">от @Model.UserName</h2>
         <h3>@Model.Email</h3>
     </div>
     <input asp-for="@Model.UserName" hidden />
-    <input asp-for="@Model.Email" hidden/>
+    <input asp-for="@Model.Email" hidden />
+    <input asp-for="@Model.Emails" hidden/>
+
     <div class="form-group">
-        <label asp-for="@Model.Subject">Съобщение :</label>
-        <textarea asp-for="@Model.Subject" rows="2" class="form-control" placeholder="..."></textarea>
-        <span asp-validation-for="@Model.Subject" class="text-danger"></span>
+        <label asp-for="@Model.Content">Съобщение :</label>
+        <textarea asp-for="@Model.Content" rows="2" class="form-control" placeholder="..."></textarea>
+        <span asp-validation-for="@Model.Content" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label asp-for="@Model.Pictures">Прикачете снимки : </label>
-        <input asp-for="@Model.Pictures" class="form-control"/>
+        <input asp-for="@Model.Pictures" class="form-control" />
         <span asp-validation-for="@Model.Pictures" class="text-danger"></span>
         @*<input type="file" name="file" id="file" class="inputfile" multiple>
-        <label for="file">Избор на снимки (Натисни ме!)</label>*@
+            <label for="file">Избор на снимки (Натисни ме!)</label>*@
     </div>
+
+    @*<div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">
+                <input type="checkbox" value="Apple" />
+                Apple
+            </a>
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>*@
+
+    @*@Html.DropDownListFor(x => x.Id, emails, 
+        new { @class = "form-control chosen-select", @multiple=true })*@
+
+    <div class="form-group">
+        <label asp-for="EmailsList">Имейли</label>
+        <select asp-for="EmailsList" asp-items="emails" class="form-control chosen-select" id="Id" multiple="multiple">
+           @* <option value="">Изберете имейл или имейли</option>*@
+        </select>
+        <span asp-validation-for="EmailsList" class="text-danger"></span>
+    </div>
+
     <div>
-        <input type="submit" value="Пращане" class="btn btn-primary" />
+        <input type="submit" value="Пращане" class="btn btn-primary" style="margin-top: 100px" />
     </div>
 </form>
+
+@section Scripts {
+    <script src="//cdn.jsdelivr.net/npm/chosen-js@1.8.7/chosen.jquery.js"></script>
+    <script>$(".chosen-select").chosen();</script>
+}

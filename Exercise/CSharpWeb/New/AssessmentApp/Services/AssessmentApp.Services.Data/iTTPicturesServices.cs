@@ -4,7 +4,8 @@
     using System.Collections.Generic;
     using System.Text;
 
-    public interface ITTPicturesServices
+    public interface ITtPicturesServices
     {
+        IEnumerable<T> GetAll<T>(int? count = null);
     }
 }
