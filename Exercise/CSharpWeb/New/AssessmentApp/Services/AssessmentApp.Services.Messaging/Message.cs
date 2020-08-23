@@ -8,8 +8,9 @@
 
     public class Message
     {
-        public Message(IEnumerable<string> to, string subject, string content, IEnumerable<IFormFile> attachments)
+        public Message(string from, IEnumerable<string> to, string subject, string content, IEnumerable<IFormFile> attachments)
         {
+            this.From = new MailboxAddress(from);
             this.To = new List<MailboxAddress>();
             this.To.AddRange(to.Select(x => new MailboxAddress(x)));
 
@@ -17,6 +18,8 @@
             this.Content = content;
             this.Attachments = attachments;
         }
+
+        public MailboxAddress From { get; set; }
 
         public List<MailboxAddress> To { get; set; }
 

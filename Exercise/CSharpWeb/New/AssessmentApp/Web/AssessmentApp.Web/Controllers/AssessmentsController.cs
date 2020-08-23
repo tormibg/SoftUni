@@ -7,9 +7,11 @@
     using AssessmentApp.Data.Models;
     using AssessmentApp.Services.Data;
     using AssessmentApp.Web.ViewModels.Assessments;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
 
+    [Authorize(Roles = "Administrators")]
     public class AssessmentsController : Controller
     {
         private readonly IAssessmentsService assessmentsService;

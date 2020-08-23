@@ -16,10 +16,17 @@
     <h1 class="display-4">@this.ViewData["Title"]</h1>
 </div>
 
+@if (this.TempData["InfoMessage"] != null)
+{
+    <div class="alert alert-success">
+        @this.TempData["InfoMessage"]
+    </div>
+}
+
 <form method="post" enctype="multipart/form-data" asp-controller="TtPictures" asp-action="Index" class="form">
     <div>
-        <h2 class="text-capitalize text-center">от @Model.UserName</h2>
-        <h3>@Model.Email</h3>
+        <h2 class="text-primary text-center">от @Model.UserName</h2>
+        <h3>Email - @Model.Email</h3>
     </div>
     <input asp-for="@Model.UserName" hidden />
     <input asp-for="@Model.Email" hidden />
@@ -59,7 +66,7 @@
         new { @class = "form-control chosen-select", @multiple=true })*@
 
     <div class="form-group">
-        <label asp-for="EmailsList">Имейли</label>
+        <label asp-for="EmailsList">Имейли :</label>
         <select asp-for="EmailsList" asp-items="emails" class="form-control chosen-select" id="Id" multiple="multiple">
            @* <option value="">Изберете имейл или имейли</option>*@
         </select>
@@ -67,7 +74,7 @@
     </div>
 
     <div>
-        <input type="submit" value="Пращане" class="btn btn-primary" style="margin-top: 100px" />
+        <input type="submit" value="Пращане" class="btn btn-primary btn-lg" style="margin-top: 100px" />
     </div>
 </form>
 

@@ -32,7 +32,8 @@
         private MimeMessage CreateEmailMessage(Message message)
         {
             var emailMessage = new MimeMessage();
-            emailMessage.From.Add(new MailboxAddress(this.emailConfiguration.From));
+            // emailMessage.From.Add(new MailboxAddress(this.emailConfiguration.From));
+            emailMessage.From.Add(message.From);
             emailMessage.To.AddRange(message.To);
             emailMessage.Subject = message.Subject;
 
