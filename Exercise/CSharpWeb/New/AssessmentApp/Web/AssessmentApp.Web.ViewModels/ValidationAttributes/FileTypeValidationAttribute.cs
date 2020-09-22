@@ -13,10 +13,9 @@
         {
             // List<IFormFile> inputFiles = (List<IFormFile>)value;
             List<IFormFile> inputFiles = value as List<IFormFile>;
-            var result = false;
             foreach (var file in inputFiles)
             {
-                result = FormFileExtensions.IsImage(file);
+                var result = FormFileExtensions.IsImage(file);
                 if (result == false)
                 {
                     return new ValidationResult("Невалиден файл. Моля само снимки !");

@@ -13,11 +13,14 @@
             this.From = new MailboxAddress(from);
             this.To = new List<MailboxAddress>();
             this.To.AddRange(to.Select(x => new MailboxAddress(x)));
+            this.Cc = new MailboxAddress(from);
 
             this.Subject = subject;
             this.Content = content;
             this.Attachments = attachments;
         }
+
+        internal MailboxAddress Cc { get; set; }
 
         public MailboxAddress From { get; set; }
 

@@ -11,7 +11,7 @@
       ]
     },
     {
-      "library": "bootstrap@4.5.0",
+      "library": "bootstrap@4.5.2",
       "destination": "wwwroot/lib/bootstrap/",
       "files": [
         "dist/css/bootstrap.min.css",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "library": "jquery-validation@1.19.1",
+      "library": "jquery-validation@1.19.2",
       "destination": "wwwroot/lib/jquery-validation/",
       "files": [
         "dist/jquery.validate.js",

@@ -67,7 +67,7 @@
             services.AddTransient<ISettingsService, SettingsService>();
             services.AddTransient<IAssessmentsService, AssessmentsService>();
             services.AddTransient<IStoresService, StoresService>();
-            services.AddTransient<ITtPicturesServices, TtPicturesServices>();
+            services.AddTransient<IPicturesServices, PicturesServices>();
 
             // New email
             var emailConfig = this.configuration
